@@ -1,0 +1,556 @@
+*{
+	margin:0;
+	padding:0;
+
+}
+.active{
+	background-color: #52bbdb;
+}
+#top{
+	height: 45px;
+	background-color: #244d5f;
+	min-width:1160px;
+}
+#top-inner{
+	width: 1044px;
+	height: 24px;
+	margin:0 auto;
+
+	margin-bottom:13px;
+	padding-top:8px;
+	
+}
+.top1{
+	width: 157px;
+	height: 24px;
+	
+	float:left;
+	
+}
+.top1 a{
+	text-decoration: none;
+	margin-right: 10px;
+	
+}
+.top1 a span{
+	color:white;
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	
+}
+.top2{
+	width: 160px;
+	height: 24px;
+	float:left;
+	margin-left:50px;
+	text-align:center;
+	line-height:24px;
+}
+.top2 a{
+	text-decoration: none;
+	margin-right: 10px;
+	color:white;
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	
+}
+
+.top3{
+	width: 222px;
+	height: 24px;
+	float:left;
+	margin-left:443px;
+	text-align:center;
+	line-height:24px;
+}
+.top3 img{
+	margin-right: 7px;
+}
+.top3 a{
+	text-decoration: none;
+	padding-left: 11px;
+	color:white;
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	
+}
+fieldset div{
+	width: 200px;
+	height: 100px;
+	margin:0 auto;
+	line-height:70px;
+}
+
+fieldset h{
+	
+	font-size:32px;
+	/*line-height:200px;*/
+	font-weight: bold;
+}
+fieldset input{
+	width: 300px;
+	height: 50px;
+}
+#logonav1{
+	min-width:1158px;
+	height: 77px;
+	border-bottom:1px solid black;
+}
+#logonav{
+	width: 1008px;
+	height: 78px;
+	margin:0 auto;
+	/*border:1px solid red;*/
+}
+#logo{
+	float:left;
+	margin-right: 215px;
+	margin-top:5px;
+}
+
+#nav{
+	width: 620px;
+	height: 78px;
+	float:left;
+	
+}
+#nav ul li{
+	list-style:none;
+	
+	float:left;
+	padding-right: 18px;
+	padding-left: 15px;
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	text-align:center;
+	line-height:78px;
+}
+
+#nav ul li a{
+	text-decoration: none;
+	color:black;
+}
+#nav ul .li{
+	width: 83px;
+	height: 76px;
+	background-color: #52bbdb;
+	color:white;
+}
+#banner-top{
+	width: 1006px;
+	height: 135px;
+	margin:0 auto;
+	/*border:1px solid red;*/
+}
+#banner-top .box1{
+	width: 270px;
+	height: 40px;
+}
+#banner-top .box1 span{
+	line-height:40px;
+	font-size:14px;
+	font-family:Microsoft YaHei;
+	padding-right:6px;
+}
+#banner-top .box2{
+	width: 490px;
+	height: 50px;
+	margin:0 auto;
+	
+}
+#banner-top .box2 input{
+	width: 480px;
+	height: 42px;
+	font-size:14px;
+	font-family:times new roman;
+	border:2px solid #52bbdb;
+	
+}
+#banner-top .box2 div{
+	width: 50px;
+	height: 39px;
+	font-size:25px;
+	background-color: #52bbdb;
+	padding-bottom:5px;
+	position:relative;
+	left:430px;
+	top:-40px;
+	text-align:center;
+	line-height:39px;
+}
+#banner-top .box3{
+	width: 424px;
+	height: 43px;
+	margin-left:265px;
+}
+#banner-top .box3 ul{
+	
+	margin:0 auto;
+	display:table;
+}
+#banner-top .box3 ul li{
+	font-size:14px;
+	font-family:times new roman;
+	list-style:none;
+	float:left;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#banner-mid{
+	width: 1004px;
+	height: 138px;
+	border:1px solid black;
+	margin:0 auto;
+
+}
+#banner-mid .box1{
+	width: 962px;
+	height: 45px;
+	margin:0 auto;
+	border-bottom:1px dashed black;
+	
+	line-height:45px;
+}
+#banner-mid .box1 a{
+	padding-right: 30px;
+	font-size:14px;
+	font-family:Microsoft YaHei;
+	color:black;
+
+}
+/*#banner-mid div span */.box-0{
+	width: 80px;
+	height: 250px;
+	position: absolute;
+	top:0px;
+	left:1110px;
+	background-color: #52bbdb;
+	display:none;
+	text-align:center;
+	line-height:40px;
+}
+/*#banner-mid div span div */.box-0 li{
+	color:white;
+	list-style:none;
+
+}
+/*#banner-mid div span */.box-11{
+	width: 80px;
+	height: 300px;
+	position: absolute;
+	top:30px;
+	left:1110px;
+	background-color: #52bbdb;
+	display:none;
+	text-align:center;
+	line-height:50px;
+}
+/*#banner-mid div span div */.box-11 li{
+	color:white;
+
+}
+#banner-mid .box2{
+	width: 962px;
+	height: 45px;
+	margin:0 auto;
+	border-bottom:1px dashed black;
+	
+}
+#banner-mid .box2 a{
+	padding-right: 29px;
+	font-size:14px;
+	font-family:Microsoft YaHei;
+	color:black;
+	line-height:45px;
+}
+#banner-mid .box3{
+	width: 962px;
+	height: 45px;
+	margin:0 auto;
+	
+	
+	line-height:45px;
+}
+#banner-mid .box3 h{
+	
+	font-size:14px;
+	font-family:Microsoft YaHei;
+	padding-right:28px;
+}
+#banner-mid .box3 button{
+	
+	font-size:14px;
+	font-family:Microsoft YaHei;
+	margin-right:25px;
+}
+#banner-mid .box3 a{
+	padding-right:12px;
+	font-size:14px;
+	font-family:Microsoft YaHei;
+	color:black;
+
+}
+#banner-mid .box3 .span1{
+	font-size:12px;
+	font-family:Microsoft YaHei;
+	padding-left:12px;
+	padding-right:28px;
+}
+#banner-bottom{
+	width: 1006px;
+	height: 56px;
+	border:1px solid black;
+	margin:0 auto;
+	margin-top: 20px;
+}
+#banner-bottom ul{
+	float:left;
+}
+#banner-bottom .list1 li{
+	float:left;
+	list-style:none;
+	width: 103px;
+	height: 56px;
+	border-right:1px solid black;
+	text-align:center;
+	line-height:56px;
+	font-size:14px;
+	font-family:Microsoft YaHei;
+}
+#banner-bottom .list1 .box1{
+	width: 103px;
+	height: 240px;
+	position: absolute;
+	top:470px;
+	left:277px;
+	background-color: #52bbdb;
+	
+	display:none;
+	color:white;
+}
+#banner-bottom .list1 div a{
+	color:white;
+}
+#banner-bottom .list1 .box2{
+	width: 103px;
+	height: 200px;
+	position: absolute;
+	top:470px;
+	left:380px;
+	background-color: #52bbdb;
+	color:white;
+	display:none;
+}
+#banner-bottom .list1 .box3{
+	width: 103px;
+	height: 200px;
+	position: absolute;
+	top:470px;
+	left:482px;
+	background-color: #52bbdb;
+	color:white;
+	display:none;
+}
+#banner-bottom .list2 li{
+	float:left;
+	list-style:none;
+	text-align:center;
+	line-height:56px;
+	font-size:14px;
+	font-family:Microsoft YaHei;
+	padding-right:16px;
+}
+#banner-bottom .list3 li{
+	float:left;
+	list-style:none;
+	text-align:center;
+	line-height:27px;
+	border:1px solid black;
+	width: 53px;
+	height: 27px;
+	
+	
+}
+#main{
+	width: 1008px;
+	height: 2690px;
+	/*border:1px solid red;*/
+	margin:0 auto;
+	margin-top: 10px;
+}
+#main div{
+	width: 330px;
+	height: 443px;
+	float:left;
+	border:1px solid black;
+	margin-right:6px;
+	margin-bottom:5px;
+}
+#main div .list1{
+	width: 325px;
+	height: 51px;
+	text-align:center;
+	line-height:51px;
+	background-color: #efefef;
+}
+
+#main div .list1 li{
+	
+
+	list-style:none;
+	float:left;
+	
+}
+#main div .list1 .li1{
+	font-size: 28px;
+	font-family: Microsoft YaHei;
+	color:#fc8130;
+	padding-left: 10px;
+}
+
+#main div .list1 .li2{
+	font-size: 12px;
+	font-family: Microsoft YaHei;
+	padding-left: 35px;
+	padding-right:35px;
+}
+#main div .list1 .li3{
+	font-size: 16px;
+	font-family: Microsoft YaHei;
+	color:#fc8130;
+}
+#main div span{
+	padding-left:20px;
+	font-size: 16px;
+	font-family: Microsoft YaHei;
+	font-weight: bold;
+}
+#main div p{
+	padding-left:20px;
+	font-size: 12px;
+	font-family: Microsoft YaHei;
+	padding-top:5px;
+}
+#main div .list2{
+	width: 290px;
+	height: 38px;
+	margin:0 auto;
+	padding-top: 20px;
+	text-align:center;
+	line-height:38px;
+}
+
+#main div .list2 li{
+	float:left;
+	list-style:none;
+}
+#main div .list2 li span{
+	font-size: 12px;
+	font-family: Microsoft YaHei;
+	padding-left: 5px;
+}
+#bottom{
+	width:400px;
+	height: 37px;
+	margin:45px 490px 55px 750px;
+}
+#bottom .btn{
+	width: 36px;
+	height: 36px;
+	margin-right:10px;
+}
+#bottom #nnn{
+	color:white;
+	background-color: #52bbdb;
+}
+.footer1{
+	height: 50px;
+	background-color:#444b55; 
+}
+.footer1 ul{
+	margin:0 auto;
+	display:table;
+}
+.footer1 ul li{
+	list-style:none;
+	float:left;
+	padding-left:120px;
+	font-size: 16px;
+	font-family: Microsoft YaHei;
+	line-height:50px;
+	color:white;
+}
+.footer2{
+	height: 40px;
+	background-color:#565d65; 
+}
+.footer2 ul{
+	margin:0 auto;
+	display:table;
+}
+.footer2 ul li{
+	list-style:none;
+	float:left;
+	padding-left:40px;
+	font-size: 12px;
+	font-family: Microsoft YaHei;
+	line-height:40px;
+	color:white;
+}
+.box0 div{
+		width: 590px;
+		height: 80px;
+		
+		
+		display:none;
+		position:absolute;
+		top:100px;
+		left:570px;
+		text-align:center;
+		line-height:80px;
+		background-color: #52bbdb;
+}
+.box0 div span{
+	padding-right: 20px;
+	color:white;
+}
+.box00{
+	width: 432px;
+	height: 180px;
+		
+		
+	display:none;
+	position:absolute;
+	top:200px;
+	left:430px;
+	
+	
+	background-color: #52bbdb;
+}
+
+.box000{
+	width: 432px;
+	height: 30px;
+	border-bottom:1px dashed white;
+	/*text-align:center;*/
+	line-height:22px;
+
+}
+.box000 p{
+	
+	color:white;
+	float:left;
+	padding-left: 20px;
+}
+.box001{
+	width: 432px;
+	line-height:30px;
+	height: 250px;
+}
+.box001 a{
+	float:right;
+	padding-right: 40px;
+	color:white;
+	cursor:pointer;
+}

@@ -1,0 +1,307 @@
+*{
+	margin:0;
+	padding:0;
+	
+}
+body{
+	width: 1915px;
+}
+#top{
+	height: 45px;
+	background-color: #244d5f;
+	
+}
+#top-inner{
+	width: 1000px;
+	height: 24px;
+	margin:0 auto;
+	margin-bottom:13px;
+	padding-top:8px;
+	
+}
+.top1{
+	width: 157px;
+	height: 24px;
+	
+	float:left;
+	
+}
+.top1 a{
+	text-decoration: none;
+	margin-right: 13px;
+	
+}
+.top1 a span{
+	color:white;
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	
+}
+.top2{
+	width: 160px;
+	height: 24px;
+	float:left;
+	margin-left:60px;
+	text-align:center;
+	line-height:24px;
+}
+.top2 a{
+	text-decoration: none;
+	margin-right: 13px;
+	color:white;
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	
+}
+
+.top3{
+	width: 220px;
+	height: 24px;
+	float:left;
+	margin-left:400px;
+	text-align:center;
+	line-height:24px;
+}
+.top3 img{
+	margin-right: 5px;
+}
+.top3 a{
+	text-decoration: none;
+	padding-left: 15px;
+	color:white;
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	
+}
+#logonav1{
+	
+	height: 77px;
+	/*border-bottom:1px solid black;*/
+}
+#logonav{
+	width: 1008px;
+	height: 77px;
+	margin:0 auto;
+
+	/*border:1px solid red;*/
+}
+#logo{
+	float:left;
+	margin-right: 215px;
+	margin-top:5px;
+}
+
+#nav{
+	width: 610px;
+	height: 77px;
+	float:left;
+	/*border-bottom:1px solid black;*/
+}
+#nav ul li{
+	list-style:none;
+	
+	float:left;
+	padding-right: 16px;
+	padding-left: 15px;
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	text-align:center;
+	line-height:78px;
+}
+
+#nav ul li a{
+	text-decoration: none;
+	color:black;
+}
+#nav ul .li{
+	width: 83px;
+	height: 76px;
+	background-color: #52bbdb;
+	color:white;
+}
+/*#pic{
+	height: 400px;
+}*/
+#banner{
+	margin-top: 40px;
+}
+#banner .box2{
+	width: 500px;
+	height: 50px;
+	margin:0 auto;
+	
+}
+#banner .box2 input{
+	width: 432px;
+	height: 40px;
+	font-size:14px;
+	font-family:times new roman;
+	border:1px solid #52bbdb;
+	
+}
+#banner .box2 button{
+	width: 50px;
+	height: 40px;
+	font-size:25px;
+
+	background-color: #52bbdb;
+	padding-bottom:10px;
+}
+#banner .box3 ul{
+	
+	margin:0 auto;
+	display:table;
+}
+#banner .box3 ul li{
+	font-size:14px;
+	font-family:times new roman;
+	list-style:none;
+	float:left;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#h{
+	width: 1000px;
+	height: 45px;
+	border-bottom:1px solid black;
+	margin:0 auto;
+	line-height:36px;
+	/*padding-bottom: 5px;*/
+}
+#h .span1{
+	font-size:28px;
+	font-family:Microsoft YaHei;
+	padding-right:30px;
+	font-weight: bold;
+}
+#h .span2{
+	font-size:24px;
+	font-family:times New Roman;
+}
+#main{
+	width: 1010px;
+	height: 2690px;
+	border:1px solid red;
+	margin:0 auto;
+	margin-top: 10px;
+}
+#main div{
+	width: 327px;
+	height: 443px;
+	float:left;
+	border:1px solid black;
+	margin-right:9px;
+	margin-bottom:5px;
+}
+#main div .list1{
+	width: 325px;
+	height: 51px;
+	text-align:center;
+	line-height:51px;
+	background-color: #efefef;
+}
+
+#main div .list1 li{
+	
+
+	list-style:none;
+	float:left;
+	
+}
+#main div .list1 .li1{
+	font-size: 28px;
+	font-family: Microsoft YaHei;
+	color:#fc8130;
+	padding-left: 10px;
+}
+
+#main div .list1 .li2{
+	font-size: 12px;
+	font-family: Microsoft YaHei;
+	padding-left: 35px;
+	padding-right:35px;
+}
+#main div .list1 .li3{
+	font-size: 16px;
+	font-family: Microsoft YaHei;
+	color:#fc8130;
+}
+#main div span{
+	padding-left:20px;
+	font-size: 16px;
+	font-family: Microsoft YaHei;
+	font-weight: bold;
+}
+#main div p{
+	padding-left:20px;
+	font-size: 12px;
+	font-family: Microsoft YaHei;
+	padding-top:5px;
+}
+#main div .list2{
+	width: 280px;
+	height: 38px;
+	margin:0 auto;
+	padding-top: 20px;
+	text-align:center;
+	line-height:38px;
+}
+
+#main div .list2 li{
+	float:left;
+	list-style:none;
+}
+#main div .list2 li span{
+	font-size: 12px;
+	font-family: Microsoft YaHei;
+	padding-left: 5px;
+}
+#bottom{
+	width:400px;
+	height: 37px;
+	margin:45px 490px 55px 1030px;
+}
+#bottom input{
+	width: 36px;
+	height: 36px;
+	margin-right:10px;
+}
+#bottom .btn{
+	color:white;
+	background-color: #52bbdb;
+}
+.footer1{
+	height: 50px;
+	background-color:#444b55; 
+}
+.footer1 ul{
+	margin:0 auto;
+	display:table;
+}
+.footer1 ul li{
+	list-style:none;
+	float:left;
+	padding-left:120px;
+	font-size: 16px;
+	font-family: Microsoft YaHei;
+	line-height:50px;
+	color:white;
+}
+.footer2{
+	height: 40px;
+	background-color:#565d65; 
+}
+.footer2 ul{
+	margin:0 auto;
+	display:table;
+}
+.footer2 ul li{
+	list-style:none;
+	float:left;
+	padding-left:40px;
+	font-size: 18px;
+	font-family: Microsoft YaHei;
+	line-height:40px;
+	color:white;
+}
