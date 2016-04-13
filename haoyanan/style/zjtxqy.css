@@ -1,6 +1,9 @@
 *{
 margin: 0;
 padding: 0;}
+.active{
+	border-bottom: 1px solid black;
+}
 /*header部分*/
 #header{
 	height: 125px;
@@ -294,8 +297,74 @@ height:50px;
 .biao2{
 	width: 501px;
 	height: 74px;
-	background-color: yellow;
+	/*background-color: yellow;*/
 	float: left;
+}
+.biao2-left{
+	width: 124px;
+	height: 73px;
+	/*background-color: red;*/
+	float: left;
+}
+.biao2-left p{
+	margin-left: 50px;
+	margin-top: 24px;
+	font-size: 14px;
+	font-family: "微软雅黑","Regular";
+}
+.biao2-right{
+	width: 375px;
+	height: 30px;
+	/*background-color: blue;*/
+	margin-top: 18px;
+	float: left;
+}
+.biao2-right p{
+	width: 43px;
+	height: 30px;
+	float: left;
+	margin-top: 6px;
+	text-align: center;
+	color: #cccccc;
+}
+#jia{cursor: pointer;
+	width: 115px;
+height: 30px;
+float: left;
+/*background-color:green;*/
+}
+#jia li , #jian li{
+	float: left;
+	list-style: none;
+	width: 34px;
+	height: 28px;
+	/*background-color: blue;*/
+	border: 1px solid #cccccc;
+	text-align: center;
+	line-height: 28px;
+	color: #cccccc;
+}
+#jian{cursor: pointer;
+	width: 109px;
+	height: 30px;
+	float: left;
+/*background-color:green;*/
+}
+.biao2-right2 p{width: 89px;
+height: 23px;
+/*background-color: red;*/
+float: left;
+font-size: 14px;
+font-family: "微软雅黑","Regular";
+margin-left: 6px;
+color: #cccccc;
+}
+.biao2-right2 span{
+	margin-left: 6px;
+	margin-top: 1px;
+	font-size: 12px;
+font-family: "微软雅黑","Regular";
+color: #f2994e;
 }
 .biao3{
 	width: 501px;
@@ -347,12 +416,12 @@ height: 64px;
 }
 /*container部分包括领队以及组团历史*/
 #container{
-	height: 5261px;
+	height: 2280px;
 	/*background-color: #ff9;*/
 }
 #container-inner{
 	width: 1001px;
-	height: 5261px;
+	height: 1609px;
 	margin: 0 auto;
 	/*background-color: #ff9933;*/
 }
@@ -458,17 +527,30 @@ float: left;
 	width: 225px;
 	height: 94px;
 	float: left;
-	background-color:blue;
+	/*background-color:blue;*/
 	margin-left: 8px;
 	margin-right: 8px;
 }
 #piclist1 .zuo{
 	margin-left: 20px;
-
+}
+#piclist1 p{
+	width: 84px;
+	height: 94px;
+	float:right;
+	font-size: 12px;
+	font-family: "微软雅黑";
+}
+#piclist1 span{
+	float:right;    
+	font-size: 12px;
+	font-family: "微软雅黑";
+	margin-top: -20px;
+	margin-right:10px; ;
 }
 #container-bot{
 	width: 1001px;
-	height: 4577px;
+	height: 1609px;
 	/*background-color:#c5b506;*/
 }
 #eee{width: 392px;
@@ -484,15 +566,23 @@ text-align: center;
 line-height: 43px;
 border: 1px solid #c9c9c9;
 }
+
+#apple{
+	width: 1001px;
+	height: 1609px;
+	/*background-color: red;*/
+}
 /*行程 简介。。。。。。。。。。。。。。。。。。。。。。。。。。。。。*/
 #xingcheng{
-	height: 1674px;
-	width: 1000px;
+	/*height: 1674px;
+	width: 1000px;*/
 	border: 1px solid #c9c9c9;
 /*	background-color: blue;*/
 }
-.ea{
-	margin-left: 58px;
+.ea{background-position:left bottom;
+	background-repeat: no-repeat;
+	background-image: url(../images/jiao.png);
+	margin-left: 31px;
 	width: 915px;
 	height: 86px;
 	/*background-color: red;*/
@@ -501,8 +591,9 @@ border: 1px solid #c9c9c9;
 }
 .ea p{font-family: "微软雅黑";
 font-size: 16px;
-/*margin-left: 30px;*/
+margin-left: 30px;
 margin-top: 60px;
+color: #fff;
 }
 .eb{
 	width: 975px;
@@ -524,8 +615,21 @@ margin-top: 60px;
 	margin-top: 42px;
 	border-bottom:1px solid #e5e5e5;
 }
+.xu{
+	height: 568px;
+width: 122px;
+/*background-color: red;*/
+float: left;
+background-image: url(../images/xu1.png);
+background-repeat: repeat-y;
+background-position:97px -18px;
+}
+.xuyou{width: 854px;
+	float: left;
+	/*background-color:blue;*/
+}
 .ec{
-	margin-left: 147px;
+	margin-left:23px;
 	width: 828px;
 	height: 61px;
 	/*background-color: red;*/
@@ -541,7 +645,7 @@ margin-top: 60px;
 .ed{
 	color: #a9a9a9;
 	line-height: 66px;
-	margin-left: 147px;
+	margin-left: 23px;
 	width: 828px;
 	height: 66px;
 /*	background-color: red;*/
@@ -557,7 +661,7 @@ margin-top: 60px;
 	height: 158px;
 	/*background-color:red;*/
 	float: left;
-	margin-left: 147px;
+	margin-left: 23px;
 }
 .ee p{
 	margin-top: 20px;
@@ -568,7 +672,7 @@ margin-top: 60px;
 }
 .ef{width: 830px;
 	height: 376px;
-	margin-left: 147px;
+	margin-left:23px;
 	/*background-color: green;*/
 	float: left;
 	border-bottom: 1px dashed #e5e5e5;
@@ -651,8 +755,8 @@ margin-top: 60px;
 }
 /*消费明细。。。。。。。。。。。。。。。。。。。。。*/
 #feiyong{
-	width: 1001px;
-	height: 627px;
+	/*width: 1001px;
+	height: 627px;*/
 	/*background-color: red;*/
 
 }
@@ -661,12 +765,16 @@ margin-top: 60px;
 	border-bottom: 1px solid #50bbdb;
 	margin-left: 30px;
 	float: left;
+	background-position:left bottom;
+	background-repeat: no-repeat;
+	background-image: url(../images/jiao.png);
 	/*background-color: green;*/
 }
 .tip p, .qt p{
-	/*color: #fff;？？？？？？？？？？？*/
+	color: #fff;
 	line-height: 30px;
 	margin-left:27px; 
+
 }
  #feiyong .tip1{
 	width: 944px;
@@ -711,9 +819,9 @@ margin-top: 60px;
 }
 /*其他说明。。。。。。。。。*/
 #qita{
-	width: 1001px;
-	height: 742px;
-	background-color: red;
+	/*width: 1001px;
+	height: 742px;*/
+	/*background-color: red;*/
 	float: left;
 }
 .qt1{width: 944px;
@@ -743,8 +851,8 @@ font-family: "微软雅黑";
 }
 /*用户评论。。。。。。。。。。。。*/
 #say{
-	width: 1001px;
-	height: 1489px;
+/*	width: 1001px;
+	height: 1489px;*/
 	/*background-color: red;*/
 float: left;
 }
@@ -755,17 +863,20 @@ float: left;
 	margin-left: 30px;
 	float: left;
 	border-bottom: 1px solid #50bbdb; 
+	background-position:left bottom;
+	background-repeat: no-repeat;
+	background-image: url(../images/jiao.png);
 }
 .yonghu p{margin-left: 30px;
 	line-height: 28px;
-	color: blue;
+	color:#fff;
 }
 .quanbu{border-bottom: 1px solid #50bbdb; 
 	margin-left: 30px;
 	float: left;
 	width: 944px;
 	height: 104px;
-	background-color: green;
+	/*background-color: green;*/
 }
 .blueBox{
 	margin-left: 4px;
@@ -796,7 +907,7 @@ float: left;
 .first{
 	height: 249px;
 	width: 1001px;
-	background-color: red;
+	/*background-color: red;*/
 	float: left;
 }
 .first-left{
@@ -874,16 +985,18 @@ float: left;
 	margin-top: 19px;
 	margin-left: 43px;
 }
+/*第二个评论                                         */
 .second{width: 1001px;
 	height: 766px;
-	background-color: green;
+	/*background-color: green;*/
 	float: left;
 }
 .second-left{
 	float: left;
 	width: 125px;
 	height: 765px;
-	background-color: red;
+	/*background-color: red;*/
+	border-bottom: 1px dashed #d0d0d0;
 }
 .second-left img{
 	margin-top: 55px;
@@ -899,13 +1012,14 @@ float: left;
 .second-right{
 	width: 875px;
 	height: 765px;
-	background-color: yellow;
+	/*background-color: yellow;*/
 	float: left;
+	border-bottom: 1px dashed #d0d0d0;
 }
 .right-mmidd {
 	width: 877px;
 	height: 122px;
-	background-color:blue;
+	/*background-color:blue;*/
 	margin-top: 95px;
 }
 .right-mmidd p{
@@ -916,7 +1030,7 @@ float: left;
 
 }
 .mid11{float: left;
-	background-color: red;
+	/*background-color: red;*/
 	height: 119px;
 	width: 831px;
 }
@@ -924,37 +1038,141 @@ float: left;
 	font-family: "微软雅黑";
 	font-size: 16px;
 	color: #d3d3d3;
+	width: 83px;
+	height: 41px;	
+/*	background-color:blue;*/
 }
 .anpai{
-	margin-left: 83px;
+	width: 734px;
+	height: 118px;
 	float: left;
-	width: 749px;
-	height: 114px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+/*	background-color: #fff;*/
+}
+.anpai p{
+	margin-left: 10px;
+}
+.anpai1{
+	width: 734px;font-family: "微软雅黑";
+	font-size: 14px;
+	height: 75px;
+	/*background-color: yellow;*/
+}
+.anpai2{
+	width: 504px;font-family: "微软雅黑";
+	font-size: 14px;
+	height: 44px;
+/*	background-color: yellow;*/
+}
+.mid122{
+	float: left;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #d3d3d3;
+	width: 83px;
+	height: 44px;	
+/*	background-color:blue;*/
+}
+.anpai2 p{
+	width: 535px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	height: 44px;
+	/*background-color: yellow;*/
+}
+.middd{
+	float: left;
+	/*background-color: red;*/
+	height: 44px;
+	width: 831px;
+}
+.bot-bot{
+	width: 875px;
+	height: 175px;
+/*	background-color: blue;*/
+	float: left;
+}
+.smallbox{
+	width: 806px;
+	height: 155px;
+	/*background-color: green;*/
+	margin-left: 30px;
+}
+.samll-left p{
+	font-family: "微软雅黑";
+	font-size: 16px;
+	margin-top: 15px;
+	margin-left: 8px;
+	color:#e47140;
+}
+.samll-left{
+	width: 141px;
+	height: 153px;
+	/*background-color:red;*/
+	float: left;
+}
+.samll-right{
+	width: 642px;
+	height: 85px;
+	background-color:#f4f4f4;
+	float: left;
+	margin-top: 44px;
+}
+.samll-right p, .samll-right span{
 	font-family: "微软雅黑";
 	font-size: 14px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*第三个评论                                                          */
+.third{
+	width: 944px;
+	height: 248px;
+	/*background-color:yellow;*/
+	float: left;
+	margin-left: 31px;
+	border-bottom: 1px dashed #d0d0d0;
+}
+.third-left{
+	float: left;
+	width: 95px;
+	height: 247px;
+	/*background-color: green;*/
+}
+.third-right{
+	width: 849px;
+	height: 247px;
+	/*background-color: blue;*/
+	float: left;
+}
+.right-mmidd3{
+	width: 849px;
+	height:60px;
+/*	background-color:yellow;*/
+	margin-top: 60px;
+}
+.right-mmidd3 p{
+	margin-top: 18px;
+	margin-left: 49px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+.mid123{
+	margin-left: 44px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #d3d3d3;
+}
+.anpai3{width: 150px;
+	height:30px;
+	float: left;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+.anpai3 p{
+	float: left;
+	margin-left:110px; 
+	margin-top: -18px;
+}
 #footer{
 		height: 91px;
 				background-color: #fff;}
