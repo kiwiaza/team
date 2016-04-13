@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style/bootstrap.min.css">
+	<link rel="stylesheet" href="style/cjy2.css">
+	<style>
+	.error{
+		color:red;
+	}
+  	.block {
+    display: block;
+  	}
+  	form.cmxform label.error {
+    display: none;
+  	}
+	</style>
+</head>
+<body>
+	<div id="top">
+		<div id="top-inner">
+			<div class="top1">
+				<a href=""><img src="images/Gps.png" alt=""></a>
+				<a href=""><span class="txt1">北京</span></a>
+				<a href=""><span class="txt2">切换</span></a>
+			</div>
+			<div class="top2">
+				<a href=""><img src="images/iphone.png" alt=""></a>
+				<a href=""><span>下载手机APP</span></a>
+			</div>
+			<div class="top3">
+				<img src="images/QQ.png" alt="">
+				<img src="images/sina.png" alt="">
+				<a href=""  data-toggle="modal" data-target=".bs-example-modal-lg">登录</a>
+
+				<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  					<div class="modal-dialog modal-lg">
+    					<div class="modal-content">
+    					<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+     	 				</div>
+      						<form class="cmxform" id="commentForm" method="get" action="">
+  							<fieldset>
+    							<div>
+  								<img src="images/b9.png" alt="">
+
+
+    							</div>
+    							<p>
+      								<!-- <label for="cname">Name (必需, 最小两个字母)</label> -->
+      								<input id="cemail" name="email"  type="emali name" minlength="2"placeholder="请输入邮箱/用户名" required>
+    							</p>
+
+   		 						<p>
+      								<!-- <label for="cemail">password (必需)</label> -->
+      								<input id="cemail" type="password" name="password" minlength="6"placeholder="请设置密码" required>
+    							</p>
+
+    							<p>
+      								<input class="submit" type="submit" value="登录" style="background-color: #52bbdb">
+    							</p>
+    							<p>----------------------------------第三方登录------------------------------</p>
+    							<a href=""><img src="images/tubiao.jpg" alt=""></a>
+    						</fieldset>
+    						</form>
+    					</div>
+  					</div>
+				</div>
+				<a href=""><span>|</span></a>
+				<a href=""  data-toggle="modal" data-target=".bs-example-modal-sm">注册</a>
+				<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  					<div class="modal-dialog modal-lg">
+    					<div class="modal-content">
+    						<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+     	 				</div>
+      						<form class="cmxform" id="commentForm" method="get" action="">
+  							<fieldset>
+
+  								<div>
+  								<img src="images/b9.png" alt="">
+
+
+    							</div>
+    							<p>
+      								<!-- <label for="cname">Name (必需, 最小两个字母)</label> -->
+      								<!-- <label for="cemail">E-Mail (必需)</label> -->
+      								<input id="cemail" name="email"  type="email" placeholder="请输入邮箱" required>
+    							</p>
+    							<p>
+      								<!-- <label for="cname">Name (必需, 最小两个字母)</label> -->
+      								<input id="cname" name="name" minlength="2" type="text" placeholder="请输入用户名" required>
+    							</p>
+   		 						<p>
+      								<!-- <label for="cemail">password (必需)</label> -->
+      								<input id="cemail" type="password" name="password" minlength="6"placeholder="请设置密码" required>
+    							</p>
+    							<p>
+      								<!-- <label for="cemail">password (必需)</label> -->
+      								<input id="cemail" type="password" name="password" minlength="6"placeholder="请输入密码" required>
+    							</p>
+    							<p>
+      								<input class="submit" type="submit" value="注册" style="background-color: #52bbdb">
+    							</p>
+    							<p>**注册视为同意《爱自驾用户使用协议》</p>
+    							<p>----------------------------------第三方登录------------------------------</p>
+    							<a href=""><img src="images/tubiao.jpg" alt=""></a>
+
+    						</fieldset>
+    						</form>
+    					</div>
+  					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="logonav1">
+		<div id="logonav">
+			<div id="logo">
+				<img src="images/logo.png" alt="">
+			</div>
+			<div id="nav">
+				<ul>
+					<li><a href="">首页</a></li>
+					<li><a href="">目的地</a></li>
+					<li><a href="">线路</a></li>
+					<li><a href="">定制</a></li>
+					<li class="li"><a style="color:white" href="">自驾团</a></li>
+					<li><a href="">摄影</a></li>
+					<li><a href="">互动</a></li>
+					<li><a href="">精选</a></li>
+					<li><a href="">预定</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="banner-top">
+		<div class="box1">
+			<span>首页</span>
+			<span>></span>
+			<span>自驾团 </span>
+			<span>></span>
+			<span>自驾团境内</span>
+			<span>></span>
+			<span>南京</span>
+		</div>
+		<div class="box2">
+			<input type="text" placeholder=" 南京">
+			<div type="text" class="glyphicon glyphicon-search"></div>
+		</div>
+		<div class="box3">
+			<ul>
+				<li>热门搜索:</li>
+				<li>北京</li>
+				<li>西安</li>
+				<li>天津</li>
+				<li>上海</li>
+				<li>杭州</li>
+				<li>青海</li>
+				<li>西藏</li>
+				<li>云南</li>
+			</ul>
+		</div>
+	</div>
+	<div id="banner-mid">
+		<div class="box1">
+			<a href="">出发城市</a>
+			<a href=""><button type="button" class="btn btn-info">全部  </button></a>
+			<a href="">北京</a>
+			<a href="">昆明</a>
+			<a href="">丽江</a>
+			<a href="">天津</a>
+			<a href="">当地</a>
+			<a href="">成都</a>
+			<a href="">广州</a>
+			<a href="">郑州</a>
+			<a href="">长沙</a>
+			<a href="">呼和浩特</a>
+			<a href="">上海</a>
+			<a href="" style="font-size:12px">更多</a>
+			<span class="glyphicon glyphicon-chevron-down" id="span-0">
+			</span>
+		</div>
+		<div class="box2">
+			<a href="">行程天数</a>
+			<a href=""><button type="button" class="btn btn-info">全部  </button></a>
+			<a href="">1-3天</a>
+			<a href="">3-7天</a>
+			<a href="">7-19天</a>
+			<a href="">10-15天</a>
+			<a href="">15+</a>
+		</div>
+		<div class="box3">
+			<h>出行时间</h>
+			<button type="button" class="btn btn-info" >全部  </button>
+			<a href="">周末</a>
+			<a href="">元旦</a>
+			<a href="">春节</a>
+			<a href="">清明</a>
+			<a href="">五一</a>
+			<a href="">端午</a>
+			<a href="">中秋</a>
+			<a href="">国庆</a>
+			<a href="">长沙</a>
+			<a href="">一月</a>
+			<a href="">二月</a>
+			<a href="">三月</a>
+			<a href="">四月</a>
+			<a href="">五月</a>
+			<a href="">六月</a>
+			<a href="">七月</a>
+			<span class="span1">更多</span>
+			<span class="glyphicon glyphicon-chevron-down" id="span-1">
+			</span>
+		</div>
+	</div>
+	<div id="banner-bottom">
+		<ul class="list1">
+			<li>综合排序
+			</li>
+			<li>
+				出发时间
+				<span class="glyphicon glyphicon-triangle-bottom"></span>
+				<div class="box1">
+						<a>春季</a>
+						<br>
+						<a>夏季</a>
+						<br>
+						<a>秋季</a>
+						<br>
+						<a>冬季</a>
+				</div>
+			</li>
+			<li>
+				价格
+				<span class="glyphicon glyphicon-triangle-bottom"></span>
+				<div class="box2">
+						<a>1万以下</a>
+						<br>
+						<a>1~3万</a>
+						<br>
+						<a>3万以上</a>
+				</div>
+			</li>
+			<li>
+				天数
+				<span class="glyphicon glyphicon-triangle-bottom"></span>
+				<div class="box3">
+						<a>10~15天</a>
+						<a>15~30天</a>
+						<br>
+						<a>一月以上</a>
+				</div>
+			</li>
+		</ul>
+		<ul class="list2" style="padding-left:300px">
+			<li>共122个活动</li>
+			<li>1/4</li>
+		</ul>
+		<ul class="list3" style="margin:14px 0px 0px 25px">
+			<li><span class="glyphicon glyphicon-menu-left"></span></li>
+			<li><span class="glyphicon glyphicon-menu-right"></span></li>
+		</ul>
+	</div>
+	<div id="main">
+		<div class="box1">
+			<img src="images/a1.jpg" alt="">
+			<ul class="list1">
+				<li class="li1">11800起</li>
+				<li class="li2">2016-11-03出发</li>
+				<li class="li3">25天</li>
+			</ul>
+			<span>南京—重庆—普者黑—元阳—泸沽湖</span>
+			<p>不一样的云南发现之旅</p>
+			<ul class="list2">
+				<li><img src="images/g10.png" alt=""></li>
+				<li><span>中国自驾游联盟南京站</span></li>
+				<h style="padding-left:45px" class="glyphicon glyphicon-eye-open"></h>
+				<h style="padding-left:5px">36</h>
+
+				<h style="padding-left:5px" class="glyphicon glyphicon-thumbs-up" id="h-1"></h>
+				<h style="padding-left:5px" id="h-20">0</h>
+			</ul>
+		</div>
+		<div class="box2">
+			<img src="images/a2.jpg" alt="">
+			<ul class="list1">
+				<li class="li1">1280起</li>
+				<li class="li2">2016-11-01出发</li>
+				<li class="li3">3天</li>
+			</ul>
+			<span>南京—朱家尖—普陀山—宁波</span>
+			<p>海天佛国，南海圣境</p>
+			<ul class="list2">
+				<li><img src="images/g10.png" alt=""></li>
+				<li><span>中国自驾游联盟南京站</span></li>
+				<h style="padding-left:45px" class="glyphicon glyphicon-eye-open"></h>
+				<h style="padding-left:5px">36</h>
+
+				<h style="padding-left:5px" class="glyphicon glyphicon-thumbs-up" id="h-2"></h>
+				<h style="padding-left:5px" id="h-21">0</h>
+			</ul>
+		</div>
+		<div class="box2">
+			<img src="images/a3.jpg" alt="">
+			<ul class="list1">
+				<li class="li1">4680起</li>
+				<li class="li2">2016-10-12出发</li>
+				<li class="li3">12天</li>
+			</ul>
+			<span>南京—桂林—凭祥—北海—阳朔</span>
+			<p>尽情领略广西风光，深入体验中越边关风采</p>
+			<ul class="list2">
+				<li><img src="images/g10.png" alt=""></li>
+				<li><span>中国自驾游联盟南京站</span></li>
+				<h style="padding-left:45px" class="glyphicon glyphicon-eye-open"></h>
+				<h style="padding-left:5px">36</h>
+
+				<h style="padding-left:5px" class="glyphicon glyphicon-thumbs-up" id="h-3"></h>
+				<h style="padding-left:5px" id="h-22">0</h>
+			</ul>
+		</div>
+		<div class="box2">
+			<img src="images/a4.jpg" alt="">
+			<ul class="list1">
+				<li class="li1">4580起</li>
+				<li class="li2">2016-10-07出发</li>
+				<li class="li3">7天</li>
+			</ul>
+			<span>南京—建水—元阳—元江—玉溪—东川</span>
+			<p>壮美东川，光影元阳</p>
+			<ul class="list2">
+				<li><img src="images/g10.png" alt=""></li>
+				<li><span>中国自驾游联盟南京站</span></li>
+				<h style="padding-left:45px" class="glyphicon glyphicon-eye-open"></h>
+				<h style="padding-left:5px">36</h>
+
+				<h style="padding-left:5px" class="glyphicon glyphicon-thumbs-up" id="h-4"></h>
+				<h style="padding-left:5px" id="h-23">0</h>
+			</ul>
+		</div>
+		<div class="box2">
+			<img src="images/a5.jpg" alt="">
+			<ul class="list1">
+				<li class="li1">4580起</li>
+				<li class="li2">2016-9-21出发</li>
+				<li class="li3">12天</li>
+			</ul>
+			<span> 南京—西江—黄果树—荔波—桂林</span>
+			<p>返璞归真，回归自然。</p>
+			<ul class="list2">
+				<li><img src="images/g10.png" alt=""></li>
+				<li><span>中国自驾游联盟南京站</span></li>
+				<h style="padding-left:45px" class="glyphicon glyphicon-eye-open"></h>
+				<h style="padding-left:5px">36</h>
+
+				<h style="padding-left:5px" class="glyphicon glyphicon-thumbs-up" id="h-5"></h>
+				<h style="padding-left:5px" id="h-24">0</h>
+			</ul>
+		</div>
+		<div class="box2">
+			<img src="images/a6.jpg" alt="">
+			<ul class="list1">
+				<li class="li1">3880起</li>
+				<li class="li2">2016-8-30出发</li>
+				<li class="li3">7天</li>
+			</ul>
+			<span>呼和诺尔—冷极村—敖鲁古雅冰雪</span>
+			<p>冰雪盛宴，冬季那达慕</p>
+			<ul class="list2">
+				<li><img src="images/g10.png" alt=""></li>
+				<li><span>中国自驾游联盟南京站</span></li>
+				<h style="padding-left:45px" class="glyphicon glyphicon-eye-open"></h>
+				<h style="padding-left:5px">36</h>
+
+				<h style="padding-left:5px" class="glyphicon glyphicon-thumbs-up" id="h-6"></h>
+				<h style="padding-left:5px" id="h-25">0</h>
+			</ul>
+		</div>
+		<div class="box2">
+			<img src="images/a7.jpg" alt="">
+			<ul class="list1">
+				<li class="li1">3680起</li>
+				<li class="li2">2016-7-29出发</li>
+				<li class="li3">6天</li>
+			</ul>
+			<span>南京—开平—番禺—深圳</span>
+			<p>领略岭南风光，品味地道美食</p>
+			<ul class="list2">
+				<li><img src="images/g10.png" alt=""></li>
+				<li><span>中国自驾游联盟南京站</span></li>
+				<h style="padding-left:45px" class="glyphicon glyphicon-eye-open"></h>
+				<h style="padding-left:5px">36</h>
+
+				<h style="padding-left:5px" class="glyphicon glyphicon-thumbs-up" id="h-7"></h>
+				<h style="padding-left:5px" id="h-26">0</h>
+			</ul>
+		</div>
+		<div class="box2">
+			<img src="images/a8.jpg" alt="">
+			<ul class="list1">
+				<li class="li1">3580起</li>
+				<li class="li2">2016-7-21出发</li>
+				<li class="li3">8天</li>
+			</ul>
+			<span>昆明—丽江—香格里拉—大理</span>
+			<p>最经典滇西北行程，体验梦中的香格里拉。</p>
+			<ul class="list2">
+				<li><img src="images/g10.png" alt=""></li>
+				<li><span>中国自驾游联盟南京站</span></li>
+				<h style="padding-left:45px" class="glyphicon glyphicon-eye-open"></h>
+				<h style="padding-left:5px">36</h>
+
+				<h style="padding-left:5px" class="glyphicon glyphicon-thumbs-up" id="h-8"></h>
+				<h style="padding-left:5px" id="h-27">0</h>
+			</ul>
+		</div>
+		<div class="box2">
+			<img src="images/a9.jpg" alt="">
+			<ul class="list1">
+				<li class="li1">3580起</li>
+				<li class="li2">2016-6-16出发</li>
+				<li class="li3">8天</li>
+			</ul>
+			<span>普洱—望天树—傣族园—抚仙湖</span>
+			<p>大理双廊洱海，腾冲银杏</p>
+			<ul class="list2">
+				<li><img src="images/g10.png" alt=""></li>
+				<li><span>中国自驾游联盟南京站</span></li>
+				<h style="padding-left:45px" class="glyphicon glyphicon-eye-open"></h>
+				<h style="padding-left:5px">36</h>
+
+				<h style="padding-left:5px" class="glyphicon glyphicon-thumbs-up" id="h-9"></h>
+				<h style="padding-left:5px" id="h-28">0</h>
+			</ul>
+		</div>
+		<div class="box2">
+			<img src="images/a10.jpg" alt="">
+			<ul class="list1">
+				<li class="li1">1880起</li>
+				<li class="li2">2016-5-21出发</li>
+				<li class="li3">5天</li>
+			</ul>
+			<span> 广元—文县—九寨沟—都江堰</span>
+			<p>走进童话冰雪世界</p>
+			<ul class="list2">
+				<li><img src="images/g10.png" alt=""></li>
+				<li><span>重庆迦南自驾俱乐部</span></li>
+				<h style="padding-left:45px" class="glyphicon glyphicon-eye-open"></h>
+				<h style="padding-left:5px">36</h>
+
+				<h style="padding-left:5px" class="glyphicon glyphicon-thumbs-up" id="h-10"></h>
+				<h style="padding-left:5px" id="h-29">0</h>
+			</ul>
+		</div>
+		<div class="box2">
+			<img src="images/a11.jpg" alt="">
+			<ul class="list1">
+				<li class="li1">4980起</li>
+				<li class="li2">2016-4-21出发</li>
+				<li class="li3">9天</li>
+			</ul>
+			<span>重庆—长白山—敦化—雪乡—哈尔滨</span>
+			<p>梦幻雪乡，北国童话。</p>
+			<ul class="list2">
+				<li><img src="images/g10.png" alt=""></li>
+				<li><span>北京969汽车俱乐部</span></li>
+				<h style="padding-left:45px" class="glyphicon glyphicon-eye-open"></h>
+				<h style="padding-left:5px">36</h>
+
+				<h style="padding-left:5px" class="glyphicon glyphicon-thumbs-up" id="h-11"></h>
+				<h style="padding-left:5px" id="h-30">0</h>
+			</ul>
+		</div>
+		<div class="box2">
+			<img src="images/a12.jpg" alt="">
+			<ul class="list1">
+				<li class="li1">1580起</li>
+				<li class="li2">2016-4-16出发</li>
+				<li class="li3">4天</li>
+			</ul>
+			<span>台儿庄—琅琊台—东营—北京</span>
+			<p>寻梦琅琊，探秘琅琊台。</p>
+			<ul class="list2">
+				<li><img src="images/g10.png" alt=""></li>
+				<li><span>北京969汽车俱乐部</span></li>
+				<h style="padding-left:45px" class="glyphicon glyphicon-eye-open"></h>
+				<h style="padding-left:5px">36</h>
+
+				<h style="padding-left:5px" class="glyphicon glyphicon-thumbs-up" id="h-12"></h>
+				<h style="padding-left:5px" id="h-31">0</h>
+			</ul>
+		</div>
+		<div class="box2">
+			<img src="images/a13.jpg" alt="">
+			<ul class="list1">
+				<li class="li1">17800起</li>
+				<li class="li2">2016-4-02出发</li>
+				<li class="li3">11天</li>
+			</ul>
+			<span>墨尔本—大洋路—堪培拉—悉尼</span>
+			<p>大洋路深度探索野性澳洲风情。</p>
+			<ul class="list2">
+				<li><img src="images/g10.png" alt=""></li>
+				<li><span>七十迈国际自驾</span></li>
+				<h style="padding-left:45px" class="glyphicon glyphicon-eye-open"></h>
+				<h style="padding-left:5px">36</h>
+
+				<h style="padding-left:5px" class="glyphicon glyphicon-thumbs-up" id="h-13"></h>
+				<h style="padding-left:5px" id="h-32">0</h>
+			</ul>
+		</div>
+		<div class="box2">
+			<img src="images/a14.jpg" alt="">
+			<ul class="list1">
+				<li class="li1">19800起</li>
+				<li class="li2">2016-03-02出发</li>
+				<li class="li3">14天</li>
+			</ul>
+			<span>奥克兰—皇后镇—蒂阿瑙—基督城</span>
+			<p>长白云之乡，地球上最后一片净土。</p>
+			<ul class="list2">
+				<li><img src="images/g10.png" alt=""></li>
+				<li><span>七十迈国际自驾</span></li>
+				<h style="padding-left:45px" class="glyphicon glyphicon-eye-open"></h>
+				<h style="padding-left:5px">36</h>
+
+				<h style="padding-left:5px" class="glyphicon glyphicon-thumbs-up" id="h-14"></h>
+				<h style="padding-left:5px" id="h-33">0</h>
+			</ul>
+		</div>
+		<div class="box2">
+			<img src="images/a15.jpg" alt="">
+			<ul class="list1">
+				<li class="li1">6980起</li>
+				<li class="li2">2016-02-30出发</li>
+				<li class="li3">9天</li>
+			</ul>
+			<span>金边—西哈努克港—暹粒</span>
+			<p>柬埔寨金边暹粒西港自驾之旅</p>
+			<ul class="list2">
+				<li><img src="images/g10.png" alt=""></li>
+				<li><span>重庆迦南自驾俱乐部</span></li>
+				<h style="padding-left:45px" class="glyphicon glyphicon-eye-open"></h>
+				<h style="padding-left:5px">36</h>
+
+				<h style="padding-left:5px" class="glyphicon glyphicon-thumbs-up" id="h-15"></h>
+				<h style="padding-left:5px" id="h-34">0</h>
+			</ul>
+		</div>
+		<div class="box2">
+			<img src="images/a16.jpg" alt="">
+			<ul class="list1">
+				<li class="li1">18800起</li>
+				<li class="li2">2016-02-11出发</li>
+				<li class="li3">12天</li>
+			</ul>
+			<span>旧金山—文图拉—洛杉矶—檀香山</span>
+			<p>加州一号公路+夏威夷欧胡岛大环岛</p>
+			<ul class="list2">
+				<li><img src="images/g10.png" alt=""></li>
+				<li><span>七十迈国际自驾</span></li>
+				<h style="padding-left:45px" class="glyphicon glyphicon-eye-open"></h>
+				<h style="padding-left:5px">36</h>
+
+				<h style="padding-left:5px" class="glyphicon glyphicon-thumbs-up" id="h-16"></h>
+				<h style="padding-left:5px" id="h-35">0</h>
+			</ul>
+		</div>
+		<div class="box2">
+			<img src="images/a17.jpg" alt="">
+			<ul class="list1">
+				<li class="li1">23980起</li>
+				<li class="li2">2016-01-30出发</li>
+				<li class="li3">10天</li>
+			</ul>
+			<span>墨尔本—莫宁顿半岛—华南府</span>
+			<p>饱览大自然美景，感受澳洲人的活力和闲适。</p>
+			<ul class="list2">
+				<li><img src="images/g10.png" alt=""></li>
+				<li><span>爱车环球自驾</span></li>
+				<h style="padding-left:45px" class="glyphicon glyphicon-eye-open"></h>
+				<h style="padding-left:5px">36</h>
+
+				<h style="padding-left:5px" class="glyphicon glyphicon-thumbs-up" id="h-17"></h>
+				<h style="padding-left:5px" id="h-36">0</h>
+			</ul>
+		</div>
+		<div class="box2">
+			<img src="images/a18.jpg" alt="">
+			<ul class="list1">
+				<li class="li1">2580起</li>
+				<li class="li2">2015-12-07出发</li>
+				<li class="li3">7天</li>
+			</ul>
+			<span>北京—南宁—下龙湾—吉婆岛—河内</span>
+			<p>探访世界自然遗产之一海上桂林下龙湾</p>
+			<ul class="list2">
+				<li><img src="images/g10.png" alt=""></li>
+				<li><span>重庆迦南自驾俱乐部</span></li>
+				<h style="padding-left:45px" class="glyphicon glyphicon-eye-open"></h>
+				<h style="padding-left:5px">36</h>
+
+				<h style="padding-left:5px" class="glyphicon glyphicon-thumbs-up" id="h-18"></h>
+				<h style="padding-left:5px" id="h-37">0</h>
+			</ul>
+		</div>
+	</div>
+	<div id="bottom">
+		<button type="button" class="btn btn-default">《</button>
+  		<button type="button" class="btn btn-default"><</button>
+
+		<button type="button" class="btn btn-default">1</button>
+  		<button type="button" class="btn btn-default">2</button>
+
+		<button type="button" class="btn btn-default">3</button>
+		<button type="button" class="btn btn-default" id="nnn">4</button>
+		<button type="button" class="btn btn-default">></button>
+		<button type="button" class="btn btn-default">》</button>
+	</div>
+	<div class="footer1">
+		<ul>
+			<li>人民交通出版社</li>
+			<li>爱自驾</li>
+			<li>联系我们</li>
+			<li>友情链接</li>
+			<li>爱自驾品牌店</li>
+		</ul>
+	</div>
+	<div class="footer2">
+		<ul>
+			<li>人民交通出版社股份有限公司</li>
+			<li>京ICP备15018898号-1</li>
+		</ul>
+	</div>
+	<div class="box0">
+		<div class="box-1">
+			<span>北京</span>
+			<span>|</span>
+			<span>西安</span>
+			<span>|</span>
+			<span>天津</span>
+			<span>|</span>
+			<span>云南</span>
+			<span>|</span>
+			<span>杭州</span>
+			<span>|</span>
+			<span>西藏</span>
+			<span>+</span>
+		</div>
+		<div class="box-2">
+			<span>甄选目的地</span>
+			<span>|</span>
+			<span>境内目的地</span>
+			<span>|</span>
+			<span>境外目的地</span>
+			<span>+</span>
+		</div>
+		<div class="box-3">
+			<span>第一步：选点</span>
+			<span>|</span>
+			<span>第二步：DIY线路</span>
+			<span>进入我的定制</span>
+		</div>
+		<div class="box-5">
+			<span>深度摄影：</span>
+			<span>国内摄影</span>
+			<span>国外摄影</span>
+			<span>+</span>
+		</div>
+		<div class="box-6">
+			<span>美食</span>
+			<span>结伴</span>
+			<span>美景</span>
+			<span>+</span>
+		</div>
+		<div class="box-7">
+			<span>主题 Features</span>
+			<span>酷品 Cool products</span>
+			<span>活动 Activities</span>
+			<span>+</span>
+		</div>
+		<div class="box-8">
+			<span>在线预订：</span>
+			<span>机票</span>
+			<span>酒店</span>
+			<span>租车</span>
+			<span>火车票</span>
+		</div>
+	</div>
+	<div class="box00">
+		<div class="box000"><p>热门：</p></div>
+		<div class="box001">
+		<a >青岛</a>
+		<a >上海</a>
+		<a >天津</a>
+		<a >重庆</a>
+		<a >大连</a>
+		<a >北京</a>
+		<br>
+		<a >西安</a>
+		<a >南京</a>
+		<a >苏州</a>
+		<a >杭州</a>
+		<a >厦门</a>
+		<a >成都</a>
+		<br>
+		<a >深圳</a>
+		<a >广州</a>
+		<a >三亚</a>
+		<a >台北</a>
+		<a >香港</a>
+		<a >济南</a>
+		<br>
+		<a >更多</a>
+		<a >香港</a>
+		<a >济南</a>
+		<a >台北</a>
+		<a >宝鸡</a>
+		<a >南昌</a>
+		</div>
+	</div>
+	<div class="qhbox">
+
+
+		<a >青岛</a>
+		<a >上海</a>
+		<a >天津</a>
+		<a >重庆</a>
+		<a >大连</a>
+		<a >北京</a>
+		<br>
+		<a >西安</a>
+		<a >南京</a>
+		<a >苏州</a>
+		<a >杭州</a>
+		<a >厦门</a>
+		<a >成都</a>
+		<br>
+		<a >更多</a>
+		<a >香港</a>
+		<a >济南</a>
+		<a >台北</a>
+		<a >宝鸡</a>
+		<a >南昌</a>
+	</div>
+	<div class="box-0">
+					<ul>
+						<li>青海</li>
+						<li>西藏</li>
+						<li>云南</li>
+						<li>西安</li>
+						<li>杭州</li>
+						<li>...</li>
+					</ul>
+	</div>
+	<div class="box-11">
+					<ul>
+						<li>八月</li>
+						<li>九月</li>
+						<li>十月</li>
+						<li>十一月</li>
+						<li>十二月</li>
+						<li>...</li>
+					</ul>
+	</div>
+	<script src="js/jquery-1.11.1.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/messages_zh.js"></script>
+	<script>
+	$.validator.setDefaults({
+    	submitHandler: function() {
+      	alert("提交事件!");
+    	}
+	});
+	$().ready(function() {
+    	$("#commentForm").validate();
+      $("#selecttest").validate();
+	});
+	$("#nav ul li") .mouseenter(function(){
+		var index=$(this).index();
+		var rr=".box"+(-index);
+		$(this)	.addClass("active");
+		$(this)	.siblings() .removeClass("active");
+		$(".box0").find(rr).css("display","block");
+		$(".box0").find(rr).siblings().css("display","none");
+	});
+	$("#nav ul li") .mouseleave(function(){
+		var index=$(this).index();
+		var rr=".box"+(-index);
+		$(this)	.removeClass("active");
+		$(".box0").find(rr).css("display","none");
+	})
+	$("#banner-top .box2 input").click(function(){
+		$(".box00").css("display","block");
+
+	})
+	$("#banner-top .box2 input").blur(function(){
+		$(".box00").css("display","none");
+
+	})
+	$(".box001 a").mouseenter(function(){
+
+		var txt=$(this).text();
+		console.log(txt);
+		$("#banner-top .box2 input").val(txt);
+	})
+
+	$(".box001").mouseleave(function(){
+		$(".box00").css("display","none");
+
+	 })
+	$("#top .txt2").click(function(){
+		$(".qhbox").css("display","block");
+
+	})
+	// $("#top .txt2").blur(function(){
+	// 	$(".qhbox").css("display","none");
+
+	// })
+	$(".qhbox a").mouseenter(function(){
+
+		var txt=$(this).text();
+		// console.log(txt);
+		$("#top .txt1").text(txt);
+	})
+
+	// $(".qhbox").mouseleave(function(){
+	// 	$(this).css("display","none");
+
+	//  })
+	$("#banner-bottom .list1 li") .mouseenter(function(){
+		var index=$(this).index();
+		var rr=".box"+index;
+		$(this)	.addClass("active");
+		$(this)	.siblings() .removeClass("active");
+		$(this).find(rr).css("display","block");
+		$(this).find(span).css("display","block")
+		$(this).find(rr).siblings().css("display","none");
+	});
+	$("#banner-bottom .list1 li") .mouseleave(function(){
+		var index=$(this).index();
+		var rr=".box"+index;
+		$(this)	.removeClass("active");
+		$(this).find(rr).css("display","none");
+	})
+	$("#span-0") .mouseenter(function(){
+		$(".box-0").css("display","block");
+	});
+	$("#span-0") .mouseleave(function(){
+		$(".box-0").css("display","none");
+	});
+	$("#span-1") .mouseenter(function(){
+		$(".box-11").css("display","block");
+	});
+	$("#span-1") .mouseleave(function(){
+		$(".box-11").css("display","none");
+	});
+	var n1=0;
+	$("#h-1").click(function(){
+		n1=n1+1;
+
+
+		$("#h-20").text(n1);
+	})
+	var n2=0;
+	$("#h-2").click(function(){
+		n2=n2+1;
+
+		// console.log(n);
+		$("#h-21").text(n2);
+	})
+	var n3=0;
+	$("#h-3").click(function(){
+		n3=n3+1;
+
+		// console.log(n);
+		$("#h-22").text(n3);
+		// n++;
+	})
+	var n4=0;
+	$("#h-4").click(function(){
+
+		n4=n4+1;
+		// console.log(n);
+		$("#h-23").text(n4);
+	})
+	var n5=0;
+	$("#h-5").click(function(){
+
+		n5=n5+1;
+		// console.log(n);
+		$("#h-24").text(n5);
+	})
+	var n6=0;
+	$("#h-6").click(function(){
+
+		n6=n6+1;
+		// console.log(n);
+		$("#h-25").text(n6);
+	})
+	var n7=0;
+	$("#h-7").click(function(){
+
+		n7=n7+1;
+		// console.log(n);
+		$("#h-26").text(n7);
+	})
+	var n8=0;
+	$("#h-8").click(function(){
+
+		n8=n8+1;
+		// console.log(n);
+		$("#h-27").text(n8);
+	})
+	var n9=0;
+	$("#h-9").click(function(){
+
+		n9=n9+1;
+		// console.log(n);
+		$("#h-28").text(n9);
+	})
+	var n10=0;
+	$("#h-10").click(function(){
+
+		n10=n10+1;
+		// console.log(n);
+		$("#h-29").text(n10);
+	})
+	var n11=0;
+	$("#h-11").click(function(){
+
+		n11+=1;
+		// console.log(n);
+		$("#h-30").text(n11);
+	})
+	var n12=0;
+	$("#h-12").click(function(){
+
+		n12+=1;
+		// console.log(n);
+		$("#h-31").text(n12);
+	})
+	var n13=0;
+	$("#h-13").click(function(){
+
+		n13+=1;
+		// console.log(n);
+		$("#h-32").text(n13);
+	})
+	var n14=0;
+	$("#h-14").click(function(){
+
+		n14+=1;
+		// console.log(n);
+		$("#h-33").text(n14);
+	})
+	var n15=0;
+	$("#h-15").click(function(){
+
+		n15+=1;
+		// console.log(n);
+		$("#h-34").text(n15);
+	})
+	var n16=0;
+
+	$("#h-16").click(function(){
+
+		n16+=1;
+		// console.log(n);
+		$("#h-35").text(n16);
+	})
+	var n17=0;
+	$("#h-17").click(function(){
+
+		n17+=1;
+		// console.log(n);
+		$("#h-36").text(n17);
+	})
+	var n18=0;
+	$("#h-18").click(function(){
+
+		n18+=1;
+		// console.log(n);
+		$("#h-37").text(n18);
+	})
+	// $("fieldset span").click(function(){
+	// 	$(this).parent("fieldset").remove()
+	// })
+	</script>
+</body>
+</html>
