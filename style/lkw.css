@@ -1,6 +1,7 @@
 *{
 	margin:0px;
 	padding: 0px;
+
 }
 
 #header{
@@ -56,9 +57,9 @@
 	position: absolute;
 	top:40px;
 }
-.show{
+/*.show{
 	display: block;
-}
+}*/
 .qhcs{
 	width: 640px;
 	height: 148px;
@@ -71,7 +72,7 @@
 	width: 100px;
 	height: 25px;
 }
-.content{
+.province{
 	float: left;
 	width: 640px;
 	height: 131px;
@@ -120,11 +121,12 @@
 	vertical-align: middle;
 	margin-right:67px;
 }
-.login a{
+.login span{
 	color: #fff;
 	text-decoration: none;
 	line-height: 45px;
 	font-size: 16px;
+	cursor: pointer;
 }
 .logonav{
 	height: 79px;
@@ -171,6 +173,7 @@
 	display: block;
 	width: 80px;
 	height: 79px;
+	font-size: 16px;
 }
 .banner{
 	width: 1001px;
@@ -180,13 +183,15 @@
 
 }
 .banner_top{
-	height: 76px;
-	line-height: 76px;
+	/*width: 500px;*/
+	height: 49px;
+	margin-top: 27px;
 }
 .banner_top a{
 	text-decoration: none;
 	color:#333333;
 	font-size: 18px;
+	margin-left: 0px;
 }
 .banner_bottom{
 	width: 1001px;
@@ -225,9 +230,10 @@
 	float: left;
 }
 .first_left p{
+
 	font-size: 22px;
 	margin-left: 80px;
-	line-height: 72px;
+	margin-top: 23px;
 }
 .first_left #showDiv{
 	color:#e94e25;
@@ -248,10 +254,13 @@
 .second{
 	height: 53px;
 	background-color: #f7f7f7;
+
 }
 .second p{
+	/*height: 37px;*/
 	font-size: 20px;
 	margin-left: 31px;
+	/*margin-top:16px;*/
 	line-height: 53px;
 }
 .third{
@@ -353,22 +362,22 @@
 	height: 99px;
 	border-bottom:1px dashed #d2d2d2;
 	background-image: url(../images/j3.png);
-	background-position: 159px center;
+	background-position: 159px 5px;
 	background-repeat: no-repeat;
 }
 .fifth_left{
 	width: 318px;
-	height: 84px;
+	height: 99px;
 	float: left;
 }
 .fifth_left p{
 	font-size: 22px;
 	margin-left: 31px;
-	line-height: 84px;
+	line-height: 99px;
 }
 .fifth_right{
 	width: 134px;
-	height: 84px;
+	height: 99px;
 	float: right;
 }
 .fifth_right input{
@@ -417,10 +426,11 @@
 	width: 1001px;
 	height: 50px;
 	margin:0 auto;
-	line-height: 50px;
+
 }
 .footer_top .list3{
 	margin-left: 90px;
+	line-height: 50px;
 }
 .footer_top .list3 li{
 	float: left;
@@ -460,9 +470,117 @@
 .footer_bottom .list4{
 	margin-left:292px;
 	line-height: 41px;
+	margin-top: -10px;
 }
 .footer_bottom .list4 li{
 	float: left;
 	list-style: none;
 	margin-right: 34px;
 }
+
+
+
+	.error{
+		color:red;
+	}
+  	.block {
+    display: block;
+  	}
+  	form.cmxform label.error {
+    display: none;
+  	}
+  	 fieldset{
+    text-align:center;
+
+
+}
+fieldset .azjbox{
+    width: 200px;
+    height: 100px;
+    margin:0 auto;
+    line-height:70px;
+  /*  border:1px solid red;*/
+}
+fieldset .p1{
+  width: 83px;
+  height: 40px;
+  margin:0 auto;
+  margin-right:50px;
+  font-size:14px;
+  font-family:Microsoft YaHei;
+}
+fieldset p input{
+    width: 353px;
+    height: 50px;
+}
+fieldset .span1{
+  padding-right: 20px;
+  font-size:12px;
+  font-family:Microsoft YaHei;
+}
+fieldset .submit1{
+  width: 124px;
+  height: 35px;
+  font-size:13px;
+  font-family:Microsoft YaHei;
+  color:white;
+}
+fieldset .p{
+  padding-top: 20px;
+  font-size:13px;
+  font-family:Microsoft YaHei;
+}
+fieldset .submit2{
+  width: 225px;
+  height: 45px;
+  font-size:18px;
+  font-family:Microsoft YaHei;
+  color:white;
+  margin-top: 15px;
+}
+.modal-content{
+    width: 500px;
+    height: 670px;
+    margin:0 auto;
+}
+#content{
+    width: 500px;
+    height: 517px;
+   /* border:1px solid red;*/
+}
+#content .submit{
+    font-size:24px;
+  font-family:Arial;
+  color:white;
+  }
+ #content .dlbox{
+  width: 355px;
+  /*height: 30px;*/
+   font-size:14px;
+  font-family:Microsoft YaHei;
+  /*border: 1px solid red;*/
+  margin:0 auto;
+  text-align:center;
+  line-height:40px;
+ }
+  #content .dlbox .p-1{
+    color:#52bbdb;
+    float:left;
+  }
+   #content .dlbox .p-3{
+    cursor:pointer;
+   }
+  #content .p-4{
+    font-size:13px;
+  font-family:Microsoft YaHei;
+  line-height:70px;
+  }
+  #content .txt{
+    width: 231px;
+    height: 45px;
+    background-color: #52bbdb;
+    text-align:center;
+    font-size:18px;
+  font-family:Microsoft YaHei;
+  color:white;
+  }

@@ -1,0 +1,345 @@
+*{
+	margin:0;
+	padding:0;
+}
+#modal-1{
+	
+}
+
+/* Content styles */
+.md-content {
+	height: 1980px;
+	width: 1001px;
+	/*border: 1px solid #000;*/
+	margin:0 auto;
+	background-color: #fff;
+	/*background: #e74c3c;*/
+	position: relative;
+	top: 100px;
+	left: 0px;
+	border-radius: 3px;
+	
+}
+.whhtop{
+	height: 87px;
+	width: 1001px;
+	border-bottom:1px solid #d2d2d2;
+}
+.whhtop	span{
+	height: 37px;
+	width: 112px;
+	font-size: 28px;
+	color:#000;
+	line-height: 87px;
+	margin-left: 437px;
+	
+}
+
+.whhtop img{
+	display: block;
+	float: 	right;
+	height: 66px;
+	width: 46px;
+	margin-right: 22px;
+	margin-top: 14px;
+	
+}
+.whhtop2{
+	height: 91px;
+	width: 1001px;
+	border-bottom:1px solid #d2d2d2;
+}
+.whhtop2span1{
+	line-height: 91px;
+	color: #333;
+	font-size: 24px;
+	font-family: 微软雅黑;
+	margin-left: 31px;
+}
+.whhtop2span2{
+	line-height: 91px;
+	color: #ea5023;
+	font-size: 30px;
+	font-family: 微软雅黑;
+	
+}
+.whhtop2span3{
+	line-height: 91px;
+	color: #ea5023;
+	font-size: 20px;
+	font-family: 微软雅黑;
+	
+}
+.whhmid{
+	height: 293px;
+	width: 1001px;
+	border: 1px solid #e1e1e1;
+}
+
+.whhmid1{
+	height: 56px;
+	width: 1000px;
+	background-color:#f7f7f7;
+
+}
+.whhmid1 span{
+	font-size: 24px;
+	color: #333333;
+	line-height: 56px;
+	padding-left: 31px;
+	font-family: 微软雅黑;
+}
+.whhmid2{
+	height: 237px;
+	width: 1001px;
+	margin-left: 31px;
+}
+.whhmid2 ul li{
+	font-size: 18px;
+	color: #333333;
+	font-family: 微软雅黑;
+	list-style: none;
+	margin-left: 31px;
+	margin-top: 30px;
+
+}
+.whhmid2span2{
+	margin-left: 18px;
+}
+.whhmid2span3{
+	margin-left: 118px;
+}
+.whh1mid{
+	height: 213px;
+	width: 1001px;
+	border: 1px solid #e1e1e1;
+
+}
+.whhmid3{
+	
+	list-style: none;
+	margin-left: 31px;
+	margin-top: 30px;
+
+}
+.whh1mid table tr td{
+	font-size: 18px;
+	color: #333333;
+	font-family: 微软雅黑;
+}
+.whhmid3tr1{
+	display: block;
+	height: 20px;	
+	width: 1000px;
+	/*margin-bottom: 26px; */
+	
+}
+.whhmid3tr2{
+	display: block;
+	height: 20px;	
+	width: 1000px;
+	margin-top: 20px;
+}
+.whhmid3td1{
+	width: 150px;
+	height: 20px;	
+	padding-right: 70px;
+}
+.whhmid3td2{
+	width: 208px;
+	height: 20px;
+	
+	padding-right: 88px;	
+}
+.whhmid3td3{
+	width: 100px;
+	height: 20px;	
+}
+.whhmid3td4{
+	width: 202px;
+	height: 20px;
+	text-align: center;
+}
+.whhmid3td5{
+	width: 202px;
+	height: 20px;
+	/*text-align: center;*/
+}
+.touristInformation{
+	height: 488px;
+	width: 1001px;
+	border: 1px solid #e1e1e1;
+	
+}
+.touristFirstspan1{
+	display: block;
+/*	width: 51px;*/
+	height: 20px;
+	font-size: 20px;
+	color: #333333;
+	margin-top: 18px;
+	margin-bottom: 30px;
+	font-family: 微软雅黑;
+	
+}
+.touristFirst{
+	height: 186px;
+	width: 1001px;
+	padding-left: 31px;
+	border-bottom: 1px dotted #bfbfbf;
+	
+}
+.touristsecond{
+	height: 209px;
+	width: 1001px;
+	padding-left: 31px;
+
+	
+	
+}
+.insue{
+	height: 199px;
+	width: 1001px;	
+	border: 1px solid #e1e1e1;
+	margin-top: 30px;
+}
+.insue table tr td,.bookInformation table tr td{
+	font-size: 18px;
+	color: #333333;
+	font-family: 微软雅黑;
+}
+.insuetr1{
+	
+	height: 35px;
+	width: 945px;
+	
+	display: block;
+	margin-left: 31px;
+	margin-top: 31px;
+	border-bottom:  1px dotted #bfbfbf;
+}
+.insuetr2{
+	
+	height: 48px;
+	width: 945px;
+	display: block;
+	margin-left: 31px;
+	margin-top: 25px;
+
+}
+.insuetd1{
+	width: 365px;
+	height: 20px;	
+	padding-right: 70px;
+}
+.insuetd3{
+	width: 365px;
+	height: 20px;	
+	
+}
+.insuetd2{
+
+	padding-left: 150px;
+}
+.insuetd2 span{
+	color: #eb5e17;
+}
+
+.bookInformation{
+	height: 280px;
+	width: 1001px;	
+	border: 1px solid #e1e1e1;
+	margin-top: 30px;
+}
+
+.bookInformation1{
+
+	height: 222px;
+	width: 970px;
+	margin-left: 31px;
+}
+.booktr1{
+	display: block;
+	margin-bottom: 30px;
+}
+.booktr{
+	display: block;
+	margin-bottom: 46px;
+}
+.booktd1{
+	height: 20px;
+	width: 101px;
+}
+
+.booktd2{
+	height: 20px;
+	width: 300px;
+	padding-left: 45px;
+}
+.booktd4{
+	padding-left: 45px;
+}
+
+
+.moreRequest{
+	height: 140px;
+	width: 1001px;	
+	border: 1px solid #e1e1e1;
+	margin-top: 30px;
+
+}
+.moreR1{
+	height: 82px;
+
+}
+.moreR1 span{
+	margin-left: 31px;
+	line-height: 82px;
+	font-size: 16px;
+	color: #333333;
+	font-family: 微软雅黑;
+
+	
+}
+.footerlast{
+	height: 97px;
+	width: 1001px;
+	
+}
+
+.footerimg{
+	height: 28px;
+	width: 52px;
+	margin-left: 915px;
+	margin-top: 29px;
+
+}
+.md-content button {
+	display: block;
+	margin: 0 auto;
+	font-size: 0.8em;
+}
+/* Individual modal styles with animations/transitions */
+
+/* Effect 1: Fade in and scale up */
+.md-effect-1 .md-content {
+	-webkit-transform: scale(0.7);
+	-moz-transform: scale(0.7);
+	-ms-transform: scale(0.7);
+	transform: scale(0.7);
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.md-show.md-effect-1 .md-content {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+
+

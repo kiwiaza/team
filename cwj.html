@@ -6,6 +6,75 @@
 	<link rel="stylesheet" href="style/cwj.css">
 </head>
 <body>
+
+<div class="side-nav">
+    <div class="top_top">
+               <img class="logo" src="images/b9.png" alt="">
+               <img class="close" src="images/close.png" alt="">
+    </div>
+    <div class="sign-in">
+            	<div class="sign-inner">
+            		<input type="text" placeholder="邮箱/手机/用户名" class="txt txt1">
+	               	<input type="text" placeholder="密码" class="txt txt2">
+	               	<input type="button" value="登录" class="btn">
+            	</div> 
+    </div>
+    <div class="sign-up">
+               <div class="sign-up-inner">
+                  <a class="password">忘记密码</a>
+                  <span class="no">还没有账号？<a class="sign-in-in">免费注册</a></span>
+               </div>
+    </div>
+    <div class="baoming clearfix">
+               <div class="inner clearfix">
+                  <img class="pic1" src="images/blue-line.png" alt=""><span>其他报名方式</span><img class="pic2" src="images/blue-line.png" alt="">
+               </div>   
+    </div>
+    <div class="denglu">
+            	<div class="denglu-inner">
+            		 <input type="button" value="不登陆，直接报名>" class="btn3">
+            	</div>
+    </div>
+   </div>
+<div class="side-nav1">
+    <div class="top_top">
+            <img class="logo" src="images/b9.png" alt="">
+            <img class="close" src="images/close.png" alt="">
+    </div>
+    <div class="phone-sign-up">
+        	<div class="phone-sign-inner">
+        		<span class="sign-up-phone">用手机注册</span>
+        	</div>
+    </div>
+    <div class="sign-in">
+            <div class="sign-inner">
+            	<input type="text" placeholder="请输入邮箱" class="txt txt1">
+	            <input type="text" placeholder="用户名，4-16个字符，字母/中文/数字" class="txt txt2">
+	            <input type="text" placeholder="设置密码" class="txt txt3">
+	            <input type="text" placeholder="输入密码" class="txt txt4">
+	            <input type="text" placeholder="输入邀请码，可不填" class="txt txt5">
+            </div>  
+    </div>
+    <div class="sign-up">
+           	<div class="sign-up-inner">
+                <span id="yes">注册视为同意</span><span>《爱自驾用户使用协议》</span>
+                <input type="button" class="sign-in-in" value='注册'></input>
+            </div>
+    </div>
+    <div class="baoming clearfix">
+            <div class="inner clearfix">
+                <img class="pic1" src="images/blue-line.png" alt=""><span>其他报名方式</span><img class="pic2" src="images/blue-line.png" alt="">
+            </div>   
+    </div>
+    <div class="denglu">
+            <div class="denglu-inner">
+            	<input type="button" value="快速登录>" class="btn3">
+            </div>
+    </div>
+</div>
+<div class="ui-mask"></div>
+
+
 	<div class="top">
 		<div class="top-inner clearfix">
 			<div class="city">
@@ -23,10 +92,16 @@
 			<div class="sign-in clearfix">
 				<img src="images/QQ.png" alt=""><img class="pic" src="images/sina.png" alt="">
 				<ul class="list1">
-					<li>登录<span>
-						|
-					</span></li>
-					<li>注册</li>
+					<li>
+						<a id="md-content1">登录</a>
+						<span>|</span>
+					</li>
+
+
+					
+					<li>
+						<a id="md-content2">注册</a>
+					</li>
 				</ul>
 			</div>
 		</div>
@@ -307,6 +382,25 @@
 			}
 		})
 		
+
+
+		$('#md-content1').click(function(){
+		      $('.side-nav').addClass('show');
+		      $('.ui-mask').addClass('show');
+	   	})
+   		$('.side-nav .close').click(function(){
+		      $('.side-nav').removeClass('show');
+		      $('.ui-mask').removeClass('show');
+  		 })
+
+   		$('#md-content2').click(function(){
+		      $('.side-nav1').addClass('show');
+		      $('.ui-mask').addClass('show');
+	   	})
+   		$('.side-nav1 .close').click(function(){
+		      $('.side-nav1').removeClass('show');
+		      $('.ui-mask').removeClass('show');
+  		 })
 	</script>
 </body>
 </html>

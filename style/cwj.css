@@ -15,6 +15,314 @@
 	margin: 0;
 	padding: 0;
 }
+/*登录模态框*/
+.side-nav {
+	width: 502px;
+	height: 522px;
+	margin:0 auto;
+	background-color: #fff;
+	position: absolute;
+	top: 100px;
+	left: 440px;
+	border-radius: 5px;
+}
+
+.side-nav .top_top {
+	position: relative;
+	width: 502px;
+	height: 108px;
+	margin-top: 23px;
+	text-align: center;
+}
+.side-nav .top_top .close {
+	position: absolute;
+	left: 472px;
+	top: -7px;
+}
+.side-nav .sign-in {
+	width: 500px;
+}	
+.side-nav .sign-in .sign-inner {
+	width: 354px;
+	height: 213px;
+	margin: 0 auto;
+} 
+
+.side-nav .sign-in .sign-inner .txt {
+	width: 354px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	margin-bottom: 17px;
+	height: 53px;
+}
+
+.side-nav .sign-in .btn {
+	border: 0px;
+	background-color: #50bbdb;
+	font-family: 黑体;
+	font-size: 24px;
+	color: #fff;
+	line-height: 50px;
+	text-align: center;
+	width: 355px;
+	height:50px;
+	border-radius:3px;
+}
+.side-nav .sign-up {
+	width: 500px;
+}
+.side-nav .sign-up .sign-up-inner {
+	margin: 0 auto;
+	width: 355px;
+}
+.side-nav .sign-up .sign-up-inner .password{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #50bbdb;
+}
+.side-nav .sign-up .sign-up-inner .sign-in-in{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #50bbdb;
+}
+.side-nav .sign-up .sign-up-inner .sign-in-in {
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #50bbdb;
+}
+.side-nav .sign-up .sign-up-inner .no {
+	float: right;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #000;
+}
+.side-nav .baoming {
+	width: 500px;
+
+}
+.side-nav .baoming .inner {
+	width: 365px;
+	height: 59px;
+	margin: 0 auto;
+}
+.side-nav .baoming .inner .pic1 {
+	margin-top: 23px;
+	margin-right: 4px;
+	float: left;
+}
+.side-nav .baoming .inner .pic2 {
+	margin-top: 23px;
+	margin-left: 4px;
+	float: left;
+}
+.side-nav .baoming .inner span{
+	display: block;
+	float: left;
+	font-family: "微软雅黑";
+	font-size: 13px;
+	margin-top: 15px;
+	color: #000;
+}
+.side-nav .denglu .denglu-inner{
+	width: 365px;	
+}
+.side-nav .denglu .denglu-inner .btn3 {
+	border: 0px;
+	margin-left: 135px;
+	background-color: #50bbdb;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	width: 234px;
+	height:50px;
+	border-radius:3px;
+}
+
+
+
+.ui-mask {
+	width: 100%;
+	height: 100%;
+	position:fixed;
+	display: none;
+	background-color: rgba(0,0,0,0.5);}
+.ui-mask.show {
+	display:block;
+}
+
+.side-nav {
+	display: none;
+}
+.side-nav.show{
+	z-index: 100;
+	display: block;
+}
+
+
+/*注册模态框*/
+
+.side-nav1 {
+	width: 500px;
+	background-color: #fff;
+	position: absolute;
+	top: 100px;
+	left: 440px;
+	border-radius: 5px;
+/*	border: 1px solid black;*/
+}
+
+.side-nav1 .top_top {
+	/*border: 1px solid black;*/
+	position: relative;
+	margin-top: 23px;
+	text-align: center;
+}
+.side-nav1 .top_top .close {
+	position: absolute;
+	left: 472px;
+	top: -7px;
+}
+.side-nav1 .phone-sign-up  {
+	width: 500px;
+}
+.side-nav1 .phone-sign-inner {
+	width: 356px;
+	margin: 0 auto;
+	/*border: 1px solid black;*/
+}
+.side-nav1 .phone-sign-inner .sign-up-phone {
+	display: block;
+	width: 356px;
+	line-height: 46px;
+	text-align: right;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #60c1d4;
+}
+.side-nav1 .sign-in {
+	width: 500px;
+}	
+.side-nav1 .sign-in .sign-inner {
+	/*border: 1px solid black;*/
+	width: 354px;
+	margin: 0 auto;
+} 
+
+.side-nav1 .sign-in .sign-inner .txt {
+	width: 354px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	margin-bottom: 17px;
+	height: 53px;
+}
+
+.side-nav1 .sign-up {
+	width: 500px;
+}
+.side-nav1 .sign-up .sign-up-inner {
+	margin: 0 auto;
+	width: 355px;
+	/*border: 1px solid black;*/
+	margin-bottom: 24px;
+}
+.side-nav1 .sign-up .sign-up-inner span{
+	line-height: 40px;
+	font-family: "微软雅黑";
+	font-size: 12px;
+}
+.side-nav1 .sign-up .sign-up-inner #yes {
+	color: #999;
+}
+
+.side-nav1 .sign-up .sign-up-inner .sign-in-in {
+	border: 0px;
+	float: right;
+	display: block;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #fff;
+	background-color: #50bbdb;
+	width: 121px;
+	line-height: 40px;
+	border-radius: 3px;
+}
+.side-nav1 .baoming {
+	width: 500px;
+}
+.side-nav1 .baoming .inner {
+	/*border: 1px solid black;*/
+	width: 355px;
+	height: 59px;
+	margin: 0 auto;
+}
+.side-nav1 .baoming .inner .pic1 {
+	margin-top: 23px;
+	float: right;
+}
+.side-nav1 .baoming .inner .pic2 {
+	margin-top: 23px;
+	float: right;
+}
+.side-nav1 .baoming .inner span{
+	display: block;
+	float: right;
+	font-family: "微软雅黑";
+	font-size: 13px;
+	margin-top: 15px;
+	margin-left: 4px;
+	margin-right: 4px;
+	color: #000;
+}
+.side-nav1 .denglu .denglu-inner{
+	width: 365px;	
+}
+.side-nav1 .denglu .denglu-inner .btn3 {
+	border: 0px;
+	margin-left: 135px;
+	background-color: #50bbdb;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	width: 234px;
+	height:50px;
+	border-radius:3px;
+	margin-bottom: 37px;
+}
+.side-nav1 {
+	display: none;
+}
+.side-nav1.show{
+	z-index: 100;
+	display: block;
+}
+.side-nav1 {
+	display: none;
+}
+.side-nav1.show{
+	z-index: 100;
+	display: block;
+}
+
+
+.ui-mask {
+	width: 100%;
+	height: 100%;
+	position:fixed;
+	display: none;
+	background-color: rgba(0,0,0,0.5);}
+.ui-mask.show {
+	display:block;
+}
+
+.side-nav {
+	display: none;
+}
+.side-nav.show{
+	z-index: 100;
+	display: block;
+}
 .top {
 	background-color: #244d5f;
 	min-width: 1055px;
@@ -92,9 +400,12 @@
 	color: #fff;
 	font-family: "微软雅黑";
 }
-.sign-in span {
+.sign-in a {
 	color: white;
-	margin-right: 11px;
+	
+}
+.sign-in span {
+	margin-right: 13px;
 	margin-left: 10px;
 }
 .header {

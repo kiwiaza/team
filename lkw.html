@@ -4,8 +4,92 @@
 	<meta charset="UTF-8">
 	<title>自驾团在线支付页面</title>
 	<link rel="stylesheet" href="style/lkw.css">
+	<link rel="stylesheet" href="style/bootstrap1.min.css">
+
 </head>
 <body>
+	<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  		<div class="modal-dialog modal-lg">
+    		<div class="modal-content" id="content">
+    			<div class="modal-header">
+        		<p type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></p>
+     	 			</div>
+      				<form class="cmxform" id="commentForm" method="get" action="">
+  							<fieldset>
+    							<div class="azjbox">
+  								<img src="images/b9.png" alt="">
+    							</div>
+    							<p>
+      							<input id="cemail" name="email"  type="email number name" placeholder="邮箱/手机/用户名"  minlength="6"required>
+    							</p>
+   		 						<p>
+      							<input id="cemail" type="password" name="password" minlength="6"placeholder="密码" required>
+    							</p>
+    							<p>
+      							<input class="submit" type="submit" value="登录" style="background-color: #52bbdb">
+    							</p>
+                  <div class="dlbox">
+                    <span class="p-1">忘记密码</span>
+                    <span class="p-2" style="margin-left:140px">还没有账号？</span>
+                    <span class="p-3" style="color:#52bbdb" data-toggle="modal" data-target=".bs-example-modal-sm1" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span>免费注册</span>
+                  </div>
+    							<p class="p-4"><span style=
+                    "color:#52bbdb">------------------------</span>其他报名方式<span style="color:#52bbdb">------------------------</span></p>
+                    <input type="text" value="不登陆，直接报名" class="txt">
+
+    						</fieldset>
+    						</form>
+    					</div>
+  					</div>
+				</div>
+
+
+				<div class="modal fade bs-example-modal-sm1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  				<div class="modal-dialog modal-lg">
+    				<div class="modal-content">
+    					<div class="modal-header">
+        				<p type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></p>
+     	 				</div>
+      						<form class="cmxform" id="commentForm" method="get" action="">
+  							<fieldset>
+  								<div class="azjbox">
+  								<img src="images/b9.png" alt="">
+    							</div>
+                  <div class="p1" style="color: #52bbdb">用手机注册</div>
+    							<p>
+      							<input id="cemail" name="email"  type="email" placeholder="请输入邮箱" required>
+    							</p>
+    							<p>
+      							<input id="cname" name="name" minlength="4" maxlength="16" type="text" placeholder="用户名，4-16个字符，字母/中文/数字" required>
+    							</p>
+   		 						<p>
+      							<input id="cemail" type="password" name="password" minlength="6"placeholder="设置密码" required>
+    							</p>
+    							<p>
+      							<input id="cemail" type="password" name="password" minlength="6"placeholder="输入密码" required>
+    							</p>
+                  <p>
+                    <input id="cemail" type="password" name="password" minlength="6"placeholder="输入邀请码，可不填">
+                  </p>
+                  <span class="span1">注册视为同意《爱自驾用户使用协议》</span>
+                  <span></span>
+
+      						<input class="submit1" type="submit" value="注册" style="background-color: #52bbdb">
+
+
+    							<p class="p"><span style=
+                    "color:#52bbdb">------------------------</span>其他报名方式<span style="color:#52bbdb">------------------------</span></p>
+    							<input type="submit" class="submit2"value="快速登录>" style="background-color: #52bbdb" >
+    						</fieldset>
+    						</form>
+    					</div>
+  					</div>
+				</div>
+
+
+
+
+
 	<div id="header">
 		<div class="top">
 			<div class="top_inner">
@@ -17,7 +101,7 @@
 							<div class="all">
 								全国：
 							</div>
-							<div class="content">
+							<div class="province">
 								<ul class="provincelist">
 									<li>北京</li>
 									<li>天津</li>
@@ -59,9 +143,10 @@
 					<a href="">下载手机APP</a></div>
 				<div class="login">
 					<img src="images/QQ.png" alt="">
-					<a href="">登录</a>
-					<a href="#">|</a>
-					<a href="">注册</a>
+					<span  data-toggle="modal" data-target=".bs-example-modal-lg">登录</span>
+					<span >|</span>
+					<span></span>
+					<span href=""  data-toggle="modal" data-target=".bs-example-modal-sm1">注册</span>
 				</div>
 			</div>
 		</div>
@@ -173,6 +258,9 @@
 
 	</div>
 	<script src="js/jquery-1.11.1.js"></script>
+
+	<script src="js/bootstrap.min.js"></script>
+
 	<script>
 		var showDiv=document.getElementById("showDiv");
 		var h=23;
@@ -198,8 +286,11 @@
 
 
 
-            $("span").click(function(){
-				$(".boxDiv").toggleClass("show")
+            $(".addres span").click(function(){
+				$(".boxDiv").css("display","block")
+			})
+			$(".boxDiv").mouseleave(function(){
+				$(this).css("display","none")
 			})
             $(".provincelist li").click(function(){
 				var city = $(this).text();

@@ -10,8 +10,12 @@
 	zoom: 1;
 }
 *{margin: 0;padding: 0;}
+@font-face{
+	font-family:aaa;
+	src:url(../fonts/简娃娃篆.ttf);
+}
 #header{
-	height: 125px;
+	
 }
 #one{
 	height: 45px;
@@ -22,6 +26,7 @@
 	margin: 0 auto;
 	background-color:#244d5f;
 }
+
 .topleft{
 	width: 816px;
 	float: left;
@@ -43,15 +48,95 @@
 }
 .topleft .num .gps{
 	margin-right: 15px;
+	float: left;
+	font-family:微软雅黑;
+	font-size: 16px;
+	text-decoration: none;
+	color:white;
+	list-style: none;
+	margin-top: 10px;
 }
 .topleft .num .gpsa{
 	color:#c6c5c6;
 	margin-right:74px;
+
+}
+.yincang{
+	position: absolute;
+	top:40px;
+	left:14%;
+	display: none;
+	width: 738px;
+	height: 113px;background-color:white;
+	z-index: 99;
+}
+.bigul{
+	width: 624px;
+	float: left;
+}
+.bigul li{
+	float: left;
+	color:#52bbdb;
+	font-family: 微软雅黑;
+	font-size: 14px;
+	list-style: none;
+	width: 66px;
+	margin-top:4px;
+}
+.smallul{
+	width: 113px;
+	float:left;
+}
+.smallul p{
+	font-family: 微软雅黑;
+	font-size: 13px;
+	color: black;
+	text-align: center;
+	margin-top:4px;
+}
+.topleft .app{
+	float: left;
+	font-family:微软雅黑;
+	font-size: 16px;
+	text-decoration: none;
+	color:white;
+	list-style: none;
+	margin-top: 10px;
 }
 .topright{
 	margin-left: 493px;
+
+
 }
 
+.topright .numb .denlu{
+	margin-left:10px;
+	text-decoration: none;
+	font-family:微软雅黑;
+	font-size: 16px;
+	color:white;
+	float: left;
+	margin-top: 10px;
+}
+
+.topright .numb .zhuce{
+	margin-left:10px;
+	text-decoration: none;
+	font-family:微软雅黑;
+	font-size: 16px;
+	color:white;
+	float:left;
+	margin-top: 10px;
+}
+.topright .numb .shutiao{
+	margin-left:10px;
+	text-decoration: none;
+	font-family:微软雅黑;
+	font-size: 16px;
+	color:white;
+	float: left;
+	margin-top: 10px;
+}
 .topright img{
 	margin-top:8px;
 	float: left;
@@ -59,10 +144,93 @@
 }
 .topright .numb{
 	float: right;}
+
+.modal-body2{height: 523px;}
+.h2{width: 502px;
+height: 130px;
+	margin: 0 auto;
+}
+.ai{width: 174px;
+	height: 38px;
+	margin: 0 auto;
+	padding-top: 23px;
+}
+.yxbiao{
+	width: 353px;
+	height: 124px;
+	margin: 0 auto;
+}
+.yxbiao input{
+	width: 353px;
+	height: 56px;
+}
+.yhd{width: 353px;
+height: 74px;
+margin: 0 auto;
+}
+.dl{margin-top: 16px;
+	width: 353px;
+height: 52px;
+background-color: #50bbdb;
+}
+.dl1{
+	width: 50px;
+	height: 24px;
+	margin: 0 auto;
+	line-height: 52px;
+	font-size: 18px;
+	font-size: 18px;
+	color: white;
+}
+.wangji{
+	width: 353px;
+	height: 40px;
+	margin: 0 auto;
+}
+.baoming{margin-top: 0px;
+	width: 353px;
+	height: 43px;
+	margin: 0 auto;
+}
+.baoming p{
+	float: left;
+}
+.budenglu{
+	width: 234px;
+	height: 44px;
+	margin: 0 auto;
+	background-color: #50bbdb;
+	margin-top: 30px;
+}
+.budenglu p{
+	font-family: "微软雅黑";
+	font-size: 18px;
+	line-height: 44px;
+	margin-left: 43px;
+	color: #fff;
+}
+/*	注册*/
+#myModal .modal-body{height: 658px;}
+#myModal .h1{width: 172px;height: 68px;margin:0 auto;}
+#myModal .sjzc{margin: 16px 0 0 360px;}
+#myModal .sjzc a{text-decoration: none;color: #50bbdb}
+#myModal .yx{width: 353px;height: 341px;margin: 0 auto;}
+#myModal .yx input{width: 353px;height:49px;margin-top: 13px;}
+#myModal .yqm{margin-bottom:0px;}
+#myModal .yx a{width: 86px;height: 34px;text-decoration: none;background-color: #50bbdb;display: inline-block;text-align: center;line-height: 34px;color: #fff;margin-left: 22px;}
+#myModal #pid{margin-left: 100px;} 
+#myModal .yhx{margin-top: 17px; width: 353px;height: 42px; } 
+#myModal .yhx span{line-height: 42px;}
+#myModal .yhx a{width: 119px;height: 42px; float: right;line-height: 42px;}
+#myModal .qitaa{width: 354px;margin: 0 auto;margin-top:22px; }
+#myModal .qitaa p{width: 135px;height: 1px;background-color: #50bbdb; }
+#myModal .left{float: left; margin-top: 10px;}
+#myModal .right{float: right;margin-top: 10px;}
+
 #two{
 	height: 80px;
 	background-color:white;
-}
+	}
 .leader{width: 1080px;
 		height: 80px;
 		margin: 0 auto;
@@ -91,6 +259,7 @@
 	}
 .activeline{
 	border-bottom: 2px solid black;
+	background-color: #52bbdb;
 }
 
 #banner{
@@ -143,7 +312,7 @@
 }
 #banner .num-two li{
 	list-style: none;
-	font-family:迷你简娃娃篆;
+	font-family:aaa;
 	font-size:48px;
 	color:#ff6600;
 }
@@ -354,13 +523,21 @@
 	top:11px;
 	left:178px;
 }
-.maintopb .lastb .click{
+.maintopb .lastb .click, .click1{
 	position: absolute;
 	top:10px;
 	left:265px;
 }
-.maintopb .lastb .click li{
+.maintopb .lastb .click, .click1 li{
 	list-style: none;
+	font-family: 微软雅黑;
+	color:#666666;
+	float: left;
+	padding-left: 8px;
+	font-size: 14px;
+}
+.maintopb .lastb .click li{
+	float: left;
 	font-family: 微软雅黑;
 	color:#666666;
 	float: left;
@@ -464,4 +641,11 @@
 	font-size: 18px;
 	color:white; 
 
+}
+.box{bottom: 20px;
+		right: 30px;
+		position: fixed;
+		text-align: center;
+		
+		display: none;
 }

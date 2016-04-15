@@ -55,8 +55,23 @@ a{
 	list-style: none;
 	float: left;
 	
+}
+.person{
+	height: 60px;
+	width: 80px;
+	background-color: #eee;
+	position: absolute;
+	top: 45px;
+	right: 285px;
+	display: none;
+}
+.person a{
+	display: block;
+	font-size: 14px;
+	font-family: 微软雅黑;
+	list-style: none;
+	float: left;
 	
-
 }
 .imgitm{
 	padding-top: 8px;
@@ -76,7 +91,11 @@ a{
 	padding-top: 21px;
 	margin-left: 6px;
 	margin-right: 29px;
+	
 } 
+.spanimg{
+
+}
 .top-a1{
 	color: #fff;
 }
@@ -86,6 +105,9 @@ a{
 .top-li{
 	margin-left: 3px;
 	color: #fff;
+}
+option{
+	display: block;
 }
 .top-li2{
 	padding-top: 11px;
@@ -401,6 +423,10 @@ a{
 }
 /*日历有问题*/
 .mid2img{
+	
+	width: 20px;
+	height: 21px;
+	border: 0;
 	margin-top:30px;
 	margin-right: 16px;
 }
@@ -657,6 +683,65 @@ a{
 	font-family:微软雅黑;
 	margin-top: 30px;
 	border: 0;
+}
+.newcarname{
+	height: 34px;
+	width: 94px;
+	color: #000;
+	margin-right: 20px;
+	font-size: 14px;
+	font-family:微软雅黑;
+	margin-top: 30px;
+	border: 1px solid #50bbdb;
+}
+.newcarname1{
+	height: 34px;
+	width: 94px;
+	color: #000;
+	background-color: #fff;
+	font-size: 14px;
+	font-family:微软雅黑;
+	margin-top: 30px;
+	margin-right: 20px;
+	border: 1px solid #e1e1e1;
+}
+.carbtn{
+	display: none;
+}
+.cratecar{
+	height: 100px;
+	width: 900px;
+	margin:0 auto;
+	border: 1px solid #e1e1e1;
+	
+	display: none;
+	position: absolute;
+}
+.cratecar span,.cratecarinput{
+	font-size: 14px;
+	font-family:微软雅黑;
+	margin-top: 30px;
+}
+.cratecarinput,.cratephotoinput{
+	width: 200px;
+}
+.cratephoto{
+	height: 100px;
+	width: 500px;
+	margin:0 auto;
+	border: 1px solid #e1e1e1;
+	display: none;
+	position: absolute;
+	left: 500px;
+}
+.updatephone{
+	clear: ;
+	font-size: 14px;
+	height: 50px;
+	width: 100px;
+	position: absolute;
+
+	display: none;
 }
 .mine2{
 	color: #58667d;

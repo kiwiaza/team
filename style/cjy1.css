@@ -1,15 +1,14 @@
 *{
 	margin:0;
 	padding:0;
-	
 }
-body{
-	width: 1915px;
+.active{
+	background-color: #52bbdb;
 }
 #top{
 	height: 45px;
 	background-color: #244d5f;
-	
+	min-width:1160px;
 }
 #top-inner{
 	width: 1000px;
@@ -17,37 +16,30 @@ body{
 	margin:0 auto;
 	margin-bottom:13px;
 	padding-top:8px;
-	
 }
 .top1{
-	width: 157px;
+	width: 144px;
 	height: 24px;
-	
 	float:left;
-	
 }
-.top1 a{
-	text-decoration: none;
-	margin-right: 13px;
-	
-}
-.top1 a span{
+
+.top1 span{
 	color:white;
 	font-size:16px;
 	font-family:Microsoft YaHei;
-	
+	margin-right: 10px;
 }
 .top2{
 	width: 160px;
 	height: 24px;
 	float:left;
-	margin-left:60px;
+	margin-left:30px;
 	text-align:center;
 	line-height:24px;
 }
 .top2 a{
 	text-decoration: none;
-	margin-right: 13px;
+	margin-right: 10px;
 	color:white;
 	font-size:16px;
 	font-family:Microsoft YaHei;
@@ -55,34 +47,130 @@ body{
 }
 
 .top3{
-	width: 220px;
+	width: 222px;
 	height: 24px;
 	float:left;
-	margin-left:400px;
+	margin-left:443px;
 	text-align:center;
 	line-height:24px;
 }
 .top3 img{
-	margin-right: 5px;
+	margin-right: 7px;
 }
-.top3 a{
+.top3 h{
 	text-decoration: none;
-	padding-left: 15px;
+	padding-left: 11px;
 	color:white;
 	font-size:16px;
 	font-family:Microsoft YaHei;
 	
 }
+
+ fieldset{
+    text-align:center;
+   
+    
+}
+fieldset .azjbox{
+    width: 200px;
+    height: 100px;
+    margin:0 auto;
+    line-height:70px;
+  /*  border:1px solid red;*/
+}
+fieldset .p1{
+  width: 83px;
+  height: 40px;
+  margin:0 auto;
+  margin-right:50px;
+  font-size:14px;
+  font-family:Microsoft YaHei;
+}  
+fieldset p input{
+    width: 353px;
+    height: 50px;
+}
+fieldset .span1{
+  padding-right: 20px;
+  font-size:12px;
+  font-family:Microsoft YaHei;
+}
+fieldset .submit1{
+  width: 124px;
+  height: 35px;
+  font-size:13px;
+  font-family:Microsoft YaHei;
+  color:white;
+}
+fieldset .p{
+  padding-top: 20px;
+  font-size:13px;
+  font-family:Microsoft YaHei;
+}
+fieldset .submit2{
+  width: 225px;
+  height: 45px;
+  font-size:18px;
+  font-family:Microsoft YaHei;
+  color:white;
+  margin-top: 15px;
+}
+.modal-content{
+    width: 500px;
+    height: 670px;
+    margin:0 auto;
+}
+#content{
+    width: 500px;
+    height: 517px;
+   /* border:1px solid red;*/
+}
+#content .submit{
+    font-size:24px;
+  font-family:Arial;
+  color:white;
+  }
+ #content .dlbox{
+  width: 355px;
+  /*height: 30px;*/
+   font-size:14px;
+  font-family:Microsoft YaHei;
+  /*border: 1px solid red;*/
+  margin:0 auto;
+  text-align:center;
+  line-height:40px;
+ }
+  #content .dlbox .p-1{
+    color:#52bbdb;
+    float:left;
+  }
+   #content .dlbox .p-3{
+    cursor:pointer;
+   }
+  #content .p-4{
+    font-size:13px;
+  font-family:Microsoft YaHei;
+  line-height:70px;
+  }
+  #content .txt{
+    width: 231px;
+    height: 45px;
+    background-color: #52bbdb;
+    text-align:center;
+    font-size:18px;
+  font-family:Microsoft YaHei;
+  color:white;
+  }
 #logonav1{
+	min-width:1155px;
 	
 	height: 77px;
-	/*border-bottom:1px solid black;*/
+	border-bottom:1px solid black;
 }
 #logonav{
 	width: 1008px;
-	height: 77px;
+	height: 78px;
 	margin:0 auto;
-
 	/*border:1px solid red;*/
 }
 #logo{
@@ -92,16 +180,16 @@ body{
 }
 
 #nav{
-	width: 610px;
-	height: 77px;
+	width: 620px;
+	height: 78px;
 	float:left;
-	/*border-bottom:1px solid black;*/
+	
 }
 #nav ul li{
 	list-style:none;
 	
 	float:left;
-	padding-right: 16px;
+	padding-right: 18px;
 	padding-left: 15px;
 	font-size:16px;
 	font-family:Microsoft YaHei;
@@ -119,79 +207,255 @@ body{
 	background-color: #52bbdb;
 	color:white;
 }
-/*#pic{
-	height: 400px;
-}*/
-#banner{
-	margin-top: 40px;
+#banner-top{
+	width: 1006px;
+	height: 135px;
+	margin:0 auto;
+	/*border:1px solid red;*/
 }
-#banner .box2{
-	width: 500px;
+#banner-top .box1{
+	width: 270px;
+	height: 40px;
+}
+#banner-top .box1 span{
+	line-height:40px;
+	font-size:14px;
+	font-family:Microsoft YaHei;
+	padding-right:6px;
+}
+#banner-top .box2{
+	width: 490px;
 	height: 50px;
 	margin:0 auto;
 	
 }
-#banner .box2 input{
-	width: 432px;
-	height: 40px;
+#banner-top .box2 input{
+	width: 480px;
+	height: 42px;
 	font-size:14px;
 	font-family:times new roman;
-	border:1px solid #52bbdb;
+	border:2px solid #52bbdb;
 	
 }
-#banner .box2 button{
+#banner-top .box2 div{
 	width: 50px;
-	height: 40px;
+	height: 39px;
 	font-size:25px;
-
 	background-color: #52bbdb;
-	padding-bottom:10px;
+	padding-bottom:5px;
+	position:relative;
+	left:430px;
+	top:-40px;
+	text-align:center;
+	line-height:39px;
 }
-#banner .box3 ul{
+#banner-top .box3{
+	width: 424px;
+	height: 43px;
+	margin-left:265px;
+}
+#banner-top .box3 ul{
 	
 	margin:0 auto;
 	display:table;
 }
-#banner .box3 ul li{
+#banner-top .box3 ul li{
 	font-size:14px;
 	font-family:times new roman;
 	list-style:none;
 	float:left;
-	padding-right: 20px;
+	padding-right: 15px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
-#h{
-	width: 1000px;
-	height: 45px;
-	border-bottom:1px solid black;
+#banner-mid{
+	width: 1004px;
+	height: 138px;
+	border:1px solid black;
 	margin:0 auto;
-	line-height:36px;
-	/*padding-bottom: 5px;*/
+
 }
-#h .span1{
-	font-size:28px;
+#banner-mid .box1{
+	width: 962px;
+	height: 45px;
+	margin:0 auto;
+	border-bottom:1px dashed black;
+	
+	line-height:45px;
+}
+#banner-mid .box1 a{
+	padding-right: 30px;
+	font-size:14px;
 	font-family:Microsoft YaHei;
-	padding-right:30px;
-	font-weight: bold;
+	color:black;
+
 }
-#h .span2{
-	font-size:24px;
-	font-family:times New Roman;
+/*#banner-mid div span */.box-0{
+	width: 80px;
+	height: 250px;
+	position: absolute;
+	top:0px;
+	left:1110px;
+	background-color: #52bbdb;
+	display:none;
+	text-align:center;
+	line-height:40px;
+}
+/*#banner-mid div span div */.box-0 li{
+	color:white;
+	list-style:none;
+
+}
+/*#banner-mid div span */.box-11{
+	width: 80px;
+	height: 300px;
+	position: absolute;
+	top:30px;
+	left:1110px;
+	background-color: #52bbdb;
+	display:none;
+	text-align:center;
+	line-height:50px;
+}
+/*#banner-mid div span div */.box-11 li{
+	color:white;
+
+}
+#banner-mid .box2{
+	width: 962px;
+	height: 45px;
+	margin:0 auto;
+	border-bottom:1px dashed black;
+	
+}
+#banner-mid .box2 a{
+	padding-right: 29px;
+	font-size:14px;
+	font-family:Microsoft YaHei;
+	color:black;
+	line-height:45px;
+}
+#banner-mid .box3{
+	width: 962px;
+	height: 45px;
+	margin:0 auto;
+	
+	
+	line-height:45px;
+}
+#banner-mid .box3 h{
+	
+	font-size:14px;
+	font-family:Microsoft YaHei;
+	padding-right:28px;
+}
+#banner-mid .box3 button{
+	
+	font-size:14px;
+	font-family:Microsoft YaHei;
+	margin-right:25px;
+}
+#banner-mid .box3 a{
+	padding-right:12px;
+	font-size:14px;
+	font-family:Microsoft YaHei;
+	color:black;
+
+}
+#banner-mid .box3 .span1{
+	font-size:12px;
+	font-family:Microsoft YaHei;
+	padding-left:12px;
+	padding-right:28px;
+}
+#banner-bottom{
+	width: 1006px;
+	height: 56px;
+	border:1px solid black;
+	margin:0 auto;
+	margin-top: 20px;
+}
+#banner-bottom ul{
+	float:left;
+}
+#banner-bottom .list1 li{
+	float:left;
+	list-style:none;
+	width: 103px;
+	height: 56px;
+	border-right:1px solid black;
+	text-align:center;
+	line-height:56px;
+	font-size:14px;
+	font-family:Microsoft YaHei;
+}
+#banner-bottom .list1 .box1{
+	width: 103px;
+	height: 240px;
+	position: absolute;
+	top:470px;
+	left:277px;
+	background-color: #52bbdb;
+	
+	display:none;
+	color:white;
+}
+#banner-bottom .list1 div a{
+	color:white;
+}
+#banner-bottom .list1 .box2{
+	width: 103px;
+	height: 200px;
+	position: absolute;
+	top:470px;
+	left:380px;
+	background-color: #52bbdb;
+	color:white;
+	display:none;
+}
+#banner-bottom .list1 .box3{
+	width: 103px;
+	height: 200px;
+	position: absolute;
+	top:470px;
+	left:482px;
+	background-color: #52bbdb;
+	color:white;
+	display:none;
+}
+#banner-bottom .list2 li{
+	float:left;
+	list-style:none;
+	text-align:center;
+	line-height:56px;
+	font-size:14px;
+	font-family:Microsoft YaHei;
+	padding-right:16px;
+}
+#banner-bottom .list3 li{
+	float:left;
+	list-style:none;
+	text-align:center;
+	line-height:27px;
+	border:1px solid black;
+	width: 53px;
+	height: 27px;
+	
+	
 }
 #main{
-	width: 1010px;
+	width: 1008px;
 	height: 2690px;
-	border:1px solid red;
+	/*border:1px solid red;*/
 	margin:0 auto;
 	margin-top: 10px;
 }
 #main div{
-	width: 327px;
+	width: 330px;
 	height: 443px;
 	float:left;
 	border:1px solid black;
-	margin-right:9px;
+	margin-right:6px;
 	margin-bottom:5px;
 }
 #main div .list1{
@@ -240,7 +504,7 @@ body{
 	padding-top:5px;
 }
 #main div .list2{
-	width: 280px;
+	width: 290px;
 	height: 38px;
 	margin:0 auto;
 	padding-top: 20px;
@@ -260,14 +524,14 @@ body{
 #bottom{
 	width:400px;
 	height: 37px;
-	margin:45px 490px 55px 1030px;
+	margin:45px 490px 55px 750px;
 }
-#bottom input{
+#bottom .btn{
 	width: 36px;
 	height: 36px;
 	margin-right:10px;
 }
-#bottom .btn{
+#bottom #nnn{
 	color:white;
 	background-color: #52bbdb;
 }
@@ -300,8 +564,110 @@ body{
 	list-style:none;
 	float:left;
 	padding-left:40px;
-	font-size: 18px;
+	font-size: 12px;
 	font-family: Microsoft YaHei;
 	line-height:40px;
 	color:white;
+}
+.box0 div{
+		width: 590px;
+		height: 80px;
+		
+		
+		display:none;
+		position:absolute;
+		top:120px;
+		left:570px;
+		text-align:center;
+		line-height:80px;
+		background-color: #52bbdb;
+}
+.box0 div span{
+	padding-right: 20px;
+	color:white;
+}
+.box00{
+	width: 432px;
+	height: 180px;
+		
+		
+	display:none;
+	position:absolute;
+	top:200px;
+	left:430px;
+	
+	
+	background-color: #52bbdb;
+}
+
+.box000{
+	width: 432px;
+	height: 30px;
+	border-bottom:1px dashed white;
+	/*text-align:center;*/
+	line-height:22px;
+
+}
+.box000 p{
+	
+	color:white;
+	float:left;
+	padding-left: 20px;
+}
+.box001{
+	width: 432px;
+	line-height:30px;
+	height: 250px;
+}
+.box001 a{
+	float:right;
+	padding-right: 40px;
+	color:white;
+	cursor:pointer;
+}
+.qhbox{
+	width: 738px;
+	height: 160px;
+	line-height:40px;
+	font-size: 14px;
+	font-family: Microsoft YaHei;
+	background-color: #fff;
+	position: absolute;
+	top:45px;
+	left:150px;
+	display:none;
+}
+.qhbox1{
+	width: 627px;
+	height: 110px;
+	line-height:40px;
+	/*text-align:center;*/
+	/*border:1px solid red;*/
+	position: relative;
+	top:-40px;
+	left:100px;
+	/*
+	position: absolute;
+	top:45px;
+	left:400px;
+	display:none;*/
+}
+.qhbox h{
+	
+	
+	position: relative;
+	top:3px;
+	left:30px;
+}
+.qhbox1 a{
+	padding-right: 20px;
+	color:white;
+	color:#52bbdb;
+	cursor:pointer;
+}
+.show{
+	display:block;
+}
+.active1{
+	color: blue;
 }

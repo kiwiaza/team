@@ -1,0 +1,40 @@
+
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.picbox{
+				width: 500px;
+				height: 100%;
+				/*border:1px solid #f00;*/
+			}
+			#featured{
+				width: 500px;
+				height: 281px;
+				margin-bottom: 7px;
+				/*overflow: hidden;*/
+			}
+			#thumbs{
+				width: 500px;
+				height: 55px;
+				/*background-color: #0f0;*/
+			}
+			.image{
+				width: 500px;
+				height: 281px;
+			}
+			.image img{
+				width: 500px;
+				height: 281px;
+			}
+			#thumbs{
+				width: 500px;
+				height: 55px;
+			}
+			#thumbs li{
+				margin-right: 8px;
+			}
+			#play_next{
+				margin-left: 3px;
+			}
+			
