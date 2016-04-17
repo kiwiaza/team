@@ -1,0 +1,166 @@
+*{
+	margin:0;
+	padding:0;
+}
+/* Content styles */
+.modal2{
+	height: 578px;
+	width: 1001px;
+	margin:0 auto;
+	background-color: #fff;
+	/*background: #e74c3c;*/
+	position: absolute;
+	top: 700px;
+	left: 180px;
+	border: 1px solid #e1e1e1;
+	border-radius: 3px;
+	display: none;
+	
+}
+.modal2show{
+	display: block;
+}
+
+.md-close{
+	position: absolute;
+	top: 26px;
+	right: 28px;
+}
+
+.whhspan{
+	height: 24px;
+	width: 108px;
+	margin-top: 42px;
+	margin-left: 268px;
+	font-size: 24px;
+	color:#000;
+	font-family: 微软雅黑;
+	background-color: #fff;
+	
+}
+.whhbox{
+	margin-top: 50px;
+	height: 370px;
+	width: 1001px;
+	
+	
+}
+
+.whhmid{
+	height: 368px;
+	width: 540px;
+	float: left;
+	margin-left: 57px;
+	border: 1px solid #e8e8e8;
+}
+.whhmid0{
+	height: 303px;
+	width: 536px;
+	border-bottom: 1px solid #e8e8e8;
+}
+.whhmid0input{
+	height: 303px;
+	width: 540px;
+	font-size: 24px;
+	color:#000;
+	font-family: 微软雅黑;
+	
+}
+/*.whhmid1{
+	
+	height: 53px;
+	width: 536px;
+	border-top: 1px solid #e8e8e8;
+}*/
+.whhmid1 ul li{
+	/*list-style: none;*/
+	float: left;
+}
+.whhmid1 a img{
+	
+	margin-top: 12px;
+}
+.whhmid1 span{
+	margin-left: 16px;
+	margin-top: 26px;
+}
+.whhright{
+	float: left;
+	width: 341px;
+	height: 178px;
+	margin-left: 24px;
+	/*border: 1px solid #000;*/
+}
+.box1,.box2,.box3,.box4{
+	margin-bottom: 20px;
+}
+.box label{
+	font-size: 16px;
+	color: #cccccc;
+}
+.first{
+	height: 18px;
+	width: 87px;
+	font-size: 18px;
+	margin-top: 13px;
+	color:#000;
+	font-family: 微软雅黑;
+}
+.whhbox2 input{
+	float:left;
+	height: 66px;
+	width: 81px;
+	border: 0px;
+}
+.whhbox3{
+	height: 46px;
+	width: 64px;
+	float:left;
+	margin-top: 11px;
+	margin-left: 17px;
+
+	
+}
+.whhbox4{
+	height: 66px;
+	width: 64px;
+	float:left;
+	line-height: 66px;
+	margin-left: 17px;
+	
+}
+.whhbox4 span{
+	color: #666666;
+	font-size: 16px;
+	font-family: 微软雅黑;
+}
+.whha{
+	display:block;
+	float:left;
+}
+#whhbtn{
+	height:64px;
+	width: 80px;
+	text-align: center;
+	font-size: 	16px;
+	color: #333333;
+	font-family: 微软雅黑;
+	line-height:66px;
+}
+
+.whhbox11{
+	height: 37px;
+	width: 99px;
+	
+	position: relative;
+	left: 483px;
+	/*top: 25px;*/
+}
+.whhbox11 form input{
+	height: 37px;
+	width: 99px;
+	border: 0;
+	background-color: #50bbdb;
+	color:#fff;
+	margin-top: 24px;
+}

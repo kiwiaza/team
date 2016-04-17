@@ -6,41 +6,74 @@
 	<link rel="stylesheet" href="style/self-drivingtravel.css">
 	<link rel="stylesheet" href="style/date.css">
 	<link rel="stylesheet" href="style/orderinformation.css">
+	<link rel="stylesheet" href="style/whh.css">
+
 </head>
 <body>
 	<div class="back">
-		
 	</div>
 	<div class="big-top">
 		<div class="top">
 			<div class="top-left">
 				<ul>
 					<li><img class="img1" src="images/GPS.png" alt=""></li>
-					<li><a class="top-a1" href="#">北京</a></li>
-					<li class=top-li><span class="top-a2" href="#">切换</span></li>
+					<li><span class="top-bj">北京</span></li>
+					<li class="top-li"><span class="top-cg" >切换</span></li>
 					<li class="top-li2">
 						<img class="img2" src="images/iphone.png" alt=""></li>
 					<li class="top-li3">
-						<a href="">下载手机APP</a>
+						<a class="loadapp" href="">下载手机APP</a>
 					</li>
 				</ul>
 				<div class="city">
-					<ul>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-					</ul>
+					<div class="nation">
+						<span>全国：</span>
+					</div>
+					<div class="allcity">
+					<ul class="citylist">
+						<li>北京</li>
+						<li>天津</li>
+						<li>河北</li>
+						<li>山西</li>
+						<li>内蒙古</li>
+						<li>辽宁</li>
+						<li>吉林</li>
+						<li>黑龙江</li>
+						<li>上海</li>
+						<li>江苏</li>
+						<li>浙江</li>
+						<li>安徽</li>
+						<li>福建</li>
+						<li>江西</li>
+						<li>山东</li>
+						<li>河南</li>
+						<li>湖北</li>
+						<li>湖南</li>
+						<li>广东</li>
+						<li>广西</li>
+						<li>海南</li>
+						<li>重庆</li>
+						<li>四川</li>
+						<li>贵州</li>
+						<li>云南</li>
+						<li>西藏</li>
+						<li>陕西</li>
+						<li>甘肃</li>
+						<li>青海</li>
+						<li>宁夏</li>
+						<li>新疆</li>
+				</ul>
+				</div>
 				</div>
 			</div>
 			<div class="top-right">
 				<ul>
-					<li class="imgitm"><img src="images/d1.png" alt=""></li>
+					<li class="imgitm"><img class="" src="images/d1.png" alt=""></li>
 					<li class="spanitem"><span >浮生若梦_JKAy </span >
 						</li>
 					<li class="spanimg"><img src="images/f000.jpg" alt="">
 					</li>
-					
+
 					<li>
 						<button class="topbtn" ><span>线路定制</span></button>
 					</li>
@@ -51,35 +84,34 @@
 					<a href="">主页</a>
 				</div>
 			</div>
-			
-			
+
+
 		</div>
 	</div>
 	<div class="big-log">
 		<div class="log">
 			<img src="images/logo.png" alt="">
 			<ul>
-				<li class="logli1">
+				<li >
 					<a href="#">首页</a></li>
-				<li class="logli2">
+				<li >
 					<a href="#">目的地</a></li>
-				<li class="logli3">
+				<li>
 					<a href="#">线路</a></li>
-				<li class="logli4">
+				<li>
 					<a href="#">定制</a></li>
-				<li class="logli5">
+				<li >
 					<a href="#">自驾团</a></li>
-				<li class="logli6">
+				<li >
 					<a href="#">摄影</a></li>
-				<li class="logli7">
+				<li >
 					<a href="#">互动</a></li>
-				<li class="logli8">
+				<li >
 					<a href="#">精选</a></li>
-				<li class="logli9">
+				<li>
 					<a href="#">预订</a></li>
 			</ul>
 		</div>
-
 	</div>
 	<div class="big-item">
 		<div class="item">
@@ -93,7 +125,7 @@
 						<button  class="btn">
 							 <span>修改资料</span>
 						</button>
-						
+
 					</li>
 					<li class="itmlli3">
 						<ul>
@@ -141,21 +173,21 @@
 					<li><a href="">已取消</a></li>
 				</ul>
 			</div>
-			<div class="midmid">	
+			<div class="midmid">
 			<div class="mid2">
 
 				<select class="mid2sel1"data-theme="bootstrap">
 				    <option value="">按条件</option>
 				    <option>按日期</option>
 				    <option>按名称</option>
-				</select> 
-				<input class="mid2input1" type="text"> 
+				</select>
+				<input class="mid2input1" type="text">
 				<select class="mid2sel3"data-theme="bootstrap">
 				    <option value="">状态</option>
 				    <option>出行</option>
 				    <option>未出行</option>
 				    <option>待付款</option>
-				</select> 
+				</select>
 				<!-- 日历插件 -->
 				<!-- <a class="mid2img date_picker" href="#"> -->
 				<button class="mid2img ">
@@ -164,7 +196,7 @@
 					<!-- <input   type="button" class="mid2img date_picker"> -->
 					<!-- <img  src="images/f5.png" alt=""> -->
 				<!-- </a> -->
-				
+
 				<span class="mid2span">至</span>
 				<input  style="font-size: 14px;color: #333;" type="text"  class="mid2input2 date_picker">
 				<!-- <input class="mid2input2 "type="text"> -->
@@ -173,7 +205,7 @@
 				</button>
 				<input style="color:#999999"class="mid2input3" type="text" value="单号">
 				<input class="mid2btn" type="button" value="搜索">
-				
+
 			</div>
 			<div class="mid3">
 				<ul>
@@ -193,6 +225,7 @@
 
 			</div>
 			<div class="midorder1">
+				<div class="order1">
 				<div class="mid4">
 					<p class="mid4p">
 						<span class="mid4span">订单编号：</span>
@@ -201,6 +234,7 @@
 						<span><a href="#">2015-12-29 12:04:00</a></span>
 					</p>
 				</div>
+
 				<div class="mid5">
 					<ul>
 						<li class="mid5li1">
@@ -219,25 +253,18 @@
 						<li class="mid5li6">
 							<span>待出行</span></li>
 						<li class="mid5li7">
-							<!-- <input class="mid5input" type="text">
-							<div class="parentul">
-								<ul>
-									<li>取消</li>
-									<li>点评</li>
-									<li>支付</li>
-									<li>查看</li>
-								</ul>
-							</div> -->
-							<select id="mid5sel1" onchange="gradeChange1()">
+							<select id="mid5sel1" onchange="gradeChange1()" >
 								 <option grade="2" value="b">取消</option>
 							    <option grade="1" value="a">点评</option>
-							  
+
 							    <option grade="3" value="c">支付</option>
 							    <option grade="4" value="d">查看</option>
 						    </select>
 						</li>
 					</ul>
 				</div>
+			</div>
+			<div class="order2">
 				<div class="mid4">
 					<p class="mid4p">
 						<span class="mid4span">订单编号：</span>
@@ -246,6 +273,8 @@
 						<span><a href="#">2015-12-25 12:04:00</a></span>
 					</p>
 				</div>
+
+
 				<div class="mid5">
 					<ul>
 						<li class="mid5li1">
@@ -269,7 +298,7 @@
 							    <option grade="2" value="b">取消</option>
 							    <option grade="3" value="c">支付</option>
 							    <option grade="4" value="d">查看</option>
-						    </select> 
+						    </select>
 							<!-- <select class="mid5sel1"data-theme="bootstrap">
 							    <option value="">支付</option>
 							    <option>取消</option>
@@ -279,6 +308,8 @@
 						</li>
 					</ul>
 				</div>
+			</div>
+			<div class="order3">
 				<div class="mid4">
 					<p class="mid4p">
 						<span class="mid4span">订单编号：</span>
@@ -287,6 +318,8 @@
 						<span><a href="#">2015-12-25 12:04:00</a></span>
 					</p>
 				</div>
+
+
 				<div class="mid5">
 					<ul>
 						<li class="mid5li1">
@@ -310,10 +343,12 @@
 							    <option grade="1" value="a">点评</option>
 							    <option grade="2" value="b">取消</option>
 							    <option grade="4" value="d">查看</option>
-						    </select> 
+						    </select>
 						</li>
 					</ul>
 				</div>
+			</div>
+			<div class="order4">
 				<div class="mid4">
 					<p class="mid4p">
 						<span class="mid4span">订单编号：</span>
@@ -322,6 +357,8 @@
 						<span><a href="#">2015-12-25 12:04:00</a></span>
 					</p>
 				</div>
+
+
 				<div class="mid5">
 					<ul>
 						<li class="mid5li1">
@@ -345,16 +382,17 @@
 								<option grade="3" value="c">支付</option>
 							    <option grade="1" value="a">点评</option>
 							    <option grade="2" value="b">取消</option>
-							    
-						    </select> 
+
+						    </select>
 						</li>
 					</ul>
 				</div>
+			</div>
 				<div class="mid12">
 				<p>
 					<a href="#">加载更多</a>
 				</p>
-				
+
 				</div>
 			</div>
 			<div class="mid13">
@@ -372,22 +410,22 @@
 					</ul>
 				</div>
 				<div class="mid13next">
-					<span>暂无收藏看点</span>	
+					<span>暂无收藏看点</span>
 				</div>
 			</div>
-			<div class="mid14">	
+			<div class="mid14">
 				<p class="mine1">
 						我的路线
 				</p>
 				<div class="mid13next">
-					<span>暂无线路数据</span>	
+					<span>暂无线路数据</span>
 				</div>
 			</div>
 			<div class="mid15">
 				<p class="mine1">
 						我的车队
 				</p>
-				
+
 				<input class="mid15btn" type="button" value="+新建车队">
 				<div class="cratecar">
 					<span>请输入新车队的名称:</span>
@@ -395,7 +433,7 @@
 					<input  class="cratecarbtn" type="button" value="确认">
 				</div>
 			</div>
-			
+
 			<div class="mid16">
 				<p class="mine2">
 						我的照片
@@ -410,7 +448,7 @@
 						<li>我的电脑</li>
 						<li>桌面</li>
 					</ul>
-					
+
 				</div> -->
 				<input class="mid16btn" type="button" value="创建相册">
 				</div>
@@ -452,81 +490,105 @@
 			</ul>
 		</div>
 	</div>
-	<div class="modal">	
-	<div class="whhtop">
-				<span>订单详情</span>
-				<!-- 写关闭代码 -->
-				<img class="close"src="images/close.jpg" alt="">
+	<div class="modal">
+		<div class="whtop">
+					<span>订单详情</span>
+					<!-- 写关闭代码 -->
+					<img class="close"src="images/close.jpg" alt="">
 
-	</div>
-	<div class="whhtop2">
-		<span class="whhtop2span1">订单支付总额：</span>
-		
-		<span class="whhtop2span2">
-			<span class="whhtop2span3">￥</span>5280</span>
-	</div>
-	<div class="whhmid">
-		<div class="whhmid1">
-			<span>线路信息</span>
 		</div>
-		<div class="whhmid2">
-			<ul>
-				<li>
-					<span>自驾团名称：</span>
-					<span>云南落地自驾行摄之旅</span>
-				</li>
-				<li>
-					<span>出游日期：</span>
-					<span class="whhmid2span2">2016-01-17</span>
-				</li>
-				<li>
-					<span>成人：</span>
-					<span> 1人  </span>
-					<span class="whhmid2span3">儿童：</span>
-					<span>0人</span>
-				</li>
-				<li>
-					<span>房间：</span>
-					<span>2人间，愿意拼房</span>
-				</li>
-			</ul>
+		<div class="whtop2">
+			<span class="whtop2span1">订单支付总额：</span>
+
+			<span class="whtop2span2">
+				<span class="whhtop2span3">￥</span>5280</span>
 		</div>
-	</div>
-	<div class="whh1mid">
-		<div class="whhmid1">
-			<span>联系人信息</span>
+		<div class="roadline">
+			<div class="roadlineinformation">
+				<span>线路信息</span>
+			</div>
+			<div class="selfdrivname">
+				<ul>
+					<li>
+						<span>自驾团名称：</span>
+						<span>云南落地自驾行摄之旅</span>
+					</li>
+					<li>
+						<span>出游日期：</span>
+						<span class="selfdrivnamespan2">2016-01-17</span>
+					</li>
+					<li>
+						<span>成人：</span>
+						<span> 1人  </span>
+						<span class="selfdrivnamespan3">儿童：</span>
+						<span>0人</span>
+					</li>
+					<li>
+						<span>房间：</span>
+						<span>2人间，愿意拼房</span>
+					</li>
+				</ul>
+			</div>
 		</div>
-		<div class="whhmid3">
-			<table>	
-				
+		<div class="personInformatins">
+			<div class="roadlineinformation">
+				<span>联系人信息</span>
+			</div>
+			<div class="personInformatins1">
+				<table>
+
+					<tr class="whhmid3tr1">
+						<td class="whhmid3td1">姓名：</td>
+						<td class="whhmid3td2">罗小小 </td>
+						<td class="whhmid3td3"> 性别：</td>
+						<td class="whhmid3td4">女</td>
+					</tr>
+					<tr class="whhmid3tr2">
+						<td class="whhmid3td1">手机号码:</td>
+						<td class="whhmid3td2">18270837899 </td>
+						<td class="whhmid3td3"> 邮箱：</td>
+						<td class="whhmid3td4">2689326087@qq.com</td>
+					</tr>
+				</table>
+
+			</div>
+		</div>
+		<div class="touristInformation">
+			<div class="roadlineinformation">
+				<span>游客信息</span>
+			</div>
+
+			<div class="touristFirst">
+				<span class="touristFirstspan1" >游客1</span>
+			<table>
+
 				<tr class="whhmid3tr1">
-					<td class="whhmid3td1">姓名：</td>
-					<td class="whhmid3td2">罗小小 </td>
-					<td class="whhmid3td3"> 性别：</td>
-					<td class="whhmid3td4">女</td>
+					<td class="whhmid3td1">游客类型: </td>
+					<td class="whhmid3td2"> 成人 </td>
+					<td class="whhmid3td3">  姓名：</td>
+					<td class="whhmid3td5"> 罗小小</td>
 				</tr>
 				<tr class="whhmid3tr2">
-					<td class="whhmid3td1">手机号码:</td>
-					<td class="whhmid3td2">18270837899 </td>
-					<td class="whhmid3td3"> 邮箱：</td>
-					<td class="whhmid3td4">2689326087@qq.com</td>
+					<td class="whhmid3td1">性别：  </td>
+					<td class="whhmid3td2">女 </td>
+					<td class="whhmid3td3">   手机号：</td>
+					<td class="whhmid3td5">18270837899</td>
+				</tr>
+				<tr class="whhmid3tr2">
+					<td class="whhmid3td1">证件：</td>
+					<td class="whhmid3td2">护照  </td>
+					<td class="whhmid3td3">  452726199102031552</td>
+
 				</tr>
 			</table>
-			
+
 		</div>
-	</div>
-	<div class="touristInformation">
-		<div class="whhmid1">
-			<span>游客信息</span>
-		</div>
-		
-		<div class="touristFirst">
-			<span class="touristFirstspan1" >游客1</span>
-		<table>	
-			
+		<div class="touristsecond">
+			<table>
+			<span class="touristFirstspan1" >游客2</span>
 			<tr class="whhmid3tr1">
 				<td class="whhmid3td1">游客类型: </td>
-				<td class="whhmid3td2"> 成人 </td>
+				<td class="whhmid3td2"> 成人 ： </td>
 				<td class="whhmid3td3">  姓名：</td>
 				<td class="whhmid3td5"> 罗小小</td>
 			</tr>
@@ -540,117 +602,261 @@
 				<td class="whhmid3td1">证件：</td>
 				<td class="whhmid3td2">护照  </td>
 				<td class="whhmid3td3">  452726199102031552</td>
-				
+
 			</tr>
-		</table>
-		
-	</div>
-	<div class="touristsecond">
-		<table>	
-		<span class="touristFirstspan1" >游客2</span>
-		<tr class="whhmid3tr1">
-			<td class="whhmid3td1">游客类型: </td>
-			<td class="whhmid3td2"> 成人 ： </td>
-			<td class="whhmid3td3">  姓名：</td>
-			<td class="whhmid3td5"> 罗小小</td>
-		</tr>
-		<tr class="whhmid3tr2">
-			<td class="whhmid3td1">性别：  </td>
-			<td class="whhmid3td2">女 </td>
-			<td class="whhmid3td3">   手机号：</td>
-			<td class="whhmid3td5">18270837899</td>
-		</tr>
-		<tr class="whhmid3tr2">
-			<td class="whhmid3td1">证件：</td>
-			<td class="whhmid3td2">护照  </td>
-			<td class="whhmid3td3">  452726199102031552</td>
-			
-		</tr>
-		</table>
-	</div>
-	<div class="insue">
-			<div class="whhmid1">
-				<span>保险</span>
-			</div>
-			<div class="insue1">
-				<table>	
-					
-					<tr class="insuetr1">
-						<td class="insuetd1">平安爱自驾境外长线保险</td>
-						<td class="whhmid3td2">经典型2份 </td>
-						<td class="insuetd2"><span>￥177</span>/一份</td>
-						
+			</table>
+		</div>
+		<div class="insue">
+				<div  class="roadlineinformation">
+					<span>保险</span>
+				</div>
+				<div class="insue1">
+					<table>
+
+						<tr class="insuetr1">
+							<td class="insuetd1">平安爱自驾境外长线保险</td>
+							<td class="whhmid3td2">经典型2份 </td>
+							<td class="insuetd2"><span>￥177</span>/一份</td>
+
+						</tr>
+						<tr class="insuetr2">
+							<td class="insuetd1">平安爱自驾境外长线保险</td>
+							<td class="whhmid3td2">经典型2份 </td>
+							<td class="insuetd2"><span>￥177</span>/一份 </td>
+
+						</tr>
+					</table>
+
+				</div>
+		</div>
+		<div class="bookInformation">
+				<div class="roadlineinformation">
+					<span>预定信息</span>
+				</div>
+				<div class="bookInformation1">
+					<table>
+
+					<tr class="booktr1">
+						<td class="booktd1">发票信息：</td>
+						<td class="booktd2"> 是否需要发票：是 </td>
+
+
+
 					</tr>
-					<tr class="insuetr2">
-						<td class="insuetd1">平安爱自驾境外长线保险</td>
-						<td class="whhmid3td2">经典型2份 </td>
-						<td class="insuetd2"><span>￥177</span>/一份 </td>
-						
+					<tr class="booktr">
+						<td class="booktd1">发票抬头：   </td>
+						<td class="booktd2">无   </td>
+						<td class="booktd3">   发票明细： </td>
+						<td class="whhmid3td5">会议费</td>
+					</tr>
+					<tr class="booktr">
+						<td class="booktd1">配送地址：</td>
+						<td class="booktd4">北京市朝阳区北辰东路八号汇园国际k座  </td>
+
+
 					</tr>
 				</table>
-				
-			</div>
-	</div>
-	<div class="bookInformation">
-			<div class="whhmid1">
-				<span>预定信息</span>
-			</div>
-			<div class="bookInformation1">
-				<table>	
-				
-				<tr class="booktr1">
-					<td class="booktd1">发票信息：</td>
-					<td class="booktd2"> 是否需要发票：是 </td>
+				</div>
+		</div>
+		<div class="moreRequest">
+				<div class="roadlineinformation">
+					<span>更多要求</span>
+				</div>
+				<div class="moreR1">
+					<span>温馨的住宿和美味的餐食</span>
 
-					
-					
-				</tr>
-				<tr class="booktr">
-					<td class="booktd1">发票抬头：   </td>
-					<td class="booktd2">无   </td>
-					<td class="booktd3">   发票明细： </td>
-					<td class="whhmid3td5">会议费</td>
-				</tr>
-				<tr class="booktr">
-					<td class="booktd1">配送地址：</td>
-					<td class="booktd4">北京市朝阳区北辰东路八号汇园国际k座  </td>
-					
-					
-				</tr>
-			</table>
-			</div>	
+				</div>
+		</div>
+		<div class="footerlast">
+				<img class="footerimg" src="images/d3.png" alt="">
+		</div>
 	</div>
-	<div class="moreRequest">
-			<div class="whhmid1">
-				<span>更多要求</span>
-			</div>
-			<div class="moreR1">
-				<span>温馨的住宿和美味的餐食</span>
-				
-			</div>
-	</div>
-	<div class="footerlast">
-			<img class="footerimg" src="images/d3.png" alt="">
-	</div>		
-	
-				
-		
+</div>
 
-	
-	 
+	<div class="modal2">
+
+		<div class="whhordertop">
+			<p class="whhspan">行程点评</p>
+		<div>
+         <img class="md-close" src="images/close.jpg" alt="">
+			<div class="whhbox">
+
+				<div class="whhmid">
+					<div class="whhmid0">
+						<textarea class="whhmid0input"name="" id="" cols="30" rows="10" placeholder="请对我们住处评价"></textarea>
+						<!-- <input class="whhmid0input"type="text"> -->
+					</div>
+					<div class="whhbox2">
+						<input type="button" id="whhbtn" value="晒照片">
+
+					</div>
+					<div class="whhbox3">
+						<a href=""><img src="images/plus.jpg" alt="" class="whha"></a>
+					</div>
+					<div class="whhbox4">
+
+						<span>0/5</span>
+					</div>
+
+					<!-- <span>0/5</span> -->
+				</div>
+
+				<div class="whhright">
+					<div class="box">
+				          <div class="box1">
+				            <span class="first">行程安排:</span>
+				            <input class="danxuan1" type="radio" name="first"> <label for="" class="aa" >满意</label>
+				            <input class="danxuan2" type="radio" name="first"> <label for="" class="bb" >不满意</label>
+				            <input class="danxuan3" type="radio" name="first"> <label for="" class="cc" >一般</label>
+				          </div>
+				          <div class="box2">
+				            <span class="first">住宿餐食:</span>
+				            <input class="danxuan1" type="radio" name="second"> <label for="" class="aa" >满意</label>
+				            <input class="danxuan2" type="radio" name="second"> <label for="" class="bb" >不满意</label>
+				            <input class="danxuan3" type="radio" name="second"> <label for="" class="cc" >一般</label>
+				          </div>
+				          <div class="box3">
+
+				            <span class="first">旅行交通:</span>
+				            <input class="danxuan1" type="radio" name="third"> <label for="" class="aa" >满意</label>
+				            <input class="danxuan2" type="radio" name="third"> <label for="" class="bb" >不满意</label>
+				            <input class="danxuan3" type="radio" name="third"> <label for="" class="cc" >一般</label>
+				          </div>
+				          <div class="box4">
+
+				              <span class="first">综合评价:</span>
+				            <!doctype html>
+							<html lang="zh">
+							<head>
+
+								<!--  -->
+								<link rel="stylesheet" type="text/css" href="style/star-rating-svg.css">
+
+
+							</head>
+							<body>
+								<div style="margin-top:-25px;margin-left:90px"class="my-rating-3" ></div>
+
+
+								<script>window.jQuery || document.write('<script src="js/jquery-1.11.1.js"><\/script>')</script>
+								<script src="js/jquery.star-rating-svg.js"></script>
+								<script>
+
+							    $(".my-rating-3").starRating({
+							        starSize: 22,
+							        strokeWidth: 9,
+							        strokeColor: 'gray',
+							        initialRating: 0,
+							        starGradient: {
+							            start: '#93BFE2',
+							            end: '#105694'
+							        },
+							    });
+
+
+							</script>
+							</body>
+							</html>
+
+				          </div>
+			    </div>
+
+			</div>
+		<div class="whhbox11">
+			<form action="">
+				<input  type="submit" value="提交评论">
+			</form>
+		<!-- <button class="md-close">Close me!</button> -->
+		</div>
+	</div>
+
+
+
+
+
+
 	<script src="js/jquery-1.11.1.js"></script>
-	<script src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
-	<script type="text/javascript" src="js/jquery.date_input.pack.js"></script> 
+	<script src="js/aa.js"></script>
+	<script type="text/javascript" src="js/jquery.date_input.pack.js"></script>
 	<script>
-
-		$(".log ul li").hover(
+		// GPS图标的鼠标移入移出事件
+		$(".img1").hover(
 			function(){
-				$(this).addClass("active")
+				$(this).attr("src","images/GPS1.png")
 			},
 			function(){
-				$(this).removeClass("active")
+				$(this).attr("src","images/GPS.png")
 			}
 		)
+		// 手机图标的鼠标移入移出事件
+		$(".img2").hover(
+			function(){
+				$(this).attr("src","images/iphone1.png")
+			},
+			function(){
+				$(this).attr("src","images/iphone.png")
+			}
+		)
+		//下载手机app的鼠标移入移出事件
+		$(".loadapp").hover(
+			function(){
+				$(this).css("color","#50bbdb")
+			},
+			function(){
+				$(this).css("color","#fff")
+			}
+		)
+		//城市的鼠标移入移出事件
+		$(".top-bj").hover(
+			function(){
+				$(this).addClass("fontcolor")
+			},
+			function(){
+				$(this).removeClass("fontcolor")
+			}
+		)
+		//切换的鼠标移入移出事件
+		$(".top-cg").hover(
+			function(){
+				$(this).addClass("fontcolor")
+
+			},
+			function(){
+				$(this).removeClass("fontcolor")
+			}
+		)
+		//单击切换调出城市选项组
+		$(".top-cg").click(function(){
+			$(".city").addClass("city1")
+		})
+		// 隐藏城市选项卡
+		$(".city").click(function(){
+			$(".city").removeClass("city1")
+		})
+		// 单击更改城市
+		$(".city ul li ").click(function(){
+
+			var valueli=$(this).text();
+			console.log(valueli)
+			$(".top-bj").text(valueli)
+
+		})
+		// 首页选项卡的鼠标事件
+		// $(".log ul li a").hover(
+		// 	function(){
+		// 		$(this).addClass("active")
+		// 	},
+		// 	function(){
+		// 		$(this).removeClass("active")
+		// 	}
+		// )
+		// 首页选项卡的点击事件
+		$(".log ul li a").click(function(){
+
+				$(this).addClass("active2").parent().siblings().find("a").removeClass("active2")
+				// $(this).css("background-color","#50bbdb").siblings().css("background-color","#fff")
+		})
+		// 我的订单子集的鼠标事件
 		$(".mid1 ul li").hover(
 			function(){
 				$(this).addClass("activeline")
@@ -659,6 +865,7 @@
 				$(this).removeClass("activeline")
 			}
 		)
+		// 我的订单子集的鼠标事件
 		$(".mid13 ul li").hover(
 			function(){
 				$(this).addClass("activeline")
@@ -667,6 +874,7 @@
 				$(this).removeClass("activeline")
 			}
 		)
+		//我的照片的鼠标事件
 		$(".mid16 ul li").hover(
 			function(){
 				$(this).addClass("activeline")
@@ -675,6 +883,7 @@
 				$(this).removeClass("activeline")
 			}
 		)
+		// 新建车队
 		$(".mid15btn").click(function(){
 			$(".cratecar").css("display","block")
 		})
@@ -683,11 +892,12 @@
 			var newbut="<input type='button' class='newcarname' value='name'>"
 
 			$(".mid15").append(newbut);
-			
+
 			$(".newcarname").val(name);
 			// console.log(name);
 			$(".cratecar").css("display","none")
 		})
+		// 新建相册
 		$(".mid16btn").click(function(){
 			$(".cratephoto").css("display","block")
 		})
@@ -696,12 +906,12 @@
 			var newbut="<input type='button' class='newcarname1' value='name'>"
 
  			$(".photo").append(newbut);
-			
+
 			$(".newcarname1").val(name);
 			// console.log(name);
 			$(".cratephoto").css("display","none")
 		})
-	
+
 		$(".mid16btn1").click(function(){
 			$(".updatephone").css("display","block")
 		})
@@ -711,10 +921,10 @@
 		$(".spanimg").click(function(){
 			$(".person").css("display","block")
 		})
-		$(".valueorder").click(function(){
-			console.log("abc")
-		})
-		
+		// $(".valueorder").click(function(){
+		// 	console.log("abc")
+		// })
+		// 日历插件的单击事件
 		$(function(){
 			$('.date_picker').date_input();
 		})
@@ -723,39 +933,48 @@
 		function gradeChange1(){
 	       var objS = document.getElementById("mid5sel1");
 	       var grade = objS.options[objS.selectedIndex].value;
-	       console.log(grade)
-	       switch(grade){
-	       	case 'a':alert("我是点评");break;
-	       	case 'b':alert("我是取消");break;
-	       	case 'c':alert("我是支付");break;
-	       	case 'd':alert("我是查看");break;
+	       //a:点评
+	       if(grade=='a'){
+	       		$(".modal2").addClass("modal2show");
+	       		$(".back").addClass("backshow");
+
+
 	       }
-	       
+	       //b:取消
+	       if(grade=='b'){
+	       		$(".order1").css("display","none")
+	       }
+	       //c:支付
+	       if(grade=='c'){
+	       		// location href="http://www.baidu.com"
+	       }
+	       //d:查看
+	       if(grade=='d'){
+	       		$(".modal").addClass("modalshow");
+	       	 	$(".back").addClass("backshow");
+	       }
+	       // console.log(grade)
+	       // switch(grade){
+	       // 	case 'a':alert("我是点评");break;
+	       // 	case 'b':alert("我是取消");break;
+	       // 	case 'c':alert("我是支付");break;
+	       // 	case 'd':alert("我是查看");break;
+	       // }
+
 	    }
 	    function gradeChange2(){
 	       var objS = document.getElementById("mid5sel2");
 	       var grade = objS.options[objS.selectedIndex].value;
-	       console.log(grade)
-	       switch(grade){
-	       	case 'a':alert("我是点评");break;
-	       	case 'b':alert("我是取消");break;
-	       	case 'c':alert("我是支付");break;
-	       	case 'd':alert("我是查看");break;
-	       }
-	       
-	    }
-	   function gradeChange3(){
-	       var objS = document.getElementById("mid5sel3");
-	       var grade = objS.options[objS.selectedIndex].value;
 	       //a:点评
 	       if(grade=='a'){
-	       
-	       	 
-	       	
+	       		$(".modal2").addClass("modal2show");
+	       		$(".back").addClass("backshow");
+
+
 	       }
 	       //b:取消
 	       if(grade=='b'){
-
+	       		$(".order2").css("display","none")
 	       }
 	       //c:支付
 	       if(grade=='c'){
@@ -763,21 +982,54 @@
 	       }
 	       //d:查看
 	       if(grade=='d'){
-	       	$(".modal").addClass("modalshow");
-	       	 $(".back").addClass("backshow");
+	       		$(".modal").addClass("modalshow");
+	       	 	$(".back").addClass("backshow");
 	       }
-	       
+	       // console.log(grade)
+	       // switch(grade){
+	       // 	case 'a':alert("我是点评");break;
+	       // 	case 'b':alert("我是取消");break;
+	       // 	case 'c':alert("我是支付");break;
+	       // 	case 'd':alert("我是查看");break;
+	       // }
+
+	    }
+	   function gradeChange3(){
+	       var objS = document.getElementById("mid5sel3");
+	       var grade = objS.options[objS.selectedIndex].value;
+	       //a:点评
+	       if(grade=='a'){
+	       		$(".modal2").addClass("modal2show");
+	       		$(".back").addClass("backshow");
+
+
+	       }
+	       //b:取消
+	       if(grade=='b'){
+	       		$(".order3").css("display","none")
+	       }
+	       //c:支付
+	       if(grade=='c'){
+
+	       }
+	       //d:查看
+	       if(grade=='d'){
+	       		$(".modal").addClass("modalshow");
+	       	 	$(".back").addClass("backshow");
+	       }
+
 	    }
 	    function gradeChange4(){
 	       var objS = document.getElementById("mid5sel4");
 	       var grade1 = objS.options[objS.selectedIndex].value;
 	      //a:点评
 	       if(grade1=='a'){
-	       	
+	       		$(".modal2").addClass("modal2show");
+	       		 $(".back").addClass("backshow");
 	       }
 	       //b:取消
 	       if(grade1=='b'){
-
+	       		$(".order4").css("display","none")
 	       }
 	       //c:支付
 	       if(grade1=='c'){
@@ -787,7 +1039,7 @@
 	       if(grade1=='d'){
 	       	$(".modal").addClass("modalshow");
 	       	 $(".back").addClass("backshow");
-	       }       
+	       }
 	    }
 	    //单击回到顶部
 	    $(".footerimg").click(function(){
@@ -800,11 +1052,24 @@
 			$(".modal").removeClass("modalshow")
 			$(".back").removeClass("backshow")
 		})
+		$(".md-close").click(function(){
+			// $(".modal").css("display","none")
+			$(".modal2").removeClass("modal2show")
+			$(".back").removeClass("backshow")
+		})
 
-		
-	
+		$(".footer1 ul li a").hover(
+			function(){
+				$(this).addClass("fontcolor")
+
+			},
+			function(){
+				$(this).removeClass("fontcolor")
+			}
+		)
+
 	</script>
-	
-	
+
+
 </body>
 </html>

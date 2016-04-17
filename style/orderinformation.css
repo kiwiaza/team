@@ -4,7 +4,7 @@
 }
 .modal{
 	display: none;
-	height: 1980px;
+	height: 2056px;
 	width: 1001px;
 	/*border: 1px solid #000;*/
 	margin:0 auto;
@@ -30,13 +30,13 @@
 	display: block;
 }
 
-.whhtop{
+.whtop{
 	height: 87px;
 	width: 1001px;
 	margin-left: -1px;
 	border-bottom:1px solid #d2d2d2;
 }
-.whhtop	span{
+.whtop	span{
 	height: 37px;
 	width: 112px;
 	font-size: 28px;
@@ -46,7 +46,7 @@
 	
 }
 
-.whhtop img{
+.whtop img{
 	display: block;
 	float: 	right;
 	height: 66px;
@@ -55,61 +55,61 @@
 	margin-top: 14px;
 	
 }
-.whhtop2{
+.whtop2{
 	height: 91px;
 	width: 1001px;
 	margin-left: -1px;
 	border-bottom:1px solid #d2d2d2;
 }
-.whhtop2span1{
+.whtop2span1{
 	line-height: 91px;
 	color: #333;
 	font-size: 24px;
 	font-family: 微软雅黑;
 	margin-left: 31px;
 }
-.whhtop2span2{
+.whtop2span2{
 	line-height: 91px;
 	color: #ea5023;
 	font-size: 30px;
 	font-family: 微软雅黑;
 	
 }
-.whhtop2span3{
+.whtop2span3{
 	line-height: 91px;
 	color: #ea5023;
 	font-size: 20px;
 	font-family: 微软雅黑;
 	
 }
-.whhmid{
+.roadline{
 	height: 293px;
 	width: 1001px;
 	margin-left: -1px;
 	border: 1px solid #e1e1e1;
 }
 
-.whhmid1{
+.roadlineinformation{
 	height: 56px;
 	width: 1001px;
 	margin-left: -1px;
 	background-color:#f7f7f7;
 
 }
-.whhmid1 span{
+.roadlineinformation span{
 	font-size: 24px;
 	color: #333333;
 	line-height: 56px;
 	padding-left: 31px;
 	font-family: 微软雅黑;
 }
-.whhmid2{
+.selfdrivname{
 	height: 237px;
 	width: 1001px;
 	margin-left: -1px;
 	margin-left: 31px;
 }
-.whhmid2 ul li{
+.selfdrivname ul li{
 	font-size: 18px;
 	color: #333333;
 	font-family: 微软雅黑;
@@ -118,27 +118,30 @@
 	margin-top: 30px;
 
 }
-.whhmid2span2{
+.selfdrivnamespan2{
 	margin-left: 18px;
 }
-.whhmid2span3{
+.selfdrivnamespan3{
 	margin-left: 118px;
 }
-.whh1mid{
+.personInformatins{
 	height: 213px;
 	width: 1001px;
 	margin-left: -1px;
 	border: 1px solid #e1e1e1;
 
 }
-.whhmid3{
+.personInformatins{
 	
 	list-style: none;
-	margin-left: 31px;
+	/*margin-left: 31px;*/
 	margin-top: 30px;
 
 }
-.whh1mid table tr td{
+.personInformatins1 table{
+	margin-left: 31px;
+}
+.personInformatins1 table tr td{
 	font-size: 18px;
 	color: #333333;
 	font-family: 微软雅黑;
@@ -185,7 +188,7 @@
 }
 .touristInformation{
 	height: 488px;
-	width: 1001px;
+	width: 999px;
 	border: 1px solid #e1e1e1;
 	
 }
@@ -202,7 +205,7 @@
 }
 .touristFirst{
 	height: 186px;
-	width: 1001px;
+	width: 970px;
 	margin-left: -1px;
 	padding-left: 31px;
 	border-bottom: 1px dotted #bfbfbf;
@@ -219,7 +222,7 @@
 .insue{
 
 	height: 199px;
-	width: 10001px;	
+	width: 1001px;	
 	border: 1px solid #e1e1e1;
 	margin-top: 30px;
 	margin-left: -2px;
@@ -306,7 +309,7 @@
 
 .moreRequest{
 	height: 140px;
-	width: 1001px;
+	width: 999px;
 	margin-left: -1px;	
 	border: 1px solid #e1e1e1;
 	margin-top: 30px;

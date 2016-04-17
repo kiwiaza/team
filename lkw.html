@@ -157,15 +157,15 @@
 				</div>
 				<div class="nav">
 					<ul class="list">
-						<li><a href="">首页</a></li>
-						<li><a href="">目的地</a></li>
-						<li><a href="">线路</a></li>
-						<li><a href="">订制</a></li>
-						<li><a href="">自驾团</a></li>
-						<li><a href="">摄影</a></li>
-						<li><a href="">互动</a></li>
-						<li><a href="">精选</a></li>
-						<li><a href="">预订</a></li>
+						<li><a href="##">首页</a></li>
+						<li><a href="##">目的地</a></li>
+						<li><a href="##">线路</a></li>
+						<li><a href="##">订制</a></li>
+						<li><a href="##">自驾团</a></li>
+						<li><a href="##">摄影</a></li>
+						<li><a href="##">互动</a></li>
+						<li><a href="##">精选</a></li>
+						<li><a href="##">预订</a></li>
 					</ul>
 				</div>
 			</div>
@@ -284,7 +284,9 @@
                 showDiv.innerHTML=h+"时"+m+"分"+s+"秒内";
             }
 
-
+            $(".list li").click(function(){
+				$(this).addClass("active1").siblings().removeClass("active1")
+			});
 
             $(".addres span").click(function(){
 				$(".boxDiv").css("display","block")

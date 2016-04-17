@@ -3,13 +3,22 @@
 <head>
 	<meta charset="UTF-8">
 	<title>自驾团详情页</title>
+
 	<link rel="stylesheet" href="style/bootstrap.min.css">
 	<link rel="stylesheet" href="style/hyn-zjtxqy.css">
 	<link href="style/hyn-style.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="style/hyn-a.css">
+	<link rel="stylesheet" href="style/fullcalendar.css">
+	<link rel="stylesheet" href="style/fullcalendar.print.css" media='print'>
+
+
 	<script src="js/jquery-1.11.1.js"></script>
-	<script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
-	<script src="js/slide.js" type="text/javascript"></script>
+	<script src='js/moment.min.js'></script>
+	<script src='js/slide.js'></script>
+	<script src='js/fullcalendar.js'></script>
+	<link rel="stylesheet" href="style/main.css">
+	<script src='js/jquery.validate.min.js'></script>
+
 </head>
 <body>
 	<div id="header">
@@ -98,13 +107,32 @@
 	</div>
 	<div id="banner">
 		<div id="banner-inner">
-			<div class="banner-left">
+			<div class="banner-left"
+			style="position: relative">
 				<ul id="list-1">
 					<li>首页<span> > </span></li>
 					<li>自驾团 <span> > </span></li>
 					<li>自驾团境内</li>
 				</ul>
 				<div id="pic">
+<!-- 悬浮窗 -->
+	<div id="xuanfuchuang">
+	<div class="fenxiangchuang">
+		分享
+	</div>
+	<div class="huise1">
+		<img style="margin-top:32px"src="images/huise1.png" alt="">
+	</div>
+	<div class="huise2">
+		<img style="margin-top:24px"src="images/huise2.png" alt="">
+	</div>
+	<div class="huise3">
+		<img style="margin-top:31px"src="images/huise3.png" alt="">
+	</div>
+	<div class="huise4">
+		<img style="margin-top:21px"src="images/huise4.png" alt="">
+	</div>
+	</div>
 <!-- 图片轮播 -->
 					<div class="picbox">
 						<div id="featured">
@@ -147,9 +175,41 @@
 							</ul>
 						</div>
 					</div>
-<!-- 以上是图片轮播！！！！！！！！！！！！！！！！！！！！！！ -->
 				</div>
-				<div id="day">日历</div>
+<!-- 以上是图片轮播！！！！！！！！！！！！！！！！！！！！！！ -->
+
+				<div id='calendar'>
+				</div>
+				<div class="xiaokuang">
+					<div class="biao">
+					   <div class="box3"style="margin-top:-12px;"><span style="margin-left:0px">出游日期：</span><input type="date" placeholder="请选择出发日期"style="width:266px;height:28px;border:1px solid #c7c7c7;" ></div>
+					   <div class="box4"style="margin-top:-15px;"
+					   ><span style="margin-left:0px">出发城市：</span><input type="text"placeholder="出发城市"style="width:266px;height:28px;border:1px solid #c7c7c7;"></div>
+					</div>
+					<div class="biao2"style="margin-top:-35px;height:50px">
+						<div class="biao2-left"style="width:72px"> <p style="margin-left:0px">出游人数：</p> </div>
+						<div class="biao2-right">
+							<ul id="jia1"style="width:106px">
+								<li class="minus11">-</li>
+								<li class="num11"style="width:36px;height:28px;">1</li>
+								<li class="add11">+</li>
+							</ul>
+							<p style="width:24px">成人</p>
+							<ul id="jian1"style="width:106px">
+								<li class="minus21">-</li>
+								<li class="num21" style="width:36px;height:28px;">0</li>
+								<li class="add21">+</li>
+							</ul>
+							<div class="biao2-right2"style="width:24px;">
+								<p style="width:24px;font-size:8px;margin-top:-30px;margin-left:237px">儿童</p>
+							</div>
+						</div>
+					</div>
+					<div id="wor"><p>我要报名</p></div>
+				</div>
+
+
+
 			</div>
 			<div class="banner-right">
 				<div class="txt">
@@ -160,7 +220,7 @@
 			       	<p>这是享誉摄影世界的世界级摄影旅行目的地，这里没有都市的喧嚣与烦躁，没有钢筋森林给人带来的种种压抑；这里是放飞心灵的地方，也是您涤荡心灵的梦幻旅程。</p></div>
 				<div class="baoming">
 					<p>爱自驾价:<span>￥<strong>4580</strong>起</span></p>
-					<div id="box1">我要报名</div>
+					<div id="box1"><a href="zn1.html">我要报名</a></div>
 					<div id="box2">
 							 <p>收藏</p>
 						<img class="xing" src="images/c4.png" alt="心形">
@@ -211,20 +271,26 @@
 						<p>自2005年开始，南京首家专业自驾车旅游公司——“中国自驾游联盟”，本着以城市为中心,以旅行社为龙头,以自驾游自助游为纽带的发展宗旨,通过强劲发展,现已覆盖全国20个省200多个城市，总部设在南京，在“专业保障，旅游保险，特色活动，媒体支撑”的指导思想指引下，平均年组织车友实施自驾游旅游活动百余次，参加人员达数万人！近年来，我们策划与服务的自驾游车队达400余个，参加车辆超过2000辆，参加的车友近十万多人次！ 我们的行程遍布华南、华中、华北、西南、西北20余省、区，并多次成功举办主题自驾活动，同时在尝试开辟国外自驾游市场，引导及推动着中国自驾游的方向与潮流，赢得了广大媒体与各路车会的关注与信任，成为本地区自驾游最具活力、最具经验、最具规模、最具口碑的专业机构。</p>
 					</div>
 				</div>
-				<div id="history">
 					<div class="da"><p>历史组团</p></div>
+				<div id="history">
 					<div class="db">
-
-						<ul id="piclist1">
-							<img  class="jiantou1"src="images/jiantou1.png" alt="">
-
-							<li class="zuo"><img src="images/a2.png" style="height:94px;width；142px" alt=""> <p>海天佛国 普陀山祈福之旅</p><span>2015-01-03</span></li>
+						<div class="jiantou1">
+							<img  src="images/jiantou1.png" alt="">
+						</div>
+						<div id="piclist" >
+							<ul class="zuolist">
+							<li class="zuo">
+							<img src="images/a2.png" style="height:94px;width；142px;" alt=""> <p>海天佛国 普陀山祈福之旅</p><span>2015-01-03</span></li>
 							<li><img src="images/a6.png" style="height:95px;width；143px;"alt=""><p>冰雪呼伦贝尔<br>冬季那达慕自<br>驾</p><span>2015-12-30</span></li>
 							<li><img src="images/a7.png" style="height:95px;width:141px;"alt=""><p>食在广东 粤菜美食自驾之旅</p><span>2015-12-29</span></li>
 							<li><img src="images/a1.png" style="height:95px;width:141px;"alt=""><p>彩云之南 边关秘境</p><span>2015-01-03</span></li>
-							<li class="zuo1"><img src="images/a1.png" style="height:95px;width:141px"alt=""><p>彩云之南 边关秘境</p><span>2015-01-03</span></li>
-							<img  class="jiantou2"src="images/jiantou2.png" alt="">
-						</ul>
+							<li class="you"><img src="images/a1.png" style="height:95px;width:141px"alt=""><p>彩云之南 边关秘境</p><span>2015-01-03</span>
+								</li>
+							</ul>
+						</div>
+						<div class="jiantou2">
+							<img src="images/jiantou2.png" alt="">
+						</div>
 					</div>
 				</div>
 			</div>
@@ -238,9 +304,49 @@
 					<div id="apple">
 						<div id="xingcheng"style="display:block;">
 								<div class="ea"><p>行程简介</p></div>
-								<div class="eb"><p>第二天</p></div>
-									<div class="xu"></div>
-									<div class="xuyou"><div class="ec"><p>昆明-建水</p></div>
+
+									<div class="xu">
+										<div class="gaidong">
+
+										</div>
+										<div class="diyitian">
+											<p>第一天</p>
+											<img style="float:right;margin-right:20px;
+											margin-top:-12px;"src="images/xiaoyuan.png" alt="">
+										</div>
+										<div class="diertian1">
+											<div class="pp2">第二天</div>
+											<img class="xiang"style="float:left;margin-left:78px;
+											margin-top:-30px;"src="images/xiangqing.png" alt="">
+										</div>
+										<div class="di3tian">
+											<div class="pp3">第三天</div>
+											<img  class="bianhua"src="images/xiaoyuan.png" alt="">
+										</div>
+										<div class="di4tian">
+											<div class="pp4">第四天</div>
+											<img style="float:right;margin-right:20px;
+											margin-top:-12px;"src="images/xiaoyuan.png" alt="">
+										</div>
+										<div class="di5tian">
+											<div class="pp5">第五天</div>
+											<img style="float:right;margin-right:20px;
+											margin-top:-12px;"src="images/xiaoyuan.png" alt="">
+										</div>
+										<div class="di5tian">
+											<div class="pp5">第六天</div>
+											<img style="float:right;margin-right:20px;
+											margin-top:-12px;"src="images/xiaoyuan.png" alt="">
+										</div>
+										<div class="di5tian">
+											<div class="pp5">第七天</div>
+											<img style="float:right;margin-right:20px;
+											margin-top:-12px;"src="images/xiaoyuan.png" alt="">
+										</div>
+									</div>
+									<div class="xuyou">
+										<div class="eb"><p>第二天</p></div>
+										<div class="ec"><p>昆明-建水</p></div>
 										<div class="ed"><p>餐食：早餐、晚餐<span>住宿：建水</span></p></div>
 										<div class="ee"><p>酒店早餐后，前往由传统的汉族青砖四合大院、彝族土掌房和汉彝结合的瓦檐土掌房三类建筑风格结合的民居世界——团山民居，团山至今还保存着的完整古村落整体格局，有着滇南乡村特色风貌与传统社会人文环境的原生态特点，世所罕见，极为珍贵。到达建水县城后，前往参观朱家花园，有一组规模宠大的清代民居建筑，有“滇南大观园”之誉！房间内的床，凳，桌，椅均采用紫木雕刻，体现清代风格，门僮及导游小姐的服饰和接待客人的清式礼仪，让人有恍若置身百年前历史生活的感受。</p></div>
 										<div class="ef">
@@ -251,14 +357,14 @@
 									<div class="diertian">
 										<div class="fa"><p>第三天</p></div>
 										<div class="fb"><p>建水—原阳</p></div>
-										<div class="fc"><p>餐食：早餐、晚餐<span>住宿：元阳</span></p></div>
+										<div class="fcc"><p>餐食：早餐、晚餐<span>住宿：元阳</span></p></div>
 										<div class="fd"><p>酒店早餐后，前往中国最美的元阳梯田。元阳哈尼梯田主要有三大核心区组成——【坝达景区】、【老虎嘴景区】、【多依树景区】，去老虎嘴俯看梯田是很好的选择，6000多亩梯田分布于深谷，像一朵巨大的花蕊，老虎嘴被美国摄影家称为世界上最壮丽的田园风光；晚上看夕阳，则应该选择坝达景区，在龙树坝拍日落也是不错的选择；感受大自然的鬼斧神工，19万亩映着蓝天的哈尼梯田就在你的脚下，哈尼梯田有一千多年的历史，至今科学仍无法解答，这样大面积的，在这崇山峻岭中是怎么挖掘的。</p></div>
 										<div class="fg">
 										<img src="images/b4.png" alt="">
 										<img  class="ef2"src="images/b4.png" alt="">
 										</div>
 									</div></div>
-						<div id="feiyong"style="display:none;margin-top:40px;">
+						<div id="feiyong"style="display:none;padding-top:59px">
 							<div class="tip"><p>费用明细</p></div>
 							<div class="tip1">
 								<li style="margin-top:33px;">【活动费用】4580元/人</li>
@@ -287,7 +393,7 @@
 									<li>5、酒店电话费，洗衣费，购物等个人消费</li>
 								</ul>
 							</div>	</div>
-						<div id="qita"style="display:none;margin-top:40px;">
+						<div id="qita"style="display:none;padding-top:59px">
 							<div class="qt"><p>其他说明</p></div>
 							<div class="qt1"><p style="margin-top:38px;color:black;">【活动时间】</p><br><p>2015年12月27日—2016年1月2日</p></div>
 							<div class="chuzu">
@@ -315,7 +421,7 @@
 									<li>5、长时间在户外活动，请戴上太阳镜，涂抹防晒霜以护肤；爱护环境，安全第一，全部垃圾带出景区。</li>
 								</ul>
 							</div>		</div>
-						<div id="say"style="display:none;margin-top:40px;">
+						<div id="say"style="display:none;padding-top:59px">
 							<div class="yonghu"><p>用户评论</p></div>
 								<div class="quanbu">
 									<div class="blueBox">
@@ -383,39 +489,61 @@
 												<div class="samll-right"><p>尊敬的爱自驾会员，给你立减400这个订单之后，此特惠房型实际成功预订的此客栈只收了您75元/晚，您可以仔细对比下的，感谢您对爱自驾网的关注与支持，欢迎您下次预订4007-999-999，谢谢！祝您愉快！</p><span>(2015-12-11 13:23:56)</span></div>
 											</div>
 										</div>
-								</div>
+									</div>
 								</div>
 								<div class="third">
-								<div class="third-left">
-								<img style="margin-top:54px;width:97px;height:97px;" src="images/b6.png" alt="">
-								<p  style="margin-left: 5px;margin-top: 15px;font-family: "微软雅黑";font-size: 14px;">E29****329</p>
+									<div class="third-left">
+									<img style="margin-top:54px;width:97px;height:97px;" src="images/b6.png" alt="">
+									<p  style="margin-left: 5px;margin-top: 15px;font-family: "微软雅黑";font-size: 14px;">E29****329</p>
+									</div>
+									<div class="third-right">
+									<div style="height:82px;width: 944px;float:left;">
+											<ul class="right-nav" style="height:25px;">
+											<li style="margin-left:7px;">行程安排：满意<span>|</span></li>
+											<li style="margin-left:22px;">住宿餐食：满意<span>|</span></li>
+											<li style="margin-left:22px;">旅游交通：满意<span>|</span></li>
+											<li style="margin-left:22px;">综合评价：</li><img src="images/c5.png" alt=""><img src="images/c5.png" alt=""><img src="images/c5.png" alt=""><img src="images/c5.png" alt=""><img src="images/c5.png" alt="">
+										</ul>
+									</div>
+									<div class="right-mmidd3"><p>18号就结束行程了，现在才来评价，总的来说还是不错的。</p></div>
+									<div class="mid113" style="float: left;height: 31px;width: 831px;">
+										<div class="mid123">行程安排：</div>
+										<div class="anpai3" ><p>很好</p></div>
+									</div>
+									<div class="mid113" style="float: left;height: 31px;width: 831px;">
+										<div class="mid123">住宿餐食：</div>
+										<div class="anpai3" ><p>很好</p></div>
+									</div>
+									<div class="mid113" style="float: left;height: 20px;width: 831px;">
+										<div class="mid123">旅行交通：</div>
+										<div class="anpai3" ><p>很好</p></div>
+									</div>
+									<div class="right-bot"style="border-bottom:none;height:49px">
+									<p style="margin-top:-2px;">2015-12-22 14:12<span style="margin-left:22px;">来自：爱自驾电脑版</span></p>
+									</div>
 								</div>
-								<div class="third-right">
-								<div style="height:82px;width: 944px;float:left;">
-										<ul class="right-nav" style="height:25px;">
-										<li style="margin-left:7px;">行程安排：满意<span>|</span></li>
-										<li style="margin-left:22px;">住宿餐食：满意<span>|</span></li>
-										<li style="margin-left:22px;">旅游交通：满意<span>|</span></li>
-										<li style="margin-left:22px;">综合评价：</li><img src="images/c5.png" alt=""><img src="images/c5.png" alt=""><img src="images/c5.png" alt=""><img src="images/c5.png" alt=""><img src="images/c5.png" alt="">
-									</ul>
+								<div class="fourst">
+									<div class="fourst-left">
+										<p>查看全部评论>></p>
+									</div>
+									<div class="fourst-right">
+										<ul class="boss">
+											<li style="margin-left:0px"><img src="images/boss.png" alt=""></li>
+											<li>1</li>
+											<li>2</li>
+											<li>3</li>
+											<li>4</li>
+											<li style="width:62px">下一页<img src="images/boss1.png"style="margin-left:5px;" alt=""></li>
+											<p style="padding-top:36px;
+											width:17px;height:15px;margin-left:341px">到</p>
+											<li style="margin-left:45px;margin-top:-5px"></li>
+											<p style="padding-top:1px;
+											width:17px;height:15px;margin-left:420px">页</p>
+											<li style="margin-left:39px;margin-top:-20px;color:black">确定</li>
+										</ul>
+									</div>
 								</div>
-								<div class="right-mmidd3"><p>18号就结束行程了，现在才来评价，总的来说还是不错的。</p></div>
-								<div class="mid113" style="float: left;height: 31px;width: 831px;">
-									<div class="mid123">行程安排：</div>
-									<div class="anpai3" ><p>很好</p></div>
-								</div>
-								<div class="mid113" style="float: left;height: 31px;width: 831px;">
-									<div class="mid123">住宿餐食：</div>
-									<div class="anpai3" ><p>很好</p></div>
-								</div>
-								<div class="mid113" style="float: left;height: 20px;width: 831px;">
-									<div class="mid123">旅行交通：</div>
-									<div class="anpai3" ><p>很好</p></div>
-								</div>
-								<div class="right-bot"style="border-bottom:none;height:49px;">
-								<p style="margin-top:-2px;">2015-12-22 14:12<span style="margin-left:22px;">来自：爱自驾电脑版</span></p>
-							</div>
-							</div></div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -443,79 +571,183 @@
 			</div>
 	</div>
 <!-- 登录模态框 -->
-	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <!-- <div class="modal-header"> -->
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <!-- <h4 class="modal-title" id="myModalLabel">Modal title</h4> -->
-     <!--  </div> -->
-      <div class="modal-body2">
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabe1">
+  		<div class="modal-dialog" role="document">
+    	<div class="modal-content">
+    	<div class="modal-body2">
+      			<button type="button" class="close" data-dismiss="modal" aria-label="Close"style="margin-top:13px;margin-right:20px;"><span aria-hidden="true">&times;</span></button>
 		<div class="h2">
 			 <div class="ai"><img src="images/b9.png" alt=""></div>
 		</div>
 		<div class="yxbiao">
-          <input style="margin-top:0px"type="text" placeholder="邮箱/手机/用户名">
-          <input style="margin-top:16px" type="text" placeholder="密码">
-      	</div>
-		<div class="yhd">
-		    <div class="dl">
-		    	<div class="dl1"><a href="#" style="color:#fff;">登录</a></div>
-		    </div>
-		</div>
-       <div class="wangji">
-            <span style="font-family:'微软雅黑';font-size:12px">忘记密码 <b style="float:right">还没有账号？免费注册</b></span>
+		<form action=""class="cmxform" id="commentForm" method="get">
+		<fieldset>
+          <input   class="denglu1"style="margin-top:0px" type="email number name" minlength="6" placeholder="邮箱/手机/用户名" required>
+
+          <input  class="zhuce1"style="margin-top:16px" type="password" placeholder="请输入密码"  minlength="6" required>
+        <input  id="dl" class="submit" type="submit" value="登录" style="background-color: #52bbdb">
+
+		   </fieldset>
+			</form>
+      		</div>
+
+      	 <div class="wangji">
+            <span style="font-family:'微软雅黑';font-size:12px">忘记密码 <b data-toggle="modal" data-target="#myModal1" class="close" data-dismiss="modal" aria-label="Close"style="float:right"><a href="#myModal1">还没有账号？免费注册</a></b></span><a href=""></a>
         </div>
-          <div class="bbaoming">
+         <div class="baoming1">
             <p style="width: 134px;
     	height: 8px;border-bottom: 1px solid #50bbdb;float: left;"></p>
             <span>其他报名方式</span>
-            <p style="width: 134px;
+          <p style="width: 134px;
     	height: 8px;border-bottom: 1px solid #50bbdb;float:right;"></p>
     	<div class="budenglu">
     		<p>不登陆，直接报名></p>
     	</div>
-           <!--  <input  class="ut" type="button"  style="width:232px;margin-left:60px"value="快速登录"> -->
+
           </div>
         </div>
       </div>
        </div>
-      </div>
+        </div>
+    </div>
+
 <!-- 注册模态框 -->
 	<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  	<div class="modal-dialog" role="document">
-    <div class="modal-content">
-   <!--    <div class="modal-header">
-      </div> -->
-      <div class="modal-body">
-      	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <div class="h1">
-          <img src="images/b9.png" alt="">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+
+            <div class="modal-body">
+            	<button type="button" class="close" data-dismiss="modal" aria-label="Close"style="margin-top:13px;margin-rigth:10px;"><span aria-hidden="true">&times;</span></button>
+              <div class="h1">
+                <img src="images/b9.png" alt="">
+              </div>
+              <p class="sjzc"><a href="#">用手机注册</a></p>
+              <div class="yx">
+              	<form action=""class="cmxform" id="commentForm" method="get">
+				<fieldset>
+                <input class="sry" type="email" placeholder="请输入邮箱">
+                <input class="yhm" minlength="4" maxlength="16" type="text"placeholder="用户名,4-16个字符,字母/数字/中文">
+                <input class="szm" type="password" name="password" minlength="6"placeholder="设置密码">
+                <input class="srm"type="password" name="password" minlength="6"placeholder="输入密码">
+                <input class="yqm" type="text"type="password" name="password" minlength="6" placeholder="输入邀请码,可不填">
+                <div class="yhx">
+                 <span style="font-family:'微软雅黑';font-size:12px">注册视为同意 <b>《爱自驾用户使用协议》</b></span>
+                 <input class="submit1" type="submit" value="注册" style="background-color: #52bbdb;margin-top:-3px">
+                </div>
+                <div class="qitaa">
+                  <p class="left"></p>
+                  其他报名方式
+                  <p class="right"></p>
+                  <input  class="ut" type="button"  style="width:232px;margin-left:60px"value="快速登录">
+                </div>
+                </fieldset>
+				</form>
+              </div>
+            </div>
+              </div>
         </div>
-        <p class="sjzc"><a href="#">用手机注册</a></p>
-        <div class="yx">
-          <input class="sry" type="text" placeholder="请输入邮箱">
-          <input class="yhm" type="text" placeholder="用户名,4-16个字符,字母/数字/中文">
-          <input class="szm" type="text" placeholder="设置密码">
-          <input class="srm" type="text" placeholder="输入密码">
-          <input class="yqm" type="text" placeholder="输入邀请码,可不填">
-          <div class="yhx">
-             <span style="font-family:'微软雅黑';font-size:12px">注册视为同意 <b>《爱自驾用户使用协议》</b></span>
-              <a href="#">注册</a>
-          </div>
-          <div class="qitaa">
-            <p class="left"></p>
-            其他报名方式
-            <p class="right"></p>
-            <input  class="ut" type="button"  style="width:232px;margin-left:60px"value="快速登录">
-          </div>
-        </div>
-      </div>
-  	</div>
-	</div>
-		<script src="js/jquery-1.11.1.js"></script>
+
+
 		<script src="js/bootstrap.min.js"></script>
 <script type="text/javascript">
+//日历。。。。
+	$(document).ready(function() {
+
+			$('#calendar').fullCalendar({
+				// defaultDate: '2016-04-12',
+				editable: true,
+				eventLimit: true,
+				header: {
+					left: 'prev',
+					center: 'title',
+					right: 'next,',
+				},
+				events: [
+				{
+					title: '3259元',
+					start: '2016-04-26T16:00:00'
+				},
+				{
+					title: '3259元',
+					start: '2016-04-23T16:00:00'
+				},
+				{
+					title: '3259元',
+					start: '2015-12-21',
+					// end: '2016-04-13'
+				},
+				{
+					title: '报名截止',
+					start: '2016-04-27T07:00:00'
+				},
+				{
+					title: '活动结束',
+					start: '2016-04-28'
+				}
+			],
+				dayClick: function() {
+	       $(".xiaokuang").css("display","block");
+		    },
+			// 	// buttonIcons:false,
+			// 	//today,month,agendaWeek,agendaDay
+			// 	// weekends: false,隐藏周末
+			});
+			var myEvent = ['2016-04-23','2016-04-26',];
+			// console.log(myEvent[0]);
+			function setMyEvent(){
+				for (var i = 0; i < myEvent.length; i++) {
+					var mySelector = '.fc-widget-content.fc-future' + '[data-date="' + myEvent[i] + '"]';
+					$(mySelector).css('position', 'relative').append('<img src="images/jian-logo.png" class="jian-logo">').append('<span class="time-atonce">实时</span>');
+				}
+			}
+			setMyEvent();
+			// console.log($('.fc-today'));这个显示today的问题解决了，在5188行，搜索‘自己修改’
+			function setWeek() {    //修改week显示函数
+				$('.fc-day-header.fc-sun').text('日');
+				$('.fc-day-header.fc-mon').text('一');
+				$('.fc-day-header.fc-tue').text('二');
+				$('.fc-day-header.fc-wed').text('三');
+				$('.fc-day-header.fc-thu').text('四');
+				$('.fc-day-header.fc-fri').text('五');
+				$('.fc-day-header.fc-sat').text('六');
+			}
+			setWeek();
+			$('.fc-prev-button,.fc-next-button').click(function() {
+				setWeek();
+				setMyEvent();
+			});
+
+			function setTitle() {  //修改标题显示问题
+				var myMonthName = ['一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'];
+				var myMonth = new Date();
+				var myMonthNum = Number(myMonth.getMonth());
+				var myYearNum = Number(myMonth.getFullYear());
+				// console.log(myYearNum);
+				$('.fc-center h2').text(myMonthName[myMonthNum] + myYearNum);
+				$('.fc-prev-button').click(function() {
+					if (myMonthNum > 0) {
+						myMonthNum --;
+						$('.fc-center h2').text(myMonthName[myMonthNum] + myYearNum);
+					} else {
+						myMonthNum = 11;
+						myYearNum --;
+						$('.fc-center h2').text(myMonthName[myMonthNum] + myYearNum);
+					}
+				});
+				$('.fc-next-button').click(function() {
+					if (myMonthNum > 10) {
+						myMonthNum = 0;
+						myYearNum ++;
+						$('.fc-center h2').text(myMonthName[myMonthNum] + myYearNum);
+					} else {
+						myMonthNum ++;
+						$('.fc-center h2').text(myMonthName[myMonthNum] + myYearNum);
+					}
+				});
+			}
+			setTitle();
+
+		});
 // 加减
 	$(".add1").click(function(){
 		var x=$(".num1").text();
@@ -544,37 +776,74 @@
 		}else{
 			$(".num2").text(x);
 		}
+	});
+
+	$(".add11").click(function(){
+		var x=$(".num11").text();
+		x++;
+		$(".num11").text(x);
 	})
+	$(".minus11").click(function(){
+		var x=$(".num11").text();
+		if(x=0){
+			x--;
+			$(".num11").text(x);
+		}else{
+			$(".num11").text(x);
+		}
+	})
+	$(".add21").click(function(){
+		var x=$(".num21").text();
+		x++;
+		$(".num21").text(x);
+	})
+	$(".minus21").click(function(){
+		var x=$(".num21").text();
+		if(x=0){
+			x--;
+			$(".num21").text(x);
+		}else{
+			$(".num21").text(x);
+		}
+	});
 //选项卡滑动
-	$("#nav li").hover(function(){
-		$(this).css("background-color","#50bbdb").siblings().css("background-color","#fff");
-		$(this).addClass("active");
-		$(this).siblings().removeClass("active");
-	})
+	$("#nav li").click(function(){
+		$(this).addClass("active1").siblings().removeClass("active1")
+	});
+
+	// $("#nav li").hover(function(){
+	// 	$(this).css("background-color","#50bbdb").siblings().css("background-color","#fff");
+	// 	$(this).addClass("active");
+	// 	$(this).siblings().removeClass("active");
+	// });
 //换图片收藏
 	$(".xing").click(function(){
 		$(this).css("display","none").siblings().css("display","block")
 	})
 	$(".xing2").click(function(){
 		$(this).css("display","none").siblings().css("display","block")
-	})
+	});
 //选项卡。。。。。。。。。
 	$("#eee .lit").click(function(){
 		// var index=$(this).index();
 		$("#xingcheng").css("display","block").siblings().css("display","none");
+		$(this).css("border","1px solid #c9c9c9").css("border-bottom","none").siblings().css("border","none");
 	})
 	$("#eee .lit1").click(function(){
 		// var index=$(this).index();
 		$("#feiyong").css("display","block").siblings().css("display","none");
+		$(this).css("border","1px solid #c9c9c9").css("border-bottom","none").siblings().css("border","none");
 	})
 	$("#eee .lit2").click(function(){
 		// var index=$(this).index();
 		$("#qita").css("display","block").siblings().css("display","none");
+		$(this).css("border","1px solid #c9c9c9").css("border-bottom","none").siblings().css("border","none");
 	})
 	$("#eee .lit3").click(function(){
 		// var index=$(this).index();
 		$("#say").css("display","block").siblings().css("display","none");
-	})
+		$(this).css("border","1px solid #c9c9c9").css("border-bottom","none").siblings().css("border","none");
+	});
 //图片轮播。。。。。。。。。
 	var target = ["pic-01","pic-02","pic-03","pic-04","pic-05","pic-06","pic-07"];
 // 切换城市。。。。。
@@ -587,7 +856,7 @@
 			});
 	$(".yincang").mouseleave(function(){
 		$(".yincang").css("display","none")
-	})
+	});
 //鼠标移入换图片
 	$(".zuobiao").mouseenter(function(){
 		$(this).attr("src","images/zuobiao.png")
@@ -612,14 +881,59 @@
 	})
 	$(".ishouji").mouseleave(function(){
 		$(this).attr("src","images/iphone.png")
+	});
+	//窗
+	$(".huise1 img").mouseenter(function(){
+		$(this).attr("src","images/huise11.jpg")
+	})
+	$(".huise1 img").mouseleave(function(){
+		$(this).attr("src","images/huise1.png")
+	})
+	$(".huise2 img").mouseenter(function(){
+		$(this).attr("src","images/huise22.jpg")
+	})
+	$(".huise2 img").mouseleave(function(){
+		$(this).attr("src","images/huise2.png")
+	})
+	$(".huise3 img").mouseenter(function(){
+		$(this).attr("src","images/huise33.jpg")
+	})
+	$(".huise3 img").mouseleave(function(){
+		$(this).attr("src","images/huise3.png")
+	})
+	$(".huise4 img").mouseenter(function(){
+		$(this).attr("src","images/huise44.jpg")
+	})
+	$(".huise4 img").mouseleave(function(){
+		$(this).attr("src","images/huise4.png")
 	})
 //图片切换。。。
 	$(".jiantou1").click(function(){
-		$(".zuo").animate({"margin-left":"-225px"},3000);
+		$(".zuo").animate({"margin-left":"-225px"},1000);
 	})
 	$(".jiantou2").click(function(){
-		$(".zuo").animate({"margin-left":"30px"},3000);
+		$(".zuo").animate({"margin-left":"8px"},1000);
+	});
+//悬浮窗。。。
+	$("#featured >.image").click(function(){
+		$("#xuanfuchuang").css("display","block")
 	})
-</script>
+	$("#xuanfuchuang").mouseleave(function(){
+			$("#xuanfuchuang").css("display","none")
+		});
+//第三天。。。。
+	$(".bianhua").click(function(){
+		$(this).attr("src","images/xiangqing.png").css("margin-top","-16px").css("margin-left","-12px");
+		$(".pp3").css("font-size","16px").css("margin-left","24px");
+		$(".xiang").attr("src","images/xiaoyuan.png").css("margin-top","-12px").css("margin-left","90px")
+		$(".pp2").css("font-size","12px").css("margin-left","31px");
+	})
+	$(".bianhua").click(function(){
+		$(".xuyou").slideUp(1500)
+		$(".diertian").animate({"margin-top":"-680px"},1500)
+	})
+$(".xiaokuang").mouseleave(function(){
+		$(".xiaokuang").css("display","none")
+	});</script>
 </body>
 </html>

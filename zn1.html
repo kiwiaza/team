@@ -7,6 +7,87 @@
 
 </head>
 <body>
+	<div class="ui-mask"></div>
+	<div class="side-nav">
+    <div class="top_top">
+       <img class="logo" src="images/b9.png" alt="">
+       <img class="close" src="images/close.png" alt="">
+    </div>
+    <div class="sign-in">
+    	<div class="sign-inner">
+    		<input type="text" placeholder="邮箱/手机/用户名" class="txt txt1">
+           	<input type="password" placeholder="密码" class="txt txt2">
+           	<input type="button" value="登录" class="btn">
+    	</div> 
+    	
+    </div>
+    <div class="sign-up">
+       <div class="sign-up-inner">
+          <a class="password">忘记密码</a>
+          <span class="no">还没有账号？<a class="sign-in-in">免费注册</a></span>
+       </div>
+    </div>
+    <div class="baoming clearfix">
+       <div class="inner clearfix">
+          <img class="pic1" src="images/blue-line.png" alt=""><span>其他报名方式</span><img class="pic2" src="images/blue-line.png" alt="">
+       </div>   
+    </div>
+    <div class="denglu">
+    	<div class="denglu-inner">
+    		 <input type="button" value="不登陆，直接报名>" class="btn3">
+    	</div>
+    </div>
+   </div>
+<div class="side-nav1">
+    <div class="top_top">
+        <img class="logo" src="images/b9.png" alt="">
+        <img class="close" src="images/close.png" alt="">
+    </div>
+    <div class="phone-sign-up">
+    	<div class="phone-sign-inner">
+    		<span class="sign-up-phone">用手机注册</span>
+    	</div>
+    </div>
+    <div class="sign-in">
+        <div class="sign-inner">
+        	<input type="text" placeholder="请输入邮箱" class="txt txt1">
+            <input type="text" placeholder="用户名，4-16个字符，字母/中文/数字" class="txt txt2">
+            <input type="password" placeholder="设置密码" class="txt txt3">
+            <input type="password" placeholder="输入密码" class="txt txt4">
+            <input type="text" placeholder="输入邀请码，可不填" class="txt txt5">
+        </div>  
+        <div class="is_is">
+			<label class="lab1" for="">√</label>
+			<label class="lab2" for="">×</label>
+		</div>
+		<div class="is_is_is">
+			<label class="lab3" for="">√</label>
+			<label class="lab4" for="">×</label>
+		</div>
+		<div class="is_is_is_is">
+			<label class="lab5" for="">√</label>
+			<label class="lab6" for="">×</label>
+		</div>
+    </div>
+    <div class="sign-up">
+       	<div class="sign-up-inner">
+            <span id="yes">注册视为同意</span><span>《爱自驾用户使用协议》</span>
+            <input type="button" class="sign-in-in" value='注册'></input>
+        </div>
+    </div>
+    <div class="baoming clearfix">
+        <div class="inner clearfix">
+            <img class="pic1" src="images/blue-line.png" alt=""><span>其他报名方式</span><img class="pic2" src="images/blue-line.png" alt="">
+        </div>   
+    </div>
+    <div class="denglu">
+        <div class="denglu-inner">
+        	<input type="button" value="快速登录>" class="btn3">
+        </div>
+    </div>
+</div>
+
+
 	 <div id="one">
 		<div class="top">
 			<div class="yincang">
@@ -62,8 +143,8 @@
 				<img  class="pictxian1"src="images/QQ.png" alt="">
 				<img src="images/sina.png" alt=""class="pictxian2">
 				<div class="numb">
-				<a href="" style="margin-left:10px">登陆<span style="margin-left:10px">|</span></a>
-				<a href=""style="margin-left:10px">注册</a>
+				<a style="margin-left:10px" id="md-content1">登陆<span style="margin-left:10px">|</span></a>
+				<a style="margin-left:10px" id="md-content2">注册</a>
 				</div>
 			</div>
 		</div>
@@ -100,7 +181,7 @@
 				<div class="main_left">
 				<div class="left_top">
 				<div class="p1">线路信息</div>
-				<div class="btn"><input type="button" value="修改"></div>
+				<div class="btn"><p>修改</p></div>
 				</div>
 				<div class="left_bottom">
 				<div class="bottom1">
@@ -135,12 +216,10 @@
 						<div class="content6">
 						<div style="margin-bottom:32px">
 						<label>
-    					<input type="radio" name="optionsRadios"value="option1" checked>   同意拼房
+    					<input type="radio" name="optionsRadios"value="option1" checked >   同意拼房
     					</label></div>
 						<div>
-							<label >
-    					<input type="radio" name="optionsRadios" id="optionsRadios1" value="" checked>  不同意拼房,愿意支付房差费用￥3500
-    					</label>
+						     
     					</div>
     					
 
@@ -345,10 +424,9 @@
 			<div class="mainh">
 				<div class="mainhtop">
 					<div  class="hinp">
-						<p>总价 ：</p>
-						<p>1*</p>
-						<p>5280 +1</p>
-						p
+						<p class="zongjia">总价：1*￥5280+1*￥120+1*￥170
+						</p>
+						<p class="jiage">=￥5570</p>
 					</div>
 					
 				</div>
@@ -358,7 +436,7 @@
   							</label>已阅读自驾条款，并同意</p>
 				</div>
 				<div class="mainhbox">
-					<a href="">确认订单并提交</a>
+					<a href="lkw.html">确认订单并提交</a>
 				</div>
 			</div>
 		</div>
@@ -388,17 +466,8 @@
 	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
     <script type="text/javascript" src="js/jquery.cycle.all.js"></script>
     <script>
-    $(".leader ul li").mouseenter(
-		function(){
-				$(this).addClass("activeline").css("color","white").siblings().css("color","#a0a0a0")
-				
-				})
-	$(".leader ul li").mouseleave(
-				function(){
-					$(this).removeClass("activeline").css("color","#a0a0a0")
-				});
-	$(".leader ul li").click(function(){
-		$(this).css("background-color","#52bbdb")
+   $(".leader ul li").click(function(){
+		$(this).addClass("active1").siblings().removeClass("active1")
 	});
     $(".tuigai2").click(function(){
     	$(".img1").css("display","none");
@@ -414,6 +483,10 @@
 	$(".eq2").click(function(){
 		var x=$(".eq1").text();
 		x++;
+		$(".eq1").text(x);
+	})
+	$(".btn").click(function(){
+		var x=0;
 		$(".eq1").text(x);
 	})
 	$(".eq0").click(function(){
@@ -559,6 +632,136 @@
 		$("body").animate({scrollTop:0},500);
 		})
 
+		$(".side-nav1 .sign-in .txt1").blur(function(){
+			var email = /^(\w)+(\.\w+)*@(\w)+((\.\w+)+)$/; 
+			var str1 = $(".side-nav1 .sign-in .txt1").val();
+			var result1 = email.test(str1);
+			if(str1 == ""){
+				$(".side-nav1 .sign-in .lab2").css("display","block")
+				$(".side-nav1 .sign-in .lab1").css("display","none")
+
+			}else{
+				if(result1){
+					$(".side-nav1 .sign-in .lab1").css("display","block")
+					$(".side-nav1 .sign-in .lab2").css("display","none")
+				}else {
+					$(".side-nav1 .sign-in .lab2").css("display","block")
+					$(".side-nav1 .sign-in .lab1").css("display","none")
+				}	
+			}
+		})
+		$(".side-nav1 .sign-in .txt2").focus(function(){
+			var email = /^(\w)+(\.\w+)*@(\w)+((\.\w+)+)$/; 
+			var str1 = $(".side-nav1 .sign-in .txt1").val();
+			var result1 = email.test(str1);
+			if(str1 == ""){
+				$(".side-nav1 .sign-in .lab2").css("display","block")
+				// $(".side-nav1 .sign-in .lab1").css("display","none")
+			}
+		})
+
+//用户名验证
+  	$(".side-nav1 .sign-in .txt2").blur(function(){
+  			var name = /^[\u4e00-\u9fa5_a-zA-Z0-9_]{4,16}$/; 
+			var str1 = $(".side-nav1 .sign-in .txt2").val();
+			var result1 = name.test(str1);
+			if(str1 == ""){
+				$(".side-nav1 .sign-in .lab4").css("display","block")
+				$(".side-nav1 .sign-in .lab3").css("display","none")
+
+			}else{
+				if(result1){
+					$(".side-nav1 .sign-in .lab3").css("display","block")
+					$(".side-nav1 .sign-in .lab4").css("display","none")
+				}else {
+					$(".side-nav1 .sign-in .lab4").css("display","block")
+					$(".side-nav1 .sign-in .lab3").css("display","none")
+				}	
+			}
+  		})
+	  	
+//设置密码验证
+	$(".side-nav1 .sign-in .txt3").blur(function(){
+  			var password = /^[\u4e00-\u9fa5_a-zA-Z0-9_]{4,16}$/; 
+			var str1 = $(".side-nav1 .sign-in .txt3").val();
+			var result1 = password.test(str1);
+			if(str1 == ""){
+				$(".side-nav1 .sign-in .lab6").css("display","block")
+				$(".side-nav1 .sign-in .lab5").css("display","none")
+
+			}else{
+				if(result1){
+					$(".side-nav1 .sign-in .lab5").css("display","block")
+					$(".side-nav1 .sign-in .lab6").css("display","none")
+				}else {
+					$(".side-nav1 .sign-in .lab6").css("display","block")
+					$(".side-nav1 .sign-in .lab5").css("display","none")
+				}	
+			}
+  		})
+	  	$(".side-nav1 .sign-in .txt4").focus(function(){
+			var email = / ^(?![a-zA-z]+$)(?!\d+$)(?![!@#$%^&*]+$)(?![a-zA-z\d]+$)(?![a-zA-z!@#$%^&*]+$)(?![\d!@#$%^&*]+$)[a-zA-Z\d!@#$%^&*]+$ /; 
+			var str1 = $(".side-nav1 .sign-in .txt3").val();
+			var result1 = email.test(str1);
+
+			var name = /^[\u4e00-\u9fa5_a-zA-Z0-9_]{4,16}$/ 
+			var str2 = $(".side-nav1 .sign-in .txt2").val();
+			var result2 = name.test(str2);
+
+			var password = /^[\u4e00-\u9fa5_a-zA-Z0-9_]{4,16}$/; 
+			var str3 = $(".side-nav1 .sign-in .txt3").val();
+			var result3 = password.test(str3);
+
+			if(str1 == ""){
+				$(".side-nav1 .sign-in .lab2").css("display","block")
+			}
+			if(str2 == ""){
+				$(".side-nav1 .sign-in .lab4").css("display","block")
+			}
+
+			if(str3 == ""){	
+				$(".side-nav1 .sign-in .lab6").css("display","block")
+			}
+		})
+		$(".side-nav1 .sign-in .txt3").focus(function(){
+			var email = /^(\w)+(\.\w+)*@(\w)+((\.\w+)+)$/; 
+			var str1 = $(".side-nav1 .sign-in .txt1").val();
+			var result1 = email.test(str1);
+
+			var name = /^[\u4e00-\u9fa5_a-zA-Z0-9_]{4,16}$/ 
+			var str2 = $(".side-nav1 .sign-in .txt2").val();
+			var result2 = name.test(str2);
+			if(str1 == ""){
+				$(".side-nav1 .sign-in .lab2").css("display","block")
+			}
+
+			if(str2 == ""){	
+				$(".side-nav1 .sign-in .lab4").css("display","block")
+			}
+		})
+		$('#md-content1').click(function(){
+		      $('.side-nav').addClass('show');
+		      $('.ui-mask').addClass('show');
+	   	})
+   		$('.side-nav .close').click(function(){
+		      $('.side-nav').removeClass('show');
+		      $('.ui-mask').removeClass('show');
+  		 })
+
+   		$('#md-content2').click(function(){
+		      $('.side-nav1').addClass('show');
+		      $('.ui-mask').addClass('show');
+	   	})
+   		$('.side-nav1 .close').click(function(){
+		      $('.side-nav1').removeClass('show');
+		      $('.ui-mask').removeClass('show');
+  		 })
+   		$(".footertop li").mouseenter(function(){
+   			$(this).css("color","#52bbdb")
+   		})
+   		$(".footertop li").mouseleave(function(){
+   			$(this).css("color","white")
+   		})
     </script>
 </body>
 </html>

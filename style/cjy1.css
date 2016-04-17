@@ -256,7 +256,7 @@ fieldset .submit2{
 }
 #banner-top .box3 ul{
 	
-	margin:0 auto;
+	
 	display:table;
 }
 #banner-top .box3 ul li{
@@ -557,14 +557,15 @@ fieldset .submit2{
 	background-color:#565d65; 
 }
 .footer2 ul{
-	margin:0 auto;
+	margin-left: 457px;
 	display:table;
 }
 .footer2 ul li{
 	list-style:none;
 	float:left;
-	padding-left:40px;
-	font-size: 12px;
+	/*padding-right:6px;*/
+	padding-left:45px;
+	font-size: 16px;
 	font-family: Microsoft YaHei;
 	line-height:40px;
 	color:white;

@@ -499,5 +499,5 @@ fieldset .submit2{
 	cursor:pointer;
 }
 .active{
-	background-color: #52bbdb;
+	color: blue;
 }

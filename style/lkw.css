@@ -3,7 +3,9 @@
 	padding: 0px;
 
 }
-
+body{
+	padding-right: 0px !important;
+}
 #header{
 	height: 306px;
 }
@@ -91,6 +93,10 @@
 }
 .provincelist li:hover{
 	background-color: #97E3E2;
+}
+.active1{
+	background-color: #50bbdb;
+
 }
 .app{
 	width: 154px;

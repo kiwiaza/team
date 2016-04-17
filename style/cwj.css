@@ -45,7 +45,8 @@
 .side-nav .sign-in .sign-inner {
 	width: 354px;
 	height: 213px;
-	margin: 0 auto;
+	margin-left: 75px;
+	float: left;
 } 
 
 .side-nav .sign-in .sign-inner .txt {
@@ -138,9 +139,6 @@
 	height:50px;
 	border-radius:3px;
 }
-
-
-
 .ui-mask {
 	width: 100%;
 	height: 100%;
@@ -159,7 +157,68 @@
 	display: block;
 }
 
+/*//登录验证*/
+/*.side-nav .sign-in .is_is {
+	border: 1px solid black;
+	float: left;
+	width: 50px;
+	height: 50px;
+	text-align: center;  
+}
+.side-nav .sign-in .is_is_is {
+	margin-top: 20px;
+	border: 1px solid black;
+	float: left;
+	height: 50px;
+	width: 50px;
+	text-align: center;  
+}
+.side-nav .sign-in  .is_is .lab1 {
+			float: left;
+			width: 50px;
+	        height: 25px;
+			color: lightgreen;
+			display: none;
+			margin-top: 10px;
+			font-size: 20px;
+			font-weight: bold;
 
+}
+.side-nav .sign-in  .is_is .lab2 {
+			float: left;
+			width: 50px;
+			height: 25px;
+			line-height: 25px;
+			color: red;
+			display: none;
+			margin-top: 10px;
+			font-size: 20px;
+			font-weight: bold;
+}
+
+.side-nav .sign-in  .is_is_is .lab3 {
+			float: left;
+			width: 50px;
+	        height: 25px;
+			line-height: 25px;
+			color: lightgreen;
+			display: none;
+			margin-top: 10px;
+			font-size: 20px;
+			font-weight: bold;
+}
+.side-nav .sign-in  .is_is_is .lab4 {
+			float: left;
+			width: 50px;
+			height:25px;
+			line-height: 25px;
+			color: red;
+			display: none;
+			margin-top: 10px;
+			font-size: 20px;
+			font-weight: bold;
+}
+*/
 /*注册模态框*/
 
 .side-nav1 {
@@ -206,7 +265,9 @@
 .side-nav1 .sign-in .sign-inner {
 	/*border: 1px solid black;*/
 	width: 354px;
-	margin: 0 auto;
+	/*margin: 0 auto;*/
+	float: left;
+	margin-left: 75px;
 } 
 
 .side-nav1 .sign-in .sign-inner .txt {
@@ -215,6 +276,7 @@
 	font-family: "微软雅黑";
 	margin-bottom: 17px;
 	height: 53px;
+
 }
 
 .side-nav1 .sign-up {
@@ -304,25 +366,99 @@
 	z-index: 100;
 	display: block;
 }
+/*//注册验证*/
+.side-nav1 .sign-in .is_is {
+/*	border: 1px solid black;*/
+	float: left;
+	width: 50px;
+	height: 50px;
+	text-align: center;  
+}
+.side-nav1 .sign-in .is_is_is {
+	margin-top: 20px;
+	/*border: 1px solid black;*/
+	float: left;
+	height: 50px;
+	width: 50px;
+	text-align: center;  
+}
+.side-nav1 .sign-in .is_is_is_is {
+	margin-top: 20px;
+	/*border: 1px solid black;*/
+	float: left;
+	height: 50px;
+	width: 50px;
+	text-align: center;  
+}
+.side-nav1 .sign-in  .is_is .lab1 {
+			float: left;
+			width: 50px;
+	        height: 25px;
+			color: lightgreen;
+			display: none;
+			margin-top: 10px;
+			font-size: 20px;
+			font-weight: bold;
 
-
-.ui-mask {
-	width: 100%;
-	height: 100%;
-	position:fixed;
-	display: none;
-	background-color: rgba(0,0,0,0.5);}
-.ui-mask.show {
-	display:block;
+}
+.side-nav1 .sign-in  .is_is .lab2 {
+			float: left;
+			width: 50px;
+			height: 25px;
+			line-height: 25px;
+			color: red;
+			display: none;
+			margin-top: 10px;
+			font-size: 20px;
+			font-weight: bold;
 }
 
-.side-nav {
-	display: none;
+.side-nav1 .sign-in  .is_is_is .lab3 {
+			float: left;
+			width: 50px;
+	        height: 25px;
+			line-height: 25px;
+			color: lightgreen;
+			display: none;
+			margin-top: 10px;
+			font-size: 20px;
+			font-weight: bold;
 }
-.side-nav.show{
-	z-index: 100;
-	display: block;
+.side-nav1 .sign-in  .is_is_is .lab4 {
+			float: left;
+			width: 50px;
+			height:25px;
+			line-height: 25px;
+			color: red;
+			display: none;
+			margin-top: 10px;
+			font-size: 20px;
+			font-weight: bold;
 }
+.side-nav1 .sign-in  .is_is_is_is .lab5 {
+			float: left;
+			width: 50px;
+	        height: 25px;
+			line-height: 25px;
+			color: lightgreen;
+			display: none;
+			margin-top: 10px;
+			font-size: 20px;
+			font-weight: bold;
+}
+.side-nav1 .sign-in  .is_is_is_is .lab6 {
+			float: left;
+			width: 50px;
+			height:25px;
+			line-height: 25px;
+			color: red;
+			display: none;
+			margin-top: 10px;
+			font-size: 20px;
+			font-weight: bold;
+}
+
+
 .top {
 	background-color: #244d5f;
 	min-width: 1055px;
@@ -332,17 +468,21 @@
 	width: 1001px;
 }
 .city {
+
 	float: left;
 	width: 322px;
 	height: 45px;
-	/*margin-right: 492px;*/
 	background-image: url(../images/GPS.png);
 	background-repeat: no-repeat;
 	background-position: left center;
-	/*border: 1px solid white;*/
 }
+
+
+
+
 .city .change {
-	width: 188px;
+	position: relative;
+	width: 110px;
 	float: left;
 }
 .city .list {
@@ -354,12 +494,67 @@
 	margin-left: 30px;
 }
 .city .item{
-	opacity: 0.8;
+	color: #cecccc;
 	padding-left: 15px;
 }
 .city .list li{
 	float: left;
 }
+
+.box {
+	width: 700px;
+	height: 112px;
+	font-family: "微软雅黑";
+	display: none;
+	border: 1px solid #ccc;
+	font-size: 14px;
+	background-color: #fff;
+	position: absolute;
+	top: 40px;
+	left: 3px;
+	border-radius: 3px;
+	
+}
+
+.box .provincelist {
+	float: left;
+}
+.provincelist li{
+	float: left;
+	list-style: none;
+	color: #50B8D8;
+	width: 66px;
+	height: 26px;
+	text-align: center;
+	line-height: 26px;
+	cursor: pointer;
+	/*margin-top: 5px;*/
+}
+.provincelist .all {
+	margin-right: 15px;
+	float: left;
+	color: black;
+	margin-left: 31px;
+	margin-top: 3px;
+}
+.provincelist  .jiangsu {
+	margin-left: 88px;
+}
+.provincelist  .guangdong {
+	margin-left: 88px;
+}
+.provincelist  .gansu {
+	margin-left: 88px;
+}
+.provincelist li:hover{
+	background-color: #f1fafa;
+}
+
+
+
+
+
+
 .city .list a,.city .app a {
 	cursor: pointer;
 }
@@ -384,15 +579,18 @@
 	float: right;
 }
 .sign-in img{
+	width: 25px;
+	height: 25px;
 	margin-top: 10px;
 }
-.sign-in .pic {
+.sign-in .sina {
 	margin-left: 17px;
 }
 .sign-in .list1 {
 	float: right;
 }
 .sign-in .list1 li {
+
 	cursor: pointer;
 	list-style-type: none;
 	float: left;
@@ -403,6 +601,9 @@
 .sign-in a {
 	color: white;
 	
+}
+.sign-in a:hover {
+	color: #50bbdb;
 }
 .sign-in span {
 	margin-right: 13px;

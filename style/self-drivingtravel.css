@@ -10,14 +10,14 @@
 a{
 	text-decoration: none;
 }
-.active{
-	background-color: #50bbdb;
-	border-bottom: 2px solid #000;
-	
-}
-.active a{
+
+.log ul li a.active2{
+	z-index: 100;
 	color: #fff;
+	background-color: #50bbdb;
+	border-bottom:  2px solid #000;
 }
+
 .activeline{
 	border-bottom: 1px solid #50bbdb;
 }
@@ -29,6 +29,48 @@ a{
 }
 .top-left{
 	float: left;
+}
+.top-bj{
+	color: #fff;
+}
+.top-cg{
+	color: #cecccc;
+}
+.city{
+
+	height: 150px;
+	width: 750px;
+	border: 1px solid #cccccc;
+	position: absolute;
+	top: 45px;
+	left: 260px;
+	background-color: #fff;
+	border-radius: 5px;
+	display: none;
+}
+.city1{
+	display: block;
+}
+.nation{
+	margin-top: 10px;
+	float: left;
+	height: 18px;
+	width: 68px;
+	margin-left: 29px;
+}
+.allcity{
+	margin-top: 10px;
+	float: left;
+	margin-left: 90px;
+	position: absolute;
+	top:0px;
+}
+.citylist li{
+	height:18px;
+	width: 60px;
+	text-align: center;
+	margin-right: 40px;
+	color: #50bbdb;
 }
 .top-right{
 	float: right;
@@ -48,6 +90,9 @@ a{
 	margin-right: 12px;
 
 
+}
+.fontcolor{
+	color: #50bbdb;
 }
 .top-right ul li{
 	font-size: 12px;
@@ -124,7 +169,7 @@ option{
 	font-size: 16px;
 	color: #fff;
 }
-.top-li3 a{
+.loadapp{
 	
 	color: #fff;
 }
@@ -169,16 +214,25 @@ option{
 	
 	list-style: none;
 	float: left;
+
 	
 
 }
 .log ul li a{
-	color: #333333;
+	display: block;
+	height: 77px;
+	width: 73px;
+	color: #333;
 	font-family: 微软雅黑;
 	font-size: 16px;
 }
 
-.logli1,.logli3,.logli4,.logli6,.logli7,.logli8{
+.log ul li a:hover{
+	background-color: #50bbdb;
+	color: #fff;
+	border-bottom: 2px solid #000;
+}
+/*.logli1,.logli3,.logli4,.logli6,.logli7,.logli8{
 	width: 73px;
 	text-align: center;
 	 
@@ -191,8 +245,11 @@ option{
 .logli9{
 	text-align: center; 
 	width: 74px; 
+}*/
+.log ul li{
+	width: 74px;
+	text-align: center; 
 }
-
 .item{
 	height: 229px;
 	width: 1001px;
@@ -584,12 +641,37 @@ option{
 	color: #eb5e17;
 }
 .mid5li7{
-	height: 32px;
-	width: 61px;
+	height: 30px;
+	width: 60px;
+	/*background-color: #f00;*/
+	
 	margin-top:40px;
 	margin-left:62px;
+	/*overflow: hidden;*/
 	
 }
+.mid5input{
+	height: 30px;
+	width: 60px;
+	border: 0;
+}
+.parentul{
+	border: 1px solid #e5e5e5;
+	background-color: #fff;
+	height: 120px;
+	width: 60px;
+}
+.mid5li7 ul li{
+	height: 30px;
+	width: 60px;
+	font-size: 14px;
+	color: #000;
+	list-style: none;
+	line-height: 30px;
+	
+	text-align: center;
+}
+
 .mid12{
 	width: 1001px;
 	
@@ -829,6 +911,9 @@ option{
 	font-size:16px;
 	color: #fff;
 	font-family:微软雅黑;
+}
+.footer1 ul li a.fontcolor{
+	color: #50bbdb;
 }
 .footer1li1{
 	margin-left: 91px;
