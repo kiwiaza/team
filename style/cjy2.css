@@ -9,7 +9,7 @@ body{
 #top{
 	height: 45px;
 	background-color: #244d5f;
-	
+	min-width:1010px;
 }
 #top-inner{
 	width: 1000px;
@@ -114,9 +114,10 @@ body{
 	background-color: #52bbdb;
 	color:white;
 }
-/*#pic{
+#pic{
 	height: 400px;
-}*/
+	min-width:1010px;
+}
 #banner{
 	margin-top: 40px;
 }
@@ -162,7 +163,7 @@ body{
 #h{
 	width: 1000px;
 	height: 45px;
-	border-bottom:1px solid black;
+	border-bottom:2px solid #abb2be;
 	margin:0 auto;
 	line-height:36px;
 	/*padding-bottom: 5px;*/
@@ -176,6 +177,7 @@ body{
 #h .span2{
 	font-size:24px;
 	font-family:times New Roman;
+	color:#abb2be;
 }
 #main{
 	width: 1010px;
@@ -188,7 +190,7 @@ body{
 	width: 327px;
 	height: 443px;
 	float:left;
-	border:1px solid black;
+	border:1px solid #abb2be;
 	margin-right:9px;
 	margin-bottom:5px;
 }
@@ -207,6 +209,12 @@ body{
 	float:left;
 	
 }
+#main div .list1 .li0{
+	font-size: 16px;
+	font-family: Microsoft YaHei;
+	color:#fc8130;
+	padding-top: 5px;
+}
 #main div .list1 .li1{
 	font-size: 28px;
 	font-family: Microsoft YaHei;
@@ -219,6 +227,7 @@ body{
 	font-family: Microsoft YaHei;
 	padding-left: 35px;
 	padding-right:35px;
+	color:#abb2be;
 }
 #main div .list1 .li3{
 	font-size: 16px;
@@ -236,6 +245,8 @@ body{
 	font-size: 12px;
 	font-family: Microsoft YaHei;
 	padding-top:5px;
+	color:#abb2be;
+	padding-top:10px;
 }
 #main div .list2{
 	width: 280px;

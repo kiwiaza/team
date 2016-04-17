@@ -126,6 +126,7 @@
 .mid_con .nav li:hover{
 	background-color: #50bbdb;
 	color: #50bbdb;
+	border-bottom: 2px solid #7d7a79;
 }
 .mid_con .nav li a{
 	text-decoration: none;
@@ -235,7 +236,7 @@
 .sea_p li{
 	list-style: none;
 	float: left;
-	
+
 
 }
 .sea_p li a{
@@ -317,7 +318,7 @@
 .con_rec_right{
 	width: 786px;
 	height: 230px;
-	border: 1px solid #999;
+	/*border: 1px solid #999;*/
 	float: right;
 	margin-top: 55px;
 }
@@ -762,8 +763,8 @@
 	background-image: url(../images/a1.jpg);
 }*/
 #footer{
-	height: 91px;  
-	widows: 100%;   
+	height: 91px;
+	widows: 100%;
 	clear: both;
 }
 #footer .footer_top{
@@ -855,7 +856,7 @@
 			width: 171px;
 			height: 44px;
 			padding-top: 24px;
-			margin: 0 auto;	
+			margin: 0 auto;
 		}
 		#outsider #out_x{
 			position: relative;
@@ -985,14 +986,14 @@
 }
 .side-nav1 .sign-in {
     width: 500px;
-}   
+}
 .side-nav1 .sign-in .sign-inner {
     /*border: 1px solid black;*/
     width: 354px;
     /*margin: 0 auto;*/
     float: left;
     margin-left: 75px;
-} 
+}
 
 .side-nav1 .sign-in .sign-inner .txt {
     width: 354px;
@@ -1061,7 +1062,7 @@
     color: #000;
 }
 .side-nav1 .denglu .denglu-inner{
-    width: 365px;   
+    width: 365px;
 }
 .side-nav1 .denglu .denglu-inner .btn3 {
     border: 0px;
@@ -1102,7 +1103,7 @@
     float: left;
     width: 50px;
     height: 50px;
-    text-align: center;  
+    text-align: center;
 }
 .side-nav1 .sign-in .is_is_is {
     margin-top: 20px;
@@ -1110,7 +1111,7 @@
     float: left;
     height: 50px;
     width: 50px;
-    text-align: center;  
+    text-align: center;
 }
 .side-nav1 .sign-in .is_is_is_is {
     margin-top: 20px;
@@ -1118,7 +1119,7 @@
     float: left;
     height: 50px;
     width: 50px;
-    text-align: center;  
+    text-align: center;
 }
 .side-nav1 .sign-in  .is_is .lab1 {
             float: left;
@@ -1186,4 +1187,4 @@
             margin-top: 10px;
             font-size: 20px;
             font-weight: bold;
-}  
+}

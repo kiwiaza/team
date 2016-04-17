@@ -271,7 +271,7 @@ fieldset .submit2{
 #banner-mid{
 	width: 1004px;
 	height: 138px;
-	border:1px solid black;
+	border:1px solid #abb2be;
 	margin:0 auto;
 
 }
@@ -279,7 +279,7 @@ fieldset .submit2{
 	width: 962px;
 	height: 45px;
 	margin:0 auto;
-	border-bottom:1px dashed black;
+	border-bottom:1px dashed #abb2be;
 	
 	line-height:45px;
 }
@@ -325,7 +325,7 @@ fieldset .submit2{
 	width: 962px;
 	height: 45px;
 	margin:0 auto;
-	border-bottom:1px dashed black;
+	border-bottom:1px dashed #abb2be;
 	
 }
 #banner-mid .box2 a{
@@ -371,7 +371,7 @@ fieldset .submit2{
 #banner-bottom{
 	width: 1006px;
 	height: 56px;
-	border:1px solid black;
+	border:1px solid #abb2be;
 	margin:0 auto;
 	margin-top: 20px;
 }
@@ -383,7 +383,7 @@ fieldset .submit2{
 	list-style:none;
 	width: 103px;
 	height: 56px;
-	border-right:1px solid black;
+	border-right:1px solid #abb2be;
 	text-align:center;
 	line-height:56px;
 	font-size:14px;
@@ -437,7 +437,7 @@ fieldset .submit2{
 	list-style:none;
 	text-align:center;
 	line-height:27px;
-	border:1px solid black;
+	border:1px solid #abb2be;
 	width: 53px;
 	height: 27px;
 	
@@ -454,7 +454,7 @@ fieldset .submit2{
 	width: 330px;
 	height: 443px;
 	float:left;
-	border:1px solid black;
+	border:1px solid #abb2be;
 	margin-right:6px;
 	margin-bottom:5px;
 }
@@ -479,12 +479,19 @@ fieldset .submit2{
 	color:#fc8130;
 	padding-left: 10px;
 }
-
+#main div .list1 .li0{
+	font-size: 16px;
+	padding-top: 5px;
+	font-family: Microsoft YaHei;
+	color:#fc8130;
+	
+}
 #main div .list1 .li2{
 	font-size: 12px;
 	font-family: Microsoft YaHei;
 	padding-left: 35px;
 	padding-right:35px;
+	color: #abb2be;
 }
 #main div .list1 .li3{
 	font-size: 16px;
@@ -498,10 +505,12 @@ fieldset .submit2{
 	font-weight: bold;
 }
 #main div p{
+	
 	padding-left:20px;
 	font-size: 12px;
 	font-family: Microsoft YaHei;
-	padding-top:5px;
+	padding-top:10px;
+	color:#abb2be;
 }
 #main div .list2{
 	width: 290px;
