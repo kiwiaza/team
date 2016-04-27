@@ -15,75 +15,88 @@
         "password": "123123"
     },
     {
-        "email": "",
-        "username": "qwe22",
-        "password": "123456",
-        "password2": "123456"
+        "emial": "dd@126.com",
+        "username": "ddggggggg",
+        "password": "123456"
     },
     {
-        "email": "qwerrr@qq.com",
-        "username": "q12eee",
-        "password": "123456",
-        "password2": "123456"
+        "emial": "aaa@126.com",
+        "username": "jkkkkkkkkkkkkkk",
+        "password": "123456"
     },
     {
-        "email": "1234568@qq.com",
-        "username": "234444",
-        "password": "123456",
-        "password2": "123456"
+        "emial": "q@126.com",
+        "username": "hhhhhhhhhhhhhh",
+        "password": "123456"
     },
     {
-        "email": "",
-        "username": "",
-        "password": "",
-        "password2": ""
+        "emial": "d@126.com",
+        "username": "tttttttttttttttt",
+        "password": "123456"
     },
     {
-        "email": "eee@126.com",
-        "username": "hjd123",
-        "password": "123456",
-        "password2": "123456"
+        "emial": "w@126.com",
+        "username": "hhhhhhhhhhhhhhh",
+        "password": "123456"
     },
     {
-        "email": "wa@126.com",
-        "username": "sssss",
-        "password": "aassss",
-        "password2": "aasssss"
+        "emial": "r@126.com",
+        "username": "jjjjjjjjjjjjjjjj",
+        "password": "123456"
     },
     {
-        "email": "292992929@qq.com",
-        "username": "111111",
-        "password": "1111111",
-        "password2": "1111111"
+        "emial": "sdalkf@126.com",
+        "username": "aaaaaaaaaaaaaa",
+        "password": "123456"
     },
     {
-        "email": "cc@qq.com",
+        "emial": "dd@126.com",
         "username": "dddddddddddddddd",
-        "password": "123456",
-        "password2": "123456"
+        "password": "123456"
     },
     {
-        "email": "297996562662@qq.com",
-        "username": "yueshuai",
-        "password": "yueshuai",
-        "password2": "yueshuai"
+        "emial": "dd@126.com",
+        "username": "dddddddddddddde",
+        "password": "123456"
     },
     {
-        "email": "936883539@qq.com",
-        "username": "dddddd",
-        "password": "yueshuai",
-        "password2": "yueshuai"
+        "emial": "ww@126.com",
+        "username": "wwwwww",
+        "password": "123456"
     },
     {
-        "email": "292992929@qq.com",
-        "username": "ddddd",
-        "password": "1111111",
-        "password2": "1111111"
+        "emial": "111.126.ocm",
+        "username": "aaaaaaa",
+        "password": "aaaaaa"
     },
     {
-        "email": "936883539@qq.com",
-        "username": "12345",
-        "password": "123451",
-        "password2": "123451"
+        "emial": "111.126.ocm",
+        "username": "111111",
+        "password": "111111"
+    },
+    {
+        "emial": "cwj@126.ocm",
+        "username": "123456",
+        "password": "123456"
+    },
+    {
+        "emial": "111@126.com",
+        "username": "wang22",
+        "password": "123456"
+    },
+    {
+        "emial": "g@125.com",
+        "username": "llllllllllllllll",
+        "password": "123456"
+    },
+    {
+        "emial": "aa@126.com",
+        "username": "ddddddddee",
+        "password": "123456"
+    },
+    {
+        "emial": "aaaaa@126.com",
+        "username": "mmmmmmmmmmmmmm",
+        "password": "123456"
     }
 ]

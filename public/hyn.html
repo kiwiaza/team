@@ -92,7 +92,7 @@
 					<img src="images/logo.png" alt="logo">
 				</div>
 				<ul id="nav">
-					<li>首页</li>
+					<li><a href="index.html">首页</a></li>
 					<li>目的地</li>
 					<li>线路</li>
 					<li>订制</li>
@@ -585,7 +585,7 @@
           <input   class="denglu1"style="margin-top:0px" type="email number name" minlength="6" placeholder="邮箱/手机/用户名" required>
 
           <input  class="zhuce1"style="margin-top:16px" type="password" placeholder="请输入密码"  minlength="6" required>
-        <input  id="dl" class="submit" type="submit" value="登录" style="background-color: #52bbdb">
+        <input  id="dl" class="submit" type="button" value="登录" style="background-color: #52bbdb">
 
 		   </fieldset>
 			</form>
@@ -633,7 +633,7 @@
                 <input class="yqm" type="text" minlength="6" placeholder="输入邀请码,可不填">
                 <div class="yhx">
                  <span style="font-family:'微软雅黑';font-size:12px">注册视为同意 <b>《爱自驾用户使用协议》</b></span>
-                 <input class="submit1" type="submit" value="注册" style="background-color: #52bbdb;margin-top:-3px;border:0px;color:#fff;">
+                 <input class="submit1" type="button" value="注册" style="background-color: #52bbdb;margin-top:-3px;border:0px;color:#fff;">
                 </div>
                 <div class="qitaa">
                   <p class="left"></p>
@@ -945,21 +945,42 @@ var resultUser;
     		console.log(data)
     		if(data)
     			{
-    				$(".clear1").text("√")
+    				$(".clear1").text("可用").css("color","#0f0")
     				resultUser=true;
     		}else{
-    				$(".clear1").text("重复")
+    				$(".clear1").text("重复").css("color","red")
     				resultUser=false;
     			}
         
                 })
     	
     });
- // $(".submit1").click(function(){
- // 	var url = "";
- // 	$("body").load(url)
- // })
-var result;
+ $(".submit1").click(function(){
+ 	var val1=$(".sry").val();
+ 	var val2=$(".yhm").val();
+ 	var val3=$(".szm").val();
+ 	console.log(val1)
+ 	if(val1==""||val2==""||val3==""){
+ 		alert("请输入信息")
+ 	}else{
+	 	$.post("/sign-up",{"emial":val1,"username":val2,"password":val3},function(data){
+	 		if(data){
+	 			// location.href="#myModal"
+	 			$("#myModal1").css("display","none")
+	 			alert("注册成功请登录")
+	 			location.href="hyn.html"
+	 			//$(".modal-backdrop").addClass("modal-backdrop fade in")
+	 			
+	 			
+	 		}
+	 		else{
+	 			alert("注册失败")
+	 		}
+	 	})
+	}
+ })
+	
+
  $(".srm").blur(function(){
  	var num =$(this).val();
  	var  num2 = $(".szm").val();
@@ -972,15 +993,30 @@ var result;
  		result=false;
  	}
  })
+ //表单登录验证
+	$("#dl").click(function(){
+			var value1 = $(".denglu1").val();
+			var value2 = $(".zhuce1").val();
+			console.log(value1);
+			console.log(value2);
 
- function changUser(){
- 	if(result&&resultUser){
- 		return true;
+			$.post("/login",{"username":value1,"password":value2},function(data){
+				if(data){
+				window.location.href="whh.html"
+				}else{
+					alert("用户名或密码填写错误！")
+				}
+			})
+	})
 
- 	}else{
- 		return false;
- 	}
- }
+ // function changUser(){
+ // 	if(result&&resultUser){
+ // 		return true;
+
+ // 	}else{
+ // 		return false;
+ // 	}
+ // }
 
  $(".two").mouseenter(function(){
 	$(".two a").css("color","#50bbdb")

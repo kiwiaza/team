@@ -14,15 +14,16 @@ app.post("/sign-up",function(req,res){
 		if(result){
 			fs.readFile("data/user.json","utf8",function(err,data){
 			var use=JSON.parse(data);
-			console.log(use)
+			// console.log(use)
 			use.push(req.body);
 			var user =JSON.stringify(use,null,4)
-			console.log(user)
+			// console.log(user)
 			fs.writeFile("data/user.json",user)
 			})
-			//res.render("succ")
+			res.send(result);
 		}
 		else{
+			res.send(result);
 		}
 })
 })	
@@ -32,6 +33,15 @@ app.post("/cwj",function(req,res){
 		res.send(result)
 				
 	})
+})
+
+// 判断登录
+app.post("/login",function(req,res){
+		console.log(req.body)
+		checkUser.checkuser1(req.body,function(result){
+ 		res.send(result);
+ 		console.log(req.body)
+ 	})
 })
 app.listen(3000)
 console.log("启动成功")

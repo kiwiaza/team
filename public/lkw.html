@@ -262,6 +262,7 @@
 	<script src="js/bootstrap.min.js"></script>
 
 	<script>
+	//倒计时
 		var showDiv=document.getElementById("showDiv");
 		var h=23;
         var m=59;
@@ -283,14 +284,42 @@
                 }
                 showDiv.innerHTML=h+"时"+m+"分"+s+"秒内";
             }
-
+        //导航栏浮动
             $(".list li").click(function(){
 				$(this).addClass("active1").siblings().removeClass("active1")
 			});
-
+		//gps图标变色
+			$(".top_inner").mouseenter(function(){
+				$(this).css("background-image","url(images/GPS1.png)")
+			})
+			$(".top_inner").mouseleave(function(){
+				$(this).css("background-image","url(images/GPS.png)")
+			})
+		//城市变色
+            $(".addres p").mouseenter(function(){
+            	$(this).css("color","#50bbdb")
+            })
+            $(".addres p").mouseleave(function(){
+            	$(this).css("color","#fff");
+            })
+            $(".addres span").mouseenter(function(){
+				$(this).css("color","#50bbdb")
+			})
+			$(".addres span").mouseleave(function(){
+            	$(this).css("color","#738892");
+            })
+        //手机app变色
+        	$(".app").mouseenter(function(){
+        		$(this).css("background-image","url(images/iphone1.png)")
+        	})
+        	$(".app").mouseleave(function(){
+        		$(this).css("background-image","url(images/iphone.png)")
+        	})
+        //点击城市切换
             $(".addres span").click(function(){
 				$(".boxDiv").css("display","block")
 			})
+
 			$(".boxDiv").mouseleave(function(){
 				$(this).css("display","none")
 			})
@@ -299,6 +328,35 @@
 				 $(".city").text(city);
 
 			})
+		//qq图标变色
+			$(".login img").mouseenter(
+				function(){
+				$(this).attr("src","images/QQ1.png");
+				$(".login").css("background-image","url(images/sina.png)")
+				});
+			$(".login img").mouseleave(
+				function(){
+				$(this).attr("src","images/QQ.png")
+				})
+
+		//微博变色
+			// $(".login").mouseenter(
+			// 	function(){
+			// 	$(this).css("background-image","url(images/sina1.png)")
+			// })
+
+			// $(".login").mouseleave(
+			// 	function(){
+			// 	$(this).css("background-image","url(images/sina.png)")
+			// 	})
+
+		//登录注册
+			$(".login span").mouseenter(function(){
+				$(this).css("color","#50bbdb")
+			})
+			 $(".login span").mouseleave(function(){
+            	$(this).css("color","#fff");
+            })
 	</script>
 </body>
 </html>
